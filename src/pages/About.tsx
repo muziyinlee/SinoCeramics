@@ -1,0 +1,26 @@
+export default function About() {
+  return (
+    <div className="pt-32 pb-20 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 min-h-screen">
+      <h1 className="text-4xl font-bold mb-8">About SinoCeramics</h1>
+      <div className="max-w-none space-y-6">
+        <p className="text-lg leading-relaxed text-slate-700">
+          Welcome to SinoCeramics, your premier bilingual destination for exploring the profound heritage of Chinese porcelain. Our mission is to bridge cultures by providing high-quality, extensively researched information about the history, craftsmanship, and aesthetics of Chinese ceramics.
+        </p>
+        <h2 className="text-2xl font-bold mt-12 mb-4">Our Vision</h2>
+        <p className="text-slate-700 leading-relaxed">
+          We believe that art transcends borders. Chinese porcelain, with its millennia of history, is not just a collection of artifacts, but a testament to human ingenuity and pursuit of beauty. We aim to make this rich history accessible to a global audience through engaging articles, rich media, and expert insights.
+        </p>
+        <h2 className="text-2xl font-bold mt-12 mb-4">What We Do</h2>
+        <ul className="list-disc pl-6 text-slate-700 space-y-2">
+          <li><strong>Educational Content:</strong> We publish in-depth articles detailing various dynasties, glaze techniques, and famous kilns.</li>
+          <li><strong>Bilingual Approach:</strong> All our core content is presented in both English and Chinese to cater to a diverse readership.</li>
+          <li><strong>Curation:</strong> We curate high-quality imagery and video content to visually represent the beauty of the ceramics we discuss.</li>
+        </ul>
+        <h2 className="text-2xl font-bold mt-12 mb-4">Contact Us</h2>
+        <p className="text-slate-700 leading-relaxed">
+          Whether you are a collector, an academic, or simply an enthusiast, we welcome your feedback and inquiries. Please reach out to us at <a href="mailto:contact@sinoceramics.example.com" className="text-blue-600 hover:underline">contact@sinoceramics.example.com</a>.
+        </p>
+      </div>
+    </div>
+  );
+}
