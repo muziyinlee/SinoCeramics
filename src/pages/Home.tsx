@@ -49,12 +49,33 @@ const GALLERY = [
 ];
 
 const AI_GALLERY = [
-  { id: 1, title: 'Jian Silver Hare Detail 1', image: '/images/JianSilverHare1.png' },
-  { id: 2, title: 'Jian Silver Hare Detail 2', image: '/images/JianSilverHare2.png' },
-  { id: 3, title: 'Jian Silver Hare Detail 3', image: '/images/JianSilverHare3.png' },
-  { id: 4, title: 'Tri-Color Tang Galloping Horse', image: '/images/Tri-Color Tang Galloping Horse.png' },
-  { id: 5, title: 'Wucai Kid Scene Jar', image: '/images/Wucai_KidSceneJar.png' },
-  { id: 6, title: 'Wucai Scene Closeup', image: '/images/Wucai_SceneCloseup.png' },
+  { id: 1, title: 'Azure Ge Ru Ware', image: '/images/AzureGeRuWare.png' },
+  { id: 2, title: 'Blue Dragon Meiping Vase', image: '/images/BlueDragonMepingVase.png' },
+  { id: 3, title: 'Celadon Crackle Teacup', image: '/images/CeladonCrackleTeacup.png' },
+  { id: 4, title: 'Famille Rose Bird Teapot 1', image: '/images/FRBirdTeapot1.png' },
+  { id: 5, title: 'Famille Rose Bird Teapot 2', image: '/images/FRBirdTeapot2.png' },
+  { id: 6, title: 'Famille Rose Bird Teapot 3', image: '/images/FRBirdTeapot3.png' },
+  { id: 7, title: 'Famille Rose Bowl Base Detail', image: '/images/FRBowlBaseDetail.png' },
+  { id: 8, title: 'Famille Rose Flower Lidded Jar', image: '/images/FRFlowerLiddedJar.png' },
+  { id: 9, title: 'Famille Rose Gilt Blossom Cup', image: '/images/FRGiltBlossomCup.png' },
+  { id: 10, title: 'Ge Crack Jar', image: '/images/GeCrackJar.png' },
+  { id: 11, title: 'Ge Gold Crack Cup', image: '/images/GeGoldCrackCup.png' },
+  { id: 12, title: 'Ge Vase Detail', image: '/images/GeVaseDetail.png' },
+  { id: 13, title: 'Gilt Famille Rose Big Flower Bowl', image: '/images/GiltFRBigFlowerBowl.png' },
+  { id: 14, title: 'Jian Silver Hare 1', image: '/images/JianSilverHare1.png' },
+  { id: 15, title: 'Jian Silver Hare 2', image: '/images/JianSilverHare2.png' },
+  { id: 16, title: 'Jian Silver Hare 3', image: '/images/JianSilverHare3.png' },
+  { id: 17, title: 'Lotus Blue and White Pear Vase', image: '/images/LotusBlueandWhitePearVase.png' },
+  { id: 18, title: 'Ru Celadon 1', image: '/images/RuCeladon1.png' },
+  { id: 19, title: 'Ru Celadon 2', image: '/images/RuCeladon2.png' },
+  { id: 20, title: 'Ru Celadon 3', image: '/images/RuCeladon3.png' },
+  { id: 21, title: 'Sancai Running Horse Sculpture', image: '/images/SancaiRunningHorseSculpture.png' },
+  { id: 22, title: 'Sky-Crack Ru Bowl', image: '/images/Sky-CrackRuBowl.png' },
+  { id: 23, title: 'Tang Sancai Bactrian Camel', image: '/images/TangSancaiBactrianCamel.png' },
+  { id: 24, title: 'Traditional Chinese Floral Qinghua Vase', image: '/images/TraditionalChineseFloralQinghuaVase.png' },
+  { id: 25, title: 'Tri-Color Tang Galloping Horse', image: '/images/Tri-ColorTangGallopingHorse.png' },
+  { id: 26, title: 'Wucai Kid Scene Jar', image: '/images/WucaiKidSceneJar.png' },
+  { id: 27, title: 'Wucai Scene Closeup', image: '/images/WucaiSceneCloseup.png' }
 ];
 
 export default function Home() {
@@ -275,7 +296,7 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
             {AI_GALLERY.map((item, i) => (
               <motion.div 
                 key={item.id}
