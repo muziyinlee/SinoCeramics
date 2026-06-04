@@ -131,5 +131,29 @@ export const ARTICLES: Article[] = [
     mediaType: 'image',
     mediaUrl: '/images/FRFlowerLiddedJar.png',
     date: '2024-03-22'
+  },
+  {
+    id: 'celadon',
+    titleZh: '青瓷：夺得千峰翠色来的千年窑火',
+    titleEn: 'Celadon: Capturing the Emerald Green of a Thousand Peaks through Millennia of Kiln Fires',
+    summaryZh: '作为中国陶瓷的母体，青瓷不仅承载了中华民族对玉的崇拜，其代表性的龙泉青瓷和越窑秘色瓷更是将“尚青”美学推向了极致。',
+    summaryEn: 'As the mother of Chinese ceramics, celadon carries the Chinese nation\'s worship of jade. Its representative Longquan celadon and Yue ware "mise" porcelain pushed the "reverence for green" aesthetic to the extreme.',
+    contentZh: [
+      '青瓷，是中国陶瓷史上历史最悠久、跨度最长、影响最深远的品种。早在商周时期，原始青瓷就已经出现，它也是后来所有瓷器的源头。青瓷之所以呈现青色，是因为釉料中含有微量的铁元素，在还原焰中烧制后便会泛出青绿色泽。古人对于青瓷的偏爱，很大程度上源于中国传统文化中对“玉”的推崇。青瓷那晶莹润泽、宛如碧玉般的质感，完美契合了文人雅士“温润如玉”的君子人格理想。',
+      '在青瓷的发展史中，浙江的越窑具有里程碑式的意义。唐代著名诗人陆龟蒙曾用“九秋风露越窑开，夺得千峰翠色来”的千古绝句，来赞美越窑青瓷那令人如痴如醉的釉色。越窑青瓷不仅是唐代南方青瓷的杰出代表，其晚期专门为皇家烧制的“秘色瓷”，更是将青瓷的烧造工艺推向了一个不可企及的高度。秘色瓷色泽清亮，宛如一汪春水，至今仍是中国陶瓷史上最神秘、最令人神往的篇章。',
+      '到了宋代和元代，龙泉青瓷异军突起，成为青瓷艺术的又一座高峰。龙泉青瓷以其独创的“粉青”和“梅子青”釉色闻名天下。如果说越窑的青是清澈透明的，那么龙泉窑的青则是醇厚凝炼的，充满了极致的乳浊感。“梅子青”如同初夏枝头成熟的青梅，娇艳欲滴；而“粉青”则如同雨后初霁的晴空，温润淡雅。这两种釉色的成功创烧，标志着中国青瓷工艺已经达到了炉火纯青的完美境界。',
+      '龙泉青瓷不仅在国内享有盛誉，更是中国古代海上丝绸之路上最重要的出口商品之一。在长达几个世纪的时间里，龙泉青瓷被大量销往日本、韩国、东南亚、甚至远达中东和欧洲。在当时的欧洲，龙泉青瓷被视为无价之宝，甚至被王室赋予了“雪拉同”（Celadon）这个极其浪漫的名字。它不仅是器物，更是承载着东方文明与智慧的文化使者，对世界许多国家的制瓷业都产生了深远的启迪。',
+      '青瓷的美，是一种超越了世俗的自然之美、静谧之美。它不依靠繁复的彩绘和雕饰取胜，而是纯粹依靠器型的饱满线条与釉色的纯净质感来打动人心。从“如冰似玉”的越窑，到“雨过天青”的汝窑，再到“翠色欲滴”的龙泉窑，青瓷的发展史就是一部中国古典极简美学的演变史。今天，当我们凝视一件精美的青瓷时，仿佛依然能听到那跨越千年的窑火在低声吟唱。'
+    ],
+    contentEn: [
+      'Celadon is the variety with the longest history, the longest span, and the most profound influence in the history of Chinese ceramics. As early as the Shang and Zhou dynasties, primitive celadon had already appeared, and it is the source of all later porcelains. Celadon appears green because the glaze contains trace amounts of iron, which turns blue-green after firing in a reducing flame. The ancients\' preference for celadon largely stemmed from the reverence for "jade" in traditional Chinese culture. The crystal-clear, jade-like texture of celadon perfectly matched the ideal personality of a gentleman pursuing "mildness like jade" among literati and refined scholars.',
+      'In the history of celadon development, the Yue kiln in Zhejiang has milestone significance. The famous Tang dynasty poet Lu Guimeng once used the immortal verse "The Yue kilns open in the wind and dew of deep autumn, capturing the emerald green of a thousand peaks" to praise the intoxicating glaze color of Yue ware celadon. Yue ware is not only the outstanding representative of southern celadon in the Tang Dynasty, but its late-period "Mise (secret color) porcelain," fired exclusively for the royal family, pushed celadon firing craft to an unreachable height. Mise porcelain is clear and bright, like a pool of spring water, and remains the most mysterious and fascinating chapter in Chinese ceramic history.',
+      'During the Song and Yuan dynasties, Longquan celadon emerged as a new force and became another peak of celadon art. Longquan celadon is world-famous for its original "powder blue" (fenqing) and "plum green" (meiziqing) glaze colors. If the green of Yue ware is clear and transparent, then the green of Longquan ware is mellow and condensed, full of extreme opalescence. "Plum green" is like the ripe green plums on branches in early summer, bright and dripping; while "powder blue" is like the clear sky after rain, mild and elegant. The successful creation of these two glaze colors marked that Chinese celadon craftsmanship had reached a state of perfection.',
+      'Longquan celadon enjoyed a high reputation domestically and was also one of the most important export commodities on the ancient Maritime Silk Road. For centuries, Longquan celadon was exported in large quantities to Japan, Korea, Southeast Asia, and even as far as the Middle East and Europe. In Europe at that time, Longquan celadon was regarded as an invaluable treasure and was even given the extremely romantic name "Celadon" by royalty. It is not only an artifact but also a cultural messenger carrying oriental civilization and wisdom, deeply inspiring the ceramic industry in many countries around the world.',
+      'The beauty of celadon is a natural and tranquil beauty that transcends the secular. It does not rely on complex painting and carving to win, but purely relies on the full lines of its shape and the pure texture of the glaze to touch people\'s hearts. From the "ice-like and jade-like" Yue ware to the "sky blue after rain" Ru ware, and to the "emerald-dripping" Longquan ware, the development history of celadon is an evolutionary history of Chinese classical minimalist aesthetics. Today, when we gaze at a beautiful piece of celadon, it is as if we can still hear the kiln fires spanning a thousand years softly singing.'
+    ],
+    mediaType: 'image',
+    mediaUrl: '/images/CeladonCrackleTeacup.png',
+    date: '2024-04-10'
   }
 ];

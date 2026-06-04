@@ -18,7 +18,7 @@ export default function About() {
         </ul>
         <h2 className="text-2xl font-bold mt-12 mb-4">Contact Us</h2>
         <p className="text-slate-700 leading-relaxed">
-          Whether you are a collector, an academic, or simply an enthusiast, we welcome your feedback and inquiries. Please reach out to us at <a href="mailto:contact@sinoceramics.example.com" className="text-blue-600 hover:underline">contact@sinoceramics.example.com</a>.
+          Whether you are a collector, an academic, or simply an enthusiast, we welcome your feedback and inquiries. Please reach out to us at <a href="mailto:contact@sinoceramics.com" className="text-blue-600 hover:underline">contact@sinoceramics.com</a>.
         </p>
 
         <h2 className="text-2xl font-bold mt-12 mb-4">A Note on Imagery / 关于图片使用的声明</h2>

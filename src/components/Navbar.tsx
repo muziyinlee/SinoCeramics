@@ -13,9 +13,10 @@ export default function Navbar() {
         </Link>
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
           <Link to="/" className="hover:text-blue-600 transition-colors">Home</Link>
-          <Link to="/about" className="hover:text-blue-600 transition-colors">About Us</Link>
-          <a href="/#categories" className="hover:text-blue-600 transition-colors">Categories</a>
+          <Link to="/about" className="hover:text-blue-600 transition-colors">About</Link>
+          <Link to="/catalog" className="hover:text-blue-600 transition-colors">Catalog</Link>
           <a href="/#journal" className="hover:text-blue-600 transition-colors">Journal</a>
+          <Link to="/contact" className="hover:text-blue-600 transition-colors">Contact</Link>
         </div>
         <button className="md:hidden p-2 text-slate-600">
           <Code className="w-5 h-5" />

@@ -9,6 +9,7 @@ import About from './pages/About';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import Terms from './pages/Terms';
 import Catalog from './pages/Catalog';
+import Contact from './pages/Contact';
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
             <Route path="/catalog" element={<Catalog />} />
             <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="/terms" element={<Terms />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
         <Footer />

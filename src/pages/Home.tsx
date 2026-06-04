@@ -218,8 +218,8 @@ export default function Home() {
                 <span>CERAMIC INSIGHTS</span>
               </div>
               <h2 className="text-3xl font-bold mb-4">Porcelain Journal</h2>
-              <p className="text-slate-600 max-w-2xl">
-                Bilingual articles exploring the history, techniques, and aesthetic philosophies behind China's most famous ceramics.
+              <p className="text-slate-600 max-w-2xl leading-relaxed">
+                Dive deeper into the profound history and craftsmanship of Chinese ceramics. Our expertly curated, bilingual articles explore the philosophical foundations, revolutionary kiln techniques, and global trade journeys of these priceless artifacts. From the serene minimalist aesthetics of the Song Dynasty to the vibrant cultural exchanges of the Tang and Ming periods, explore authentic, extensively researched insights.
               </p>
             </div>
           </div>

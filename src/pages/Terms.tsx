@@ -34,7 +34,7 @@ export default function Terms() {
         </p>
 
         <h2 className="text-2xl font-bold mt-8 mb-4 text-slate-900">Contact Us</h2>
-        <p>If you have any questions about these Terms and Conditions, You can contact us by email: contact@sinoceramics.example.com</p>
+        <p>If you have any questions about these Terms and Conditions, You can contact us by email: contact@sinoceramics.com</p>
       </div>
     </div>
   );
