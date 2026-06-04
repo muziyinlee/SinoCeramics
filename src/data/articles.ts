@@ -29,7 +29,7 @@ export const ARTICLES: Article[] = [
       'Its most prominent feature is the fine crackle in the glaze, known as "crab-claw pattern." Furthermore, agate was added to the glaze, giving it a subtle, buttery luster.'
     ],
     mediaType: 'image',
-    mediaUrl: 'https://images.unsplash.com/photo-1623862846938-e6b7dcef3dd4?auto=format&fit=crop&w=1200&q=80',
+    mediaUrl: '/images/GeCrackJar.png',
     date: '2023-10-15'
   },
   {
@@ -49,7 +49,7 @@ export const ARTICLES: Article[] = [
       'The production involved a dual-firing process: the biscuit body was fired first, followed by a second firing at a lower temperature after applying lead glazes containing metal oxides.'
     ],
     mediaType: 'image',
-    mediaUrl: 'https://images.unsplash.com/photo-1602758169998-ef22a900508a?auto=format&fit=crop&w=1200&q=80',
+    mediaUrl: '/images/TangSancaiBactrianCamel.png',
     date: '2023-11-20'
   },
   {
@@ -69,7 +69,7 @@ export const ARTICLES: Article[] = [
       'The most famous patterns include "hare\'s fur" (crystal streaks resembling rabbit hair), "oil spots," and the extremely rare "yohen" (iridescence). Every Jian bowl is an art of fire, completely unique.'
     ],
     mediaType: 'image',
-    mediaUrl: 'https://images.unsplash.com/photo-1599839619722-39751411ea63?auto=format&fit=crop&w=1200&q=80',
+    mediaUrl: '/images/JianSilverHare2.png',
     date: '2024-01-05'
   }
 ];

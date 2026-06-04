@@ -26,25 +26,25 @@ const GALLERY = [
     id: 1,
     title: 'Ming Dynasty Blue & White Vase',
     category: 'Blue and White',
-    image: 'https://images.unsplash.com/photo-1610940562867-ea36b85d9ee7?auto=format&fit=crop&w=800&q=80'
+    image: '/images/TraditionalChineseFloralQinghuaVase.png'
   },
   {
     id: 2,
     title: 'Song Dynasty Celadon Bowl',
     category: 'Celadon',
-    image: 'https://images.unsplash.com/photo-1600863806460-3538bd187e0b?auto=format&fit=crop&w=800&q=80'
+    image: '/images/RuCeladon1.png'
   },
   {
     id: 3,
     title: 'Qing Dynasty Tea Set',
     category: 'Famille Rose',
-    image: 'https://images.unsplash.com/photo-1590059345229-37fbe40d3a77?auto=format&fit=crop&w=800&q=80'
+    image: '/images/FRBirdTeapot1.png'
   },
   {
     id: 4,
     title: 'Modern Interpretations',
     category: 'Contemporary',
-    image: 'https://images.unsplash.com/photo-1582236166164-16e6d1a938c1?auto=format&fit=crop&w=800&q=80'
+    image: '/images/SancaiRunningHorseSculpture.png'
   }
 ];
 
@@ -120,7 +120,7 @@ export default function Home() {
             <div className="aspect-[4/3] bg-slate-200 overflow-hidden relative">
               <div className="absolute inset-0 bg-blue-600/10 mix-blend-multiply z-10"></div>
               <img 
-                src="https://images.unsplash.com/photo-1578301978693-85fa9c026f19?auto=format&fit=crop&w=1200&q=80" 
+                src="/images/LotusBlueandWhitePearVase.png" 
                 alt="Exquisite porcelain vase" 
                 className="object-cover w-full h-full"
               />
@@ -311,7 +311,7 @@ export default function Home() {
                   alt={item.title}
                   className="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700" 
                   onError={(e) => {
-                    (e.target as HTMLImageElement).src = `https://images.unsplash.com/photo-1578301978693-85fa9c026f19?auto=format&fit=crop&w=400&q=80&blur=50`; // Fallback placeholder
+                    (e.target as HTMLImageElement).src = '/images/CeladonCrackleTeacup.png'; // Fallback placeholder
                   }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
