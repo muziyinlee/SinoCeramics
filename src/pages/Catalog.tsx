@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import { ARTICLES } from '../data/articles';
+import AdSenseSlot from '../components/AdSenseSlot';
 
 export default function Catalog() {
   return (
@@ -11,6 +12,11 @@ export default function Catalog() {
           <p className="text-lg text-slate-600">
             A curated collection of essays and studies on the history, techniques, and philosophy of Chinese ceramics.
           </p>
+        </div>
+
+        {/* AdSense Top Slot */}
+        <div className="mb-12">
+          <AdSenseSlot className="min-h-[100px] bg-slate-100 rounded-xl" slotId="catalog-top" />
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

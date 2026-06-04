@@ -1,6 +1,7 @@
 import { useParams, Navigate, Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import { ARTICLES } from '../data/articles';
+import AdSenseSlot from '../components/AdSenseSlot';
 
 export default function ArticleDetail() {
   const { id } = useParams();
@@ -25,6 +26,11 @@ export default function ArticleDetail() {
             {article.titleEn}
           </h2>
         </header>
+
+        {/* AdSense Top Slot */}
+        <div className="mb-12">
+          <AdSenseSlot className="min-h-[100px] bg-slate-50 rounded-xl" slotId="article-top" />
+        </div>
 
         {article.mediaUrl && (
           <div className="w-full aspect-[21/9] rounded-2xl overflow-hidden bg-slate-100 mb-16 shadow-sm border border-slate-100">
@@ -59,6 +65,11 @@ export default function ArticleDetail() {
               </p>
             ))}
           </div>
+        </div>
+
+        {/* AdSense Bottom Slot */}
+        <div className="mt-16">
+          <AdSenseSlot className="min-h-[100px] bg-slate-50 rounded-xl" slotId="article-bottom" />
         </div>
       </div>
     </article>

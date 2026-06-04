@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { ArrowRight, Sparkles, BookOpen } from 'lucide-react';
 import { ARTICLES } from '../data/articles';
+import AdSenseSlot from '../components/AdSenseSlot';
 
 export default function Home() {
   const featuredArticles = ARTICLES.slice(0, 3);
@@ -34,6 +35,13 @@ export default function Home() {
               Explore the Journal
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* Feature AdSense Slot */}
+      <section className="bg-white py-8 border-b border-slate-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <AdSenseSlot className="min-h-[100px] bg-slate-50 rounded-xl" slotId="home-top" />
         </div>
       </section>
 
