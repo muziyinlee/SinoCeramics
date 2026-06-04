@@ -7,6 +7,7 @@ import ArticleDetail from './pages/ArticleDetail';
 import About from './pages/About';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import Terms from './pages/Terms';
+import Catalog from './pages/Catalog';
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/article/:id" element={<ArticleDetail />} />
             <Route path="/about" element={<About />} />
+            <Route path="/catalog" element={<Catalog />} />
             <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="/terms" element={<Terms />} />
           </Routes>

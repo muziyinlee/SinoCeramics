@@ -173,10 +173,10 @@ export default function Home() {
               A curated selection of representative pieces showcasing different eras and styles of ceramic artistry.
             </p>
           </div>
-          <button className="text-blue-600 font-medium hover:text-blue-700 flex items-center gap-1 group">
+          <Link to="/catalog" className="text-blue-600 font-medium hover:text-blue-700 flex items-center gap-1 group">
             View full catalog 
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-          </button>
+          </Link>
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
