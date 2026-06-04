@@ -1,87 +1,66 @@
-import { useParams, Link } from 'react-router-dom';
-import { ARTICLES } from '../data/articles';
+import { useParams, Navigate, Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
+import { ARTICLES } from '../data/articles';
 
 export default function ArticleDetail() {
-  const { id } = useParams<{ id: string }>();
+  const { id } = useParams();
   const article = ARTICLES.find(a => a.id === id);
 
-  if (!article) {
-    return (
-      <div className="min-h-screen pt-32 pb-20 flex flex-col items-center justify-center">
-        <h1 className="text-3xl font-bold mb-4">Article Not Found</h1>
-        <Link to="/" className="text-blue-600 hover:underline">Return to Home</Link>
-      </div>
-    );
-  }
+  if (!article) return <Navigate to="/catalog" />;
 
   return (
-    <div className="pt-24 pb-20 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-      <Link to="/" className="inline-flex items-center gap-2 text-sm text-slate-500 hover:text-blue-600 transition-colors mb-8">
-        <ArrowLeft className="w-4 h-4" />
-        Back to Home
-      </Link>
-      
-      <article>
-        <header className="mb-10 text-center">
-          <div className="text-sm font-semibold text-blue-600 tracking-wider mb-4">
-             {new Date(article.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
-          </div>
-          <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4 font-serif leading-tight">
+    <article className="bg-white min-h-screen">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+        <Link to="/catalog" className="inline-flex items-center text-sm font-medium text-slate-500 hover:text-slate-900 mb-12 transition-colors">
+          <ArrowLeft className="w-4 h-4 mr-2" />
+          Back to Journal
+        </Link>
+        
+        <header className="mb-16">
+          <p className="text-orient-600 font-mono text-sm mb-4">{article.date}</p>
+          <h1 className="text-4xl md:text-5xl font-serif text-slate-900 mb-6 leading-tight">
             {article.titleZh}
           </h1>
-          <h2 className="text-2xl text-slate-600 font-medium font-serif italic">
+          <h2 className="text-xl md:text-2xl font-serif text-slate-500 mb-8 italic">
             {article.titleEn}
           </h2>
         </header>
 
-        <div className="mb-12 aspect-[21/9] bg-slate-100 overflow-hidden">
-          {article.mediaType === 'image' && (
+        {article.mediaUrl && (
+          <div className="w-full aspect-[21/9] rounded-2xl overflow-hidden bg-slate-100 mb-16 shadow-sm border border-slate-100">
             <img 
               src={article.mediaUrl} 
-              alt={article.titleEn}
+              alt={article.titleEn} 
               className="w-full h-full object-cover"
+              onError={(e) => {
+                (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1610996841527-beaca1129b19?auto=format&fit=crop&q=80&w=2670';
+              }}
             />
-          )}
-          {article.mediaType === 'video' && (
-             <video 
-                src={article.mediaUrl} 
-                controls 
-                className="w-full h-full object-cover"
-             />
-          )}
-        </div>
+          </div>
+        )}
 
-        <div className="max-w-none grid md:grid-cols-2 gap-12">
+        <div className="prose prose-slate prose-lg max-w-none">
           {/* Chinese Content */}
-          <div className="space-y-6">
-            <h3 className="text-2xl border-b pb-2 border-slate-200 font-serif font-bold text-slate-900">中文阅读</h3>
+          <div className="mb-16">
             {article.contentZh.map((paragraph, idx) => (
-              <p key={`zh-${idx}`} className="text-slate-800 leading-loose text-justify">
+              <p key={`zh-${idx}`} className="mb-6 text-slate-800 leading-loose text-justify text-[1.05rem]">
                 {paragraph}
               </p>
             ))}
           </div>
-          
+
+          <hr className="my-12 border-slate-200" />
+
           {/* English Content */}
-          <div className="space-y-6">
-            <h3 className="text-2xl border-b pb-2 border-slate-200 font-serif font-bold text-slate-900 italic">English Translation</h3>
+          <div className="text-slate-600 font-serif">
             {article.contentEn.map((paragraph, idx) => (
-              <p key={`en-${idx}`} className="text-slate-700 leading-relaxed text-justify font-serif">
+              <p key={`en-${idx}`} className="mb-6 leading-relaxed">
                 {paragraph}
               </p>
             ))}
           </div>
         </div>
-      </article>
-
-      {/* Advertisement Space Placeholder */}
-      <div className="my-16 p-8 bg-slate-50 border border-slate-200 text-center flex flex-col items-center justify-center min-h-[250px]">
-        <span className="text-slate-400 text-sm tracking-widest uppercase mb-2">Advertisement</span>
-        <p className="text-slate-500 max-w-sm">
-          Google AdSense integration point. Ads will be displayed here once approved.
-        </p>
       </div>
-    </div>
+    </article>
   );
 }

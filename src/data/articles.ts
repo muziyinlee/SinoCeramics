@@ -155,5 +155,101 @@ export const ARTICLES: Article[] = [
     mediaType: 'image',
     mediaUrl: '/images/CeladonCrackleTeacup.png',
     date: '2024-04-10'
+  },
+  {
+    id: 'ding-ware',
+    titleZh: '定窑：白瓷的极致与刻花艺术的巅峰',
+    titleEn: 'Ding Ware: The Pinnacle of White Porcelain and Carving Art',
+    summaryZh: '定窑是宋代五大名窑中唯一以白瓷为主的窑口。其胎体轻薄，釉色白中闪黄，如象牙般温润，并以流畅精美的刻花、印花装饰闻名于世，展现了宋代高超的装饰技艺。',
+    summaryEn: 'Ding ware is the only one among the Five Great Kilns of the Song Dynasty that primarily produced white porcelain. Known for its thin body and ivory-like glaze, it is world-renowned for its exquisite carving and molding decorations.',
+    contentZh: [
+      '定窑位于河北省曲阳县，在宋代五大名窑（汝、官、哥、钧、定）中独树一帜，它是唯一一个以烧造白瓷为主的名窑。如果说南方的越窑青瓷代表了中国对玉的追求，那么北方的定窑白瓷则展现了另一种极致的素洁与高雅。定窑的白，并不是像现代瓷器那样冷硬刺眼的纯白，而是一种白中微微泛黄的色调，古人常将其形容为“象牙白”或“骨白”，给人一种极其温润平和的视觉感受。',
+      '定窑白瓷之所以能够达到如此高的艺术成就，与其独特的胎土和烧制工艺密不可分。定窑的胎体通常极其轻薄，坚致细腻，有些甚至能够达到半透明的程度。为了提高产量并防止器物在烧制过程中变形，定窑工匠发明了“覆烧”工艺，即将碗盘倒扣过来层层叠烧。这种创新虽然极大地提高了生产效率，但也导致了器物口沿一圈无釉，即所谓的“芒口”。为了掩盖“芒口”，宫廷或达官贵人常常会用金、银、铜等金属镶嵌在口沿上，称为“扣金”或“包银”，这也意外地成为定窑的一种独特装饰风格。',
+      '然而，定窑最引人注目的，是它那令人叹为观止的装饰技艺——刻花、划花和印花。定窑工匠仿佛是在瓷胎上作画，他们使用竹木或骨制工具在半干的胎体上敏捷地刻划出花纹。线条流畅犀利，深浅不一，极富动感与节奏感。常见的图案有牡丹、莲花、萱草以及游鱼、飞禽等。特别是刻花，刀法宛如行云流水，一气呵成，那种潇洒与自信，充分展现了宋代工匠高超的艺术造诣。',
+      '到了北宋晚期，随着需求量的激增，定窑开始广泛采用印花工艺。工匠们将雕刻有精美图案的模具压印在未干的泥胎上，从而快速批量生产出纹饰复杂的器物。定窑的印花构图严谨，层次分明，具有很强的浮雕感。无论是刻花还是印花，这些装饰都并非喧宾夺主，而是在象牙般的釉面下若隐若现，形成了一种含蓄而隽永的美学意境。',
+      '定窑的艺术影响力极为深远。它不仅作为贡器长期服务于北宋宫廷，甚至在金人入主中原后，依然备受贵族阶层的喜爱。更为重要的是，定窑的白瓷风格和装饰技法，对后世的制瓷业产生了巨大的辐射作用。从辽金的磁州窑系到景德镇的青白瓷，都能看到定窑的影响。定窑白瓷那份不加雕饰的纯净与刻意追求的线条美的完美结合，至今仍是现代陶瓷艺术家不断模仿与致敬的对象。'
+    ],
+    contentEn: [
+      'Ding ware, located in Quyang County, Hebei Province, stands out among the Five Great Kilns of the Song Dynasty (Ru, Guan, Ge, Jun, Ding) as the only famous kiln that primarily fired white porcelain. If the Yue ware celadon of the South represented China\'s pursuit of jade, then the Ding ware white porcelain of the North displayed another extreme of purity and elegance. The white of Ding ware is not a cold and glaring pure white like modern porcelain, but a tone of white with a slight yellowish tint. The ancients often described it as "ivory white" or "bone white," giving people an extremely mild and peaceful visual experience.',
+      'The reason Ding ware white porcelain could achieve such high artistic accomplishments is inseparable from its unique clay body and firing process. The body of Ding ware is usually extremely thin, firm, and delicate, some even reaching a semi-transparent degree. In order to increase production and prevent vessels from deforming during the firing process, Ding ware craftsmen invented the "upside-down firing" technique, which involves firing bowls and plates placed upside down in layers. Although this innovation greatly improved production efficiency, it also resulted in a ring of unglazed rim on the vessel, known as "mang-kou" (rough rim). To cover up the "mang-kou," the imperial court or high-ranking officials would often inlay gold, silver, or copper metals on the rim, known as "gold binding" or "silver wrapping," which unexpectedly became a unique decorative style of Ding ware.',
+      'However, what is most striking about Ding ware is its breathtaking decorative techniques—carving, incising, and molding. Ding ware craftsmen seemed to be painting on the porcelain body. They used bamboo, wood, or bone tools to agilely carve patterns on the half-dry body. The lines are smooth, sharp, and vary in depth, full of dynamism and rhythm. Common patterns include peonies, lotuses, daylilies, as well as swimming fish and flying birds. Particularly in carving, the blade movements are like flowing water and drifting clouds, completed in one breath. That elegance and confidence fully demonstrate the outstanding artistic attainments of Song Dynasty craftsmen.',
+      'By the late Northern Song Dynasty, with the surge in demand, Ding ware began to widely adopt the molding technique. Craftsmen pressed molds carved with exquisite patterns onto the wet clay body, thereby quickly mass-producing vessels with complex decorations. The molded compositions of Ding ware are rigorous, clearly layered, and have a strong sense of relief. Whether carved or molded, these decorations are not overwhelming but appear faintly under the ivory-like glaze, forming an implicit and meaningful aesthetic conception.',
+      'The artistic influence of Ding ware was extremely profound. Not only did it serve the Northern Song court as a tribute vessel for a long time, but even after the Jin people entered the Central Plains, it was still highly favored by the aristocratic class. More importantly, the white porcelain style and decorative techniques of Ding ware had a massive radiating effect on the ceramic industry of later generations. From the Cizhou kiln system of Liao and Jin to the Qingbai (bluish-white) porcelain of Jingdezhen, the influence of Ding ware can be seen. The perfect combination of the unadorned purity of Ding ware white porcelain and the deliberately pursued beauty of lines is still an object of constant imitation and tribute by modern ceramic artists today.'
+    ],
+    mediaType: 'image',
+    mediaUrl: '/images/DingWhiteBowl.png',
+    date: '2024-05-15'
+  },
+  {
+    id: 'jun-ware',
+    titleZh: '钧窑：夕阳紫翠忽成岚的入窑一色与出窑万彩',
+    titleEn: 'Jun Ware: One Color Entering the Kiln, Ten Thousand Colors Emerging',
+    summaryZh: '钧窑以其艳丽的铜红釉和不可控的“窑变”现象闻名。其色彩变幻莫测，如晚霞般绚丽，打破了宋代单色釉的审美边界，被赞誉为“夕阳紫翠忽成岚”。',
+    summaryEn: 'Jun ware is renowned for its brilliant copper-red glaze and the uncontrollable "kiln transmutation" (yaobian) phenomenon. Its unpredictable colors, resplendent like sunset glows, shattered the aesthetic boundaries of Song monochrome glazes.',
+    contentZh: [
+      '钧窑位于河南省禹州市，在宋代五大名窑中，它也许是最为“叛逆”的一个。在那个以青白单色、追求极简与内敛为美的宋代审美主旋律中，钧窑却以其浓烈、艳丽甚至是狂野的色彩异军突起。钧窑的核心特征可以用八个字来概括：“入窑一色，出窑万彩”。这种神奇的变化，源于中国陶瓷史上一次伟大的技术突破——铜红釉的成功烧制。',
+      '在钧窑之前，中国瓷器的发色剂主要依靠铁元素，烧出的是青、褐或黑等冷色调。而钧窑独辟蹊径，工匠们在原本的青釉中加入了微量的铜元素。在高温还原气氛的烧制过程中，这些氧化铜发生复杂的化学反应，最终在釉面上呈现出玫瑰紫、海棠红、天青、月白等交错相融的斑斓色彩。这种色彩的形成完全依赖于窑炉内部温度和气氛的微妙变化，人力无法绝对控制，因此被称为“窑变”。',
+      '每一件钧窑瓷器在揭开窑门之前都是一个未知的盲盒。有时它如雨后初晴的天空，有时如傍晚天边绚烂的晚霞，古人赞美其“夕阳紫翠忽成岚”。由于窑变现象的存在，世界上绝对找不出两件色彩和纹理完全相同的钧窑瓷器，每一件都是孤品。这种不可复制性，使得钧窑瓷器显得尤为珍贵。在民间，甚至流传着“家有万贯，不如钧瓷一片”的说法。',
+      '除了色彩的绚丽，钧窑厚重的釉质也是其一大特色。它的釉层极厚，通常经过多次施釉，釉面有着强烈的乳浊感。在釉层内部，经常可以观察到一些蜿蜒曲折、如蚯蚓走泥般的痕迹，古董界称之为“蚯蚓走泥纹”。这实际上是釉层在干燥或烧制初期产生裂纹，随后又被高温下流动的高粘度釉料填补而形成的独特肌理。这种天然形成的瑕疵，反而成为了鉴定宋代钧窑真伪的一个重要标志，也增添了器物的古朴之感。',
+      '钧窑不仅是宋代宫廷的重要陈设用瓷（尤其是大量烧制的各种花盆），它的大众化产品也广泛流通于北方的民间生活。钧窑那种奔放、浓烈、充满随机性的美，可以说打破了宋代正统审美的束缚，为中国陶瓷艺术注入了极大的活力。它的成功，也为后世明清时期景德镇各种颜色釉（如祭红、郎窑红等）的繁荣奠定了坚实的技术基础。钧瓷那份源自烈火的绚烂，至今令人如痴如醉。'
+    ],
+    contentEn: [
+      'Jun ware, located in Yuzhou City, Henan Province, is perhaps the most "rebellious" among the Five Great Kilns of the Song Dynasty. In that main theme of Song aesthetics, which was centered on monochrome blue-green and white, pursuing minimalism and introversion as beauty, Jun ware emerged as a new force with its intense, brilliant, and even wild colors. The core feature of Jun ware can be summarized in eight words: "One color entering the kiln, ten thousand colors coming out." This magical transformation originated from a great technical breakthrough in the history of Chinese ceramics—the successful firing of copper-red glaze.',
+      'Before Jun ware, the colorants for Chinese porcelain mainly relied on the iron element, firing out cool tones such as celadon, brown, or black. But Jun ware took a different approach; craftsmen added trace amounts of copper into the original celadon glaze. During the firing process in a high-temperature reduction atmosphere, these copper oxides underwent complex chemical reactions, ultimately presenting colorful interweavings of rose purple, begonia red, sky blue, and moon white on the glaze surface. The formation of this color depends entirely on the subtle changes in temperature and atmosphere inside the kiln, which cannot be absolutely controlled by human power, hence it is known as "kiln transmutation" (yaobian).',
+      'Every piece of Jun ware porcelain is an unknown blind box before the kiln door is opened. Sometimes it is like the sky just after rain, sometimes like the brilliant afterglow on the horizon at dusk. The ancients praised it as "the sunset\'s purple and emerald suddenly forming a mountain mist." Due to the existence of the kiln transmutation phenomenon, there can absolutely be no two Jun ware porcelains with identical colors and textures in the world; every piece is a unique orphan. This non-reproducibility makes Jun ware porcelain appear especially precious. Among the folk, there is even a saying circulated that "having a fortune of ten thousand strings of cash is not as good as having a piece of Jun porcelain."',
+      'In addition to the brilliance of its colors, the thick and heavy glaze of Jun ware is also a major feature. Its glaze layer is extremely thick, usually undergoing multiple applications of glaze, and the glaze surface has a strong feeling of opalescence. Inside the glaze layer, one can often observe some meandering traces resembling earthworms crawling through mud, which the antique circle refers to as "earthworm crawling mud patterns." This is actually a unique texture formed when the glaze layer cracks during drying or the early stages of firing, and is subsequently filled by the highly viscous, flowing glaze under high temperatures. This naturally formed flaw ironically became an important marker for authenticating Song Dynasty Jun ware, and it also adds to the antique simplicity of the vessel.',
+      'Jun ware was not only important display porcelain for the Song imperial court (especially the mass-fired various flower pots), but its popularized products were also widely circulated in northern folk life. The unrestrained, intense, and random beauty of Jun ware arguably broke the shackles of orthodox Song aesthetics and injected immense vitality into the art of Chinese ceramics. Its success also laid a solid technical foundation for the prosperity of various colored glazes (such as Sacrificial Red, Langyao Red, etc.) in Jingdezhen during the later Ming and Qing dynasties. The splendor of Jun porcelain, originating from fierce fire, remains intoxicating to this day.'
+    ],
+    mediaType: 'image',
+    mediaUrl: '/images/JunRosePurpleBowl.png',
+    date: '2024-06-04'
+  },
+  {
+    id: 'guan-ware',
+    titleZh: '南宋官窑：紫口铁足与天然开片的皇家气象',
+    titleEn: 'Southern Song Guan Ware: "Purple Mouth, Iron Foot" and the Imperial Elegance of Natural Crackles',
+    summaryZh: '南宋官窑是专为皇家烧造的瓷器，以“紫口铁足”和釉面纵横交错的开片纹理为特征，展现了不加修饰的古朴与高贵。',
+    summaryEn: 'Southern Song Guan ware, exclusively fired for the imperial court, is characterized by its "purple mouth, iron foot" and the intersecting crackles on the glaze, demonstrating unadorned antique simplicity and nobility.',
+    contentZh: [
+      '官窑，顾名思义，就是由官方营建、主持烧造，产品专供宫廷使用的瓷窑。在宋代五大名窑中，官窑的地位极其尊贵。北宋末年，靖康之变导致都城南迁，宋高宗赵构在临安（今浙江杭州）建立南宋政权。为了满足宫廷祭祀和日常用瓷的需求，南宋朝廷在临安先后设立了“修内司”和“郊坛下”两座官窑，史称“南宋官窑”。',
+      '南宋官窑瓷器的胎土采用了杭州当地富含铁质的紫金土。由于含铁量极高，胎体在烧制后呈现出深灰、紫黑或铁黑色。而在施釉时，器物口沿处的釉液会自然向下流淌，导致口沿釉层较薄，隐约透出胎体的紫黑色；而器物底足无釉的部分则直接裸露出铁黑色的胎骨。这种特征被古董界形象地概括为“紫口铁足”。它使得清雅的青釉与深沉的胎色形成了鲜明的对比，平添了几分古朴庄重的皇家气派。',
+      '除了“紫口铁足”，官窑瓷器另一个最引人入胜的特征就是其釉面密布的开片（裂纹）。所谓“开片”，本是陶瓷烧制过程中，由于胎体和釉层的膨胀系数不同而在冷却时产生的一种釉面开裂的缺陷。然而，南宋的工匠们却敏锐地捕捉到了这种缺陷中所蕴含的独特美感，他们通过巧妙控制釉料配方和焙烧温度，将这种缺陷升华为一种自然天成的装饰艺术。',
+      '官窑的开片纹理形态各异，有的如冰裂，有的如蟹爪，有的呈网状。裂纹的颜色也有深有浅，深的如墨线，浅的似金丝（为后世“金丝铁线”的雏形或类似表现）。这种看似破碎的纹理，不仅没有破坏器物的整体美感，反而赋予了瓷器一种历经岁月沧桑的古厚之美。宋代文人将这种残缺美视为最高级的审美体验。',
+      '因此，南宋官窑瓷器通常不加任何彩绘或雕刻装饰。它完全依靠端庄古朴的器型（多仿制商周青铜器和汉代玉器）、如冰似玉的粉青或天青釉色，以及浑然天成的开片纹理来打动人心。它完美地诠释了宋代宫廷那种追求“大道至简”、“天人合一”的极简主义美学巅峰，是中国陶瓷史上当之无愧的皇冠上的明珠。'
+    ],
+    contentEn: [
+      'Guan ware, as the name implies, refers to imperial kilns built and operated by the government, with products exclusively for court use. Among the Five Great Kilns of the Song Dynasty, Guan ware held an extremely noble status. At the end of the Northern Song Dynasty, the Jingkang Incident led the capital to move south, and Emperor Gaozong, Zhao Gou, established the Southern Song regime in Lin\'an (modern-day Hangzhou, Zhejiang). To meet the court\'s needs for ritual and daily porcelain, the Southern Song court successively established two imperial kilns in Lin\'an, known as "Xiuneisi" and "Jiaotanxia," historically referred to as "Southern Song Guan Ware."',
+      'The clay body of Southern Song Guan ware porcelain used local Zijin (purple-gold) clay from Hangzhou, which is rich in iron. Due to the extremely high iron content, the body presents a dark gray, purple-black, or iron-black color after firing. When glazing, the glaze liquid at the rim of the vessel naturally flows downward, making the glaze layer at the rim thinner, faintly revealing the purple-black color of the body; while the unglazed bottom foot directly exposes the iron-black body. This feature is vividly summarized by the antique circle as "purple mouth and iron foot." It creates a sharp contrast between the elegant celadon glaze and the deep body color, adding a touch of antique and solemn imperial elegance.',
+      'In addition to the "purple mouth and iron foot," another most fascinating feature of Guan ware porcelain is the dense crackles (crazing) on its glaze surface. The so-called "crackle" is originally a kind of glaze cracking defect generated during cooling in the ceramic firing process, due to the different expansion coefficients of the clay body and the glaze layer. However, the craftsmen of the Southern Song Dynasty keenly captured the unique aesthetic feeling contained in this defect. They sublimated this defect into a naturally formed decorative art through clever control of glaze formulas and firing temperatures.',
+      'The crackle patterns of Guan ware vary in form; some look like cracked ice, some like crab claws, and some are reticulated. The colors of the cracks are also deep and shallow; the deep ones are like ink lines, and the shallow ones are like gold threads (the prototype or similar expression of later "gold threads and iron wires"). This seemingly broken texture not only does not destroy the overall beauty of the vessel but instead endows the porcelain with a heavy, antique beauty of having experienced the vicissitudes of time. Song literati regarded this beauty of imperfection as the highest-level aesthetic experience.',
+      'Therefore, Southern Song Guan ware porcelain usually has no polychrome painting or carving decorations. It relies entirely on its dignified and unsophisticated shapes (mostly imitating Shang and Zhou bronzes and Han dynasty jades), the ice-like and jade-like powder blue or sky blue glaze, and the naturally formed crackle textures to move people. It perfectly interprets the peak of minimalist aesthetics of the Song court, which pursued "great truths are simple" and "harmony between man and nature," and is a well-deserved jewel in the crown of Chinese ceramic history.'
+    ],
+    mediaType: 'image',
+    mediaUrl: '/images/GuanWareVaseCrackle.png',
+    date: '2024-07-01'
+  },
+  {
+    id: 'ge-ware',
+    titleZh: '哥窑：“金丝铁线”里的残缺与破碎之美',
+    titleEn: 'Ge Ware: The Beauty of Imperfection and Fragmentation in "Gold Threads and Iron Wires"',
+    summaryZh: '哥窑以其标志性的“金丝铁线”开片纹路独步天下，将瓷器烧制中的缺陷转化为一种极致的审美，深受文人雅士的推崇。',
+    summaryEn: 'Ge ware stands unrivaled with its iconic "gold threads and iron wires" crackle patterns, transforming a firing defect into an ultimate aesthetic, highly esteemed by literati.',
+    contentZh: [
+      '哥窑，位列宋代五大名窑（汝、官、哥、钧、定）之中，但它也是陶瓷史上身世最具传奇色彩、谜团最多的一个窑口。关于哥窑的具体窑址究竟在哪里，学术界至今仍存在广泛的争议。传说中，浙江龙泉有章生一、章生二两兄弟，各自开窑烧瓷，哥哥章生一所烧的窑被称为“哥窑”，弟弟的则被称为“弟窑”（即龙泉窑）。但这仅仅是传说，真正的宋代传世哥窑，很可能与南宋官窑有着千丝万缕的联系。',
+      '无论其确切发源地在何处，哥窑在陶瓷外观上有着极高的辨识度。它最大的也是最核心的特征，就是釉面上布满了错综复杂、深浅不一的开片。哥窑的开片与官窑有所不同，它的裂纹通常分为两种表现形式并存：一种裂纹较粗、颜色呈黑色，犹如铁线；另一种裂纹较细、颜色呈黄褐色或金黄色，犹如金丝。这两种裂纹交织在一起，就像是一张打破了时光的网，被后人充满诗意地称为“金丝铁线”。',
+      '“金丝铁线”的形成，同样是工匠们对陶瓷收缩率极致把控的结晶。釉面在窑炉冷却中四分五裂，出窑后，工匠往往会将器物浸泡在含有紫金土或墨汁的水中。黑色的色素渗透进较宽的粗裂缝中形成了“铁线”；随着时间的推移，空气中的氧化作用和日常使用中的茶垢泥土，又会慢慢渗入那些细微的裂缝中，形成了黄褐色的“金丝”。',
+      '哥窑的这种“破碎之美”，深刻反映了中国古代文人对于事物两面性的辩证思考。在追求完美圆满的传统认知中，哥窑大胆地将“残缺”作为一种独立的审美对象呈现出来。那些纵横交错的裂纹，仿佛是器物在烈火诞生时留下的伤痕，带有一种凄惨而又倔强的生命力。',
+      '此外，哥窑也往往具有与官窑相似的“紫口铁足”特征，釉色多为灰青、粉青或月白。由于其独特的艺术魅力和极高的文化价值，哥窑从明清时期开始就成为了皇室和文人竞相收藏的珍品。后世景德镇的御窑厂也多次对哥窑进行仿制，但宋代哥窑那份天然去雕饰、历经岁月洗礼的沧桑感，却是永远无法被复制的。'
+    ],
+    contentEn: [
+      'Ge ware ranks among the Five Great Kilns of the Song Dynasty (Ru, Guan, Ge, Jun, Ding), but it is also the one with the most legendary origins and mysteries in ceramic history. The academic community still widely debates the exact location of the Ge kiln. According to legend, there were two brothers in Longquan, Zhejiang, named Zhang Shengyi and Zhang Shenger, who each opened kilns to fire porcelain. The kiln run by the elder brother Zhang Shengyi was called "Ge Kiln" (Ge means elder brother), and the younger brother\'s was called "Di Kiln" (which is Longquan ware). But this is merely a legend; the genuine handed-down Song Dynasty Ge ware likely has inextricable links with Southern Song Guan ware.',
+      'Regardless of its exact origin, Ge ware is highly recognizable in its ceramic appearance. Its greatest and most core feature is the glaze surface covered with intricate crackles of varying depths. Ge ware\'s crackles are somewhat different from Guan ware\'s; its cracks usually coexist in two manifestations: one type of crack is wider and black in color, like an iron wire; the other type is finer and yellowish-brown or golden-yellow, like a gold thread. These two types of cracks interwoven together look like a net that has broken through time, poetically referred to by later generations as "gold threads and iron wires" (jinsi tiexian).',
+      'The formation of "gold threads and iron wires" is likewise the crystallization of craftsmen\'s ultimate control over the shrinkage rate of ceramics. The glaze fractures into pieces during cooling in the kiln. After taking them out of the kiln, craftsmen often soaked the vessels in water containing Zijin clay or ink. The black pigment infiltrated the wider coarse cracks to form the "iron wires"; over time, oxidation in the air and tea stains or dirt from daily use would slowly seep into those minute cracks, forming the yellowish-brown "gold threads."',
+      'This "beauty of fragmentation" of Ge ware profoundly reflects the dialectical thinking of ancient Chinese literati regarding the duality of things. In the traditional cognition that pursues perfect consummation, Ge ware boldly presented "imperfection" as an independent aesthetic object. Those crisscrossing cracks seem like scars left by the vessel during its birth in the fierce fire, carrying a poignant yet stubborn vitality.',
+      'In addition, Ge ware often shares the "purple mouth and iron foot" feature similar to Guan ware, and the glaze colors are mostly gray-green, powder blue, or moon white. Due to its unique artistic charm and extremely high cultural value, Ge ware has been a treasure fiercely sought after for collection by the royal family and literati since the Ming and Qing dynasties. The imperial kilns in Jingdezhen during later generations also repeatedly imitated Ge ware, but the natural, unadorned vicissitudes of Song Ge ware, having experienced the baptism of time, can never be replicated.'
+    ],
+    mediaType: 'image',
+    mediaUrl: '/images/GeWareIncenseBurner.png',
+    date: '2024-07-15'
   }
 ];
