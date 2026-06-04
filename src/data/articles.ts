@@ -251,5 +251,125 @@ export const ARTICLES: Article[] = [
     mediaType: 'image',
     mediaUrl: '/images/GeWareIncenseBurner.png',
     date: '2024-07-15'
+  },
+  {
+    id: 'cizhou-ware',
+    titleZh: '磁州窑：市井烟火与黑白相间的民间绝唱',
+    titleEn: 'Cizhou Ware: Black and White Masterpieces of the Common People',
+    summaryZh: '磁州窑是宋代北方最大的民窑体系，以黑白对比强烈的装饰风格和浓郁的乡土气息著称，展现了民间艺术的勃勃生机。',
+    summaryEn: 'Cizhou ware, the largest folk kiln system in northern China during the Song Dynasty, is famous for its striking black-and-white contrast and strong rustic flavor.',
+    contentZh: [
+      '在中国陶瓷史的浩瀚星空中，如果说五大名窑是高高在上、阳春白雪的贵族，那么磁州窑无疑是充满了市井烟火气、扎根于广袤大地的平民英雄。磁州窑位于河北省邯郸市磁县一带，是宋金元时期北方最大的民间瓷窑体系。它虽然没有官窑那般精致无瑕的胎骨和玉质般的釉色，但却以其粗犷、豪放、黑白分明的独特艺术风格，在陶瓷史上写下了浓墨重彩的一笔。',
+      '磁州窑最著名的装饰技法是“白地黑花”（或白釉黑彩）。由于北方地区的瓷土多呈灰褐色，表面较为粗糙，磁州窑的工匠们极其聪明地发明了“化妆土”工艺。他们首先在灰暗粗糙的胎体上施一层洁白的化妆土，将其完全遮盖，然后在洁白的底色上，用富含铁元素的颜料挥毫泼墨，最后罩上一层透明釉入窑烧制。这种工艺使得烧成的瓷器不仅表面平滑，而且呈现出黑白分明、对比极其强烈的视觉效果。',
+      '在装饰题材上，磁州窑完全摆脱了宫廷审美的束缚，展现出了极大的自由和奔放。大自然中的折枝花鸟、游鱼水藻、甚至嬉戏的儿童，都被工匠们以简练而夸张的笔法生动地描绘在瓷器上。笔触极其流畅、率性，甚至带有一种中国传统写意水墨画的神韵。这种不拘一格、充满浓郁生活气息的艺术表现形式，深受当时北方普通百姓的喜爱。',
+      '除了绘画，磁州窑还首创了将诗词歌赋、警世俗语直接题写在瓷器上的装饰手法。尤其是在极其普及的瓷枕上，常常可以见到“众中少语，无事早归”、“风吹河畔柳”等通俗易懂的民谣和诗句。这些带有文字的瓷器，不仅是实用的生活器皿，更是宋元时期社会风俗、民间文学的珍贵载体，为后人研究当时的社会生活提供了不可多得的活化石。',
+      '磁州窑的影响力极其深远，它的“化妆土”和“白地黑花”技法迅速传播，形成了庞大的“磁州窑系”，影响遍及河南、山西、山东乃至南方多个窑口。这种极具生命力的民间陶瓷艺术，以其旺盛的创造力和质朴的泥土芬芳，永远地留在了中国陶瓷审美的历史长卷中。'
+    ],
+    contentEn: [
+      'In the vast starry sky of Chinese ceramic history, if the Five Great Kilns are the high-and-mighty, elite nobles, then Cizhou ware is undoubtedly the common hero, full of the earthly life of the marketplace and rooted in the vast land. Located in the Ci County area of Handan, Hebei Province, Cizhou ware was the largest folk porcelain kiln system in the north during the Song, Jin, and Yuan dynasties. Although it lacks the flawless body and jadeware-like glazes of official kilns, it has left a colorful mark in ceramic history with its rugged, unrestrained, and distinctly black-and-white unique artistic style.',
+      'The most famous decorative technique of Cizhou ware is "black painting on a white ground" (or white glaze with black pigments). Because the porcelain clay in northern regions is mostly grayish-brown and relatively rough on the surface, Cizhou craftsmen cleverly invented the "slip" (huazhuang tu) technique. They first applied a layer of pure white slip to the dark and rough body, completely covering it. Then, on this pure white background, they boldly painted with iron-rich pigments, and finally covered it with a layer of transparent glaze before firing. This technique makes the fired porcelain not only smooth on the surface but also presents a visual effect of distinctly black and white with extremely strong contrast.',
+      'In terms of decorative motifs, Cizhou ware completely broke free from the constraints of imperial aesthetics, displaying immense freedom and unbridled creativity. Floral branches, birds, swimming fish, water algae, and even playing children from nature were vividly depicted on the porcelain by craftsmen with concise and exaggerated brushwork. The strokes are extremely smooth, spontaneous, and even carry the charm of traditional Chinese freehand ink painting. This eclectic and lively artistic expression was deeply loved by ordinary people in the north at that time.',
+      'In addition to painting, Cizhou ware pioneered the decorative technique of inscribing poetry, songs, and cautionary adages directly onto porcelain. Especially on the extremely popular ceramic pillows, one can often see easy-to-understand folk songs and verses, such as "Speak less in a crowd, return home early when unoccupied," or "The wind blows the willows by the river." These inscribed porcelains were not only practical daily utensils but also precious carriers of social customs and folk literature during the Song and Yuan dynasties, providing later generations with invaluable living fossils to study the social life of that time.',
+      'The influence of Cizhou ware was incredibly profound. Its "slip" and "black painting on white ground" techniques spread rapidly, forming a massive "Cizhou Ware System" that influenced numerous kilns across Henan, Shanxi, Shandong, and even the south. This fiercely vital folk ceramic art, with its vigorous creativity and rustic earthy fragrance, remains forever etched in the historical scroll of Chinese ceramic aesthetics.'
+    ],
+    mediaType: 'image',
+    mediaUrl: '/images/CizhouBlackWhite.png',
+    date: '2024-05-20'
+  },
+  {
+    id: 'yaozhou-ware',
+    titleZh: '耀州窑：刀锋上的青瓷与大西北的粗犷柔情',
+    titleEn: 'Yaozhou Ware: Celadon on the Edge of a Knife and the Rugged Romance of the Northwest',
+    summaryZh: '耀州窑青瓷以其犀利流畅的刻花工艺和深沉的橄榄绿釉色独树一帜，代表了北方青瓷的最高水平。',
+    summaryEn: 'Yaozhou ware celadon is unique with its sharp, smooth carved decorations and deep olive-green glaze, representing the highest level of northern celadon.',
+    contentZh: [
+      '耀州窑位于陕西省铜川市黄堡镇一带（古属耀州辖地），是中国北方青瓷的代表性窑口。在宋代，如果说南方的越窑和龙泉窑代表了水乡的柔美与温润，那么北方的耀州窑则展现了一种充满西北黄土高原气息的粗犷与力量。耀州窑在唐代创烧，历经五代，在北宋时期达到了鼎盛，甚至一度被定为贡窑，为朝廷烧制瓷器。',
+      '耀州窑最突出的艺术成就在于它的装饰工艺——刻花和印花。耀州窑的刻花被赞誉为“宋代青瓷刻花之冠”。工匠们使用特制的犀利刀具，在半干的青瓷泥胎上进行雕刻。他们不仅要求下刀准确、线条流畅，更巧妙地运用了刀锋的倾斜角度（类似于浮雕中的“一边起”技法），使得刻出的线条有着明显的深浅变化和斜面过渡。这种独特的刀法，赋予了花纹极强的立体感和层次感。',
+      '刻花完成并施釉烧制后，由于釉料在高温下会自然流动，较深的刻线处积釉较厚，颜色深邃；而凸起的刻面处釉层较薄，颜色较淡。这种釉面厚薄的变化与底层的刻花纹理完美结合，使得耀州窑青瓷在光影流转中显得栩栩如生，充满了动态的节律美。常见的装饰题材繁多，其中尤以缠枝牡丹和水波游鱼最为精彩，牡丹花叶翻卷自然，游鱼则似在碧波中欢快穿梭。',
+      '在釉色方面，北宋时期的耀州窑青瓷呈现出一种标志性的“橄榄绿”。这种釉色既没有汝窑那般的天青色浪漫，也没有龙泉窑梅子青那般的明艳，由于北方胎土含铁量不同，它带有一种微微泛黄的深绿色调。这种沉稳、深邃的橄榄绿，与窑壁犀利的刻花相得益彰，散发着一种冷峻、刚健的独特气质。',
+      '耀州窑不仅在北方地区拥有极其庞大的市场，而且也是宋朝向西北少数民族地区以及海外出口的重要商品。它是大西北窑火中孕育出的青瓷瑰宝，以刀为笔，在泥与火的交融中，刻写了中华大地上另一段坚韧而又柔情的陶瓷传奇。'
+    ],
+    contentEn: [
+      'Yaozhou ware, located around Huangbao Town, Tongchuan City, Shaanxi Province (historically under the jurisdiction of Yaozhou), is the representative kiln of northern Chinese celadon. In the Song Dynasty, if the southern Yue ware and Longquan ware represented the softness and mildness of the water towns, then the northern Yaozhou ware displayed a ruggedness and power infused with the aura of the northwestern Loess Plateau. Created in the Tang Dynasty and developed through the Five Dynasties, Yaozhou ware reached its peak during the Northern Song Dynasty and was even designated as a tribute kiln to fire porcelain for the imperial court.',
+      'The most outstanding artistic achievement of Yaozhou ware lies in its decorative techniques—carving and molding. Yaozhou ware carving is hailed as the "crown of Song Dynasty celadon carving." Craftsmen used specially made sharp tools to carve on the half-dry celadon clay body. Not only did they require accurate cuts and smooth lines, but they also cleverly utilized the tilting angle of the blade (similar to the "beveled edge" technique in relief sculpture), giving the carved lines distinct variations in depth and sloped transitions. This unique blade technique endowed the patterns with intensely strong three-dimensional and layered effects.',
+      'Once the carving was complete and the glaze was applied and fired, because the glaze naturally flows under high temperatures, the deeper carved lines gathered thicker glaze and appeared darker in color; whereas the raised carved surfaces had a thinner glaze layer and appeared lighter. This variation in glaze thickness perfectly combined with the underlying carved textures, making Yaozhou ware celadon look lifelike and full of dynamic rhythmic beauty as light and shadow shifted. There is a wide variety of common decorative themes, among which intertwining peonies and fish swimming in water waves are the most magnificent. The peony leaves roll naturally, and the fish seem to shuttle joyfully through blue ripples.',
+      'In terms of glaze color, Northern Song Yaozhou ware celadon exhibits an iconic "olive green." This glaze color possesses neither the romantic sky blue of Ru ware nor the bright plum green of Longquan ware; due to the different iron content in northern clay, it carries a deep green tone with a slight yellowish tint. This steady, profound olive green complements the sharp carving on the vessel walls, exuding a unique temperament of sternness and vigor.',
+      'Yaozhou ware not only had an extremely massive market in the northern regions but was also an important export commodity of the Song Dynasty to northwestern ethnic minority areas and overseas. It is a celadon treasure nurtured in the kiln fires of the Great Northwest. Using a knife as a brush, amidst the blend of clay and fire, it carved another resilient yet tender ceramic legend on the Chinese land.'
+    ],
+    mediaType: 'image',
+    mediaUrl: '/images/YaozhouCarvedBowl.png',
+    date: '2023-09-12'
+  },
+  {
+    id: 'dehua-ware',
+    titleZh: '德化窑：被欧洲惊叹的“中国白”与东方神韵',
+    titleEn: 'Dehua Ware: The "Blanc de Chine" and Oriental Charm Marvelled by Europe',
+    summaryZh: '福建德化窑以纯净莹润的白瓷雕塑享誉世界，其造像工艺极高，被法国人赞誉为“中国白”（Blanc de Chine）。',
+    summaryEn: 'Dehua kiln in Fujian is world-renowned for its pure, lustrous white porcelain sculptures, exalted by the French as "Blanc de Chine".',
+    contentZh: [
+      '德化窑位于福建省泉州市德化县，是中国古代南方著名的瓷窑之一。与景德镇以青花、粉彩等彩绘瓷见长不同，德化窑在明代以后，凭借其独一无二的白瓷雕塑技艺，在世界陶瓷舞台上大放异彩。在十七世纪的欧洲，德化白瓷被法国人冠以令人骄傲的浪漫尊号——“中国白”（Blanc de Chine），被视为中国制瓷艺术的最高标准之一。',
+      '德化白瓷之所以能够达到如此纯净剔透的境界，得益于当地得天独厚的瓷土资源。德化的高岭土含铁量极低，而氧化硅和氧化钾的含量较高。这使得烧制出的瓷胎非常致密，釉面洁白无瑕，不仅没有北方白瓷那种微微泛黄的色调，也没有景德镇青白瓷那样微微泛蓝的影子。它的白，是一种如同象牙或凝脂般的乳白色，在光线的照射下，部分甚至能呈现出半透明的玉质感，宛如羊脂白玉般温润醉人。',
+      '在工艺上，德化窑将陶瓷雕塑艺术推向了前所未有的高峰。明代是德化白瓷雕塑的全盛时期，涌现出了以何朝宗为代表的一大批瓷雕大师。他们的人物造像，尤其是佛教神像（如观音、达摩等），堪称鬼斧神工。以何朝宗的《渡海观音》为例，观音的神态慈祥庄严，衣纹处理如行云流水般自然垂拂，迎风飘荡的质感被洁白的瓷土展现得淋漓尽致，展现了极其高超的写实与写意相结合的艺术造诣。',
+      '德化白瓷不仅是对中国本土宗教信仰和精神寄托的艺术表达，它更是随着“海上丝绸之路”大量出口，成为跨越文明界限的文化使者。许多德化白瓷的观音像在运往欧洲后，由于其圣洁、慈悲的形象，甚至被欧洲人误认为是基督教中的圣母玛利亚而加以供奉。同时，德化窑也专门为外销市场定制了大量的实用器皿和西方人物雕塑，深深地影响了后来欧洲早期瓷器工厂（如梅森瓷器）的创作风格。',
+      '在繁杂的彩瓷世界中，德化白瓷宛如一位不施粉黛的绝世佳人。它摒弃了所有的色彩装饰，仅仅依靠纯净的材质、精良的雕工和优美的造型来诠释宁静与高洁。这种极致的“留白”艺术，不仅征服了历史，也依然在现代审美的长河中散发着迷人的光辉。'
+    ],
+    contentEn: [
+      'Dehua Kiln, located in Dehua County, Quanzhou City, Fujian Province, is one of the famous ancient porcelain kilns in southern China. Unlike Jingdezhen, which excels in painted porcelains like blue-and-white and famille rose, Dehua Kiln shone brilliantly on the world ceramic stage after the Ming Dynasty by virtue of its unique white porcelain sculpture techniques. In 17th-century Europe, Dehua white porcelain was crowned by the French with a proud and romantic title—"Blanc de Chine" (White of China)—and was regarded as one of the highest standards of Chinese porcelain art.',
+      'The reason Dehua white porcelain can reach such a pure and crystal-clear realm benefits from the uniquely favorable local porcelain clay resources. Dehua kaolin has extremely low iron content, and relatively high contents of silicon oxide and potassium oxide. This makes the fired porcelain body extremely dense and the glaze surface flawless white. It not only lacks the slight yellowish tone of northern white porcelain but also the slight bluish shadow of Jingdezhen Qingbai (bluish-white) porcelain. Its white is a milky white akin to ivory or congealed fat. Under light, some parts can even exhibit a semi-transparent jade-like texture, as warm and intoxicating as mutton-fat jade.',
+      'In terms of craftsmanship, Dehua Kiln pushed the art of ceramic sculpture to an unprecedented peak. The Ming Dynasty was the golden age of Dehua white porcelain sculpture, emerging a large number of porcelain sculpture masters represented by He Chaozong. Their figure statues, especially Buddhist deities (such as Guanyin, Bodhidharma, etc.), are nothing short of miraculous. Taking He Chaozong\'s "Guanyin Crossing the Sea" as an example, Guanyin\'s expression is benevolent and solemn; the treatment of the drapery is as naturally flowing as drifting clouds and water, and the texture of fluttering in the wind is fully expressed by the pure white clay. It demonstrates an extremely high artistic accomplishment combining realism and freehand brushwork.',
+      'Dehua white porcelain is not merely an artistic expression of China\'s native religious beliefs and spiritual sustenance; it was also exported in massive quantities along the "Maritime Silk Road," becoming a cultural messenger crossing civilizational boundaries. Upon arrival in Europe, many Dehua white porcelain Guanyin statues were even mistaken for the Virgin Mary in Christianity and worshipped due to their holy and compassionate appearance. Meanwhile, Dehua Kiln also customized a large number of practical utensils and Western figure sculptures specifically for the export market, deeply influencing the creative styles of later early European porcelain factories (such as Meissen Porcelain).',
+      'In the complicated world of colored porcelain, Dehua white porcelain is like an unparalleled beauty wearing no makeup. It abandons all color decorations, relying solely on pure material, excellent carving, and elegant shapes to interpret tranquility and nobility. This ultimate art of "leaving blank" has not only conquered history but also continues to emit captivating brilliance in the long river of modern aesthetics.'
+    ],
+    mediaType: 'image',
+    mediaUrl: '/images/BlancDeChineGuanyin.png',
+    date: '2024-03-08'
+  },
+  {
+    id: 'doucai',
+    titleZh: '斗彩：明成化御窑的旷世奇珍与彩瓷双绝',
+    titleEn: 'Doucai: Unrivaled Treasures from the Chenghua Imperial Kiln and the Pinnacle of Polychrome Porcelain',
+    summaryZh: '斗彩创烧于明成化年间，将釉下青花与釉上彩绘绝妙地结合在一起，其代表作“鸡缸杯”更是陶瓷史上的稀世神品。',
+    summaryEn: 'Doucai, created during the Chenghua reign of the Ming Dynasty, ingeniously combines underglaze blue with overglaze enamels. Its representative "Chicken Cup" is an exceedingly rare masterpiece in ceramic history.',
+    contentZh: [
+      '斗彩，又称“逗彩”，是中国彩色瓷器中极具传奇色彩的一个品种。它创烧于明代成化年间（1465-1487年）的景德镇御窑厂，代表了明代彩绘瓷器的最高成就。在斗彩出现之前，中国的彩瓷多是以青花或者单一的五彩为主。而斗彩的伟大创新在于，它第一次完美地将高温烧制的釉下青花与低温烧制的釉上彩绘结合在了一起。',
+      '斗彩的烧制过程极为繁复。画师首先要在泥胎上用青花钴料勾勒出纹饰的整体轮廓线，这如同国画中的线描“白描”。在施上透明釉并经过高温（约1300度）烧制后，青花轮廓固定成型。接着，再由画师根据设计，在青花轮廓内填入红、黄、绿、紫等各种不同的低温釉上彩料，最后再次入窑，在低温（约800度）下进行第二次烘烤。这使得釉下的青花幽蓝与釉上的斑斓色彩互相争奇斗艳、完美交融，故而得名“斗彩”。',
+      '提起斗彩，就不得不提陶瓷史上赫赫有名的“成化斗彩鸡缸杯”。这是一种小巧精致的饮酒器，杯身外壁绘有公鸡、母鸡带领小鸡在牡丹石坡间觅食的场景，极富生活情趣和天伦之乐。据传，喜爱艺术的成化皇帝为了讨好比他大十七岁的万贵妃，亲自下令御窑厂烧制了这种玲珑剔透的杯子。由于烧制难度极大，成品率极低，鸡缸杯在明代万历年间就已经“值钱十万”，到了现代拍卖市场上更是屡创上亿天价的奇迹。',
+      '成化斗彩的艺术风格可以用“温润、淡雅、精致”六个字来形容。与明代早期（如永乐、宣德）那种大气磅礴、甚至有些粗犷的风格不同，成化御窑瓷器胎体极薄，釉面如同凝脂般润泽（被称为“肉面”）。它上面的彩绘色彩不追求过于强烈的刺眼对比，而是透着一种柔和、粉润的气息。无论是绘制的折枝花卉还是婴戏图，都透着一股恬静和稚拙的韵味。',
+      '斗彩的发明，为中国陶瓷艺术打开了一扇新的大门，为清代更为繁复的粉彩、珐琅彩的出现奠定了技术基础。尽管后世的雍正、乾隆皇帝都曾大力仿制成化斗彩，但成化朝那份特有的清丽脱俗、宛如明代文人画般的淡雅气质，却犹如高山仰止，成为了陶瓷史上难以逾越的巅峰。'
+    ],
+    contentEn: [
+      'Doucai, also known as "contesting colors," is a highly legendary variety among Chinese polychrome porcelains. It was created at the Jingdezhen Imperial Kiln during the Chenghua reign (1465-1487) of the Ming Dynasty, representing the highest achievement of Ming painted porcelain. Before the emergence of Doucai, Chinese colored porcelain mostly featured underglaze blue or pure Wucai (five-color enamels). The great innovation of Doucai lies in that it perfectly combined high-temperature underglaze blue-and-white with low-temperature overglaze enamel painting for the first time.',
+      'The firing process of Doucai is extremely complex. First, the painter must outline the overall contours of the patterns on the clay body using blue-and-white cobalt material, akin to the "baimiao" (line drawing) technique in traditional Chinese painting. After applying transparent glaze and firing at high temperature (around 1300 degrees Celsius), the blue outlines are fixed. Next, according to the design, painters fill various low-temperature overglaze enamel colors like red, yellow, green, and purple within the blue outlines. Finally, it enters the kiln again for a second firing at a lower temperature (around 800 degrees). This allows the deep blue of the underglaze and the brilliant colors of the overglaze to compete and blend perfectly, hence the name "Doucai" (contesting colors).',
+      'Speaking of Doucai, one must mention the world-renowned "Chenghua Doucai Chicken Cup" in ceramic history. This is a small and exquisite wine vessel; the outer wall of the cup is painted with a scene of a rooster and hen leading chicks foraging among peonies and rocky slopes, extremely rich in life\'s charm and family happiness. Legend has it that the art-loving Emperor Chenghua, attempting to please his beloved Consort Wan, who was 17 years his senior, personally ordered the imperial kiln to fire such exquisite translucent cups. Due to massive firing difficulties and extremely low yield, the Chicken Cup was already worth "a hundred thousand strings of cash" during the Wanli reign of the Ming Dynasty, and in modern auction markets, it has repeatedly created miracles of astronomical prices exceeding hundreds of millions.',
+      'The artistic style of Chenghua Doucai can be described in six words: "Mild, elegant, and exquisite." Different from the grand, majestic, and even somewhat rugged style of the early Ming Dynasty (such as Yongle and Xuande), Chenghua imperial porcelain bodies are extremely thin, and the glaze surface is as perfectly moist as congealed fat. The polychrome painting on it does not pursue overly strong, glaring contrast, but exudes a soft, powdery aura. Whether depicting floral branches or playing children, it emanates a tranquil, charmingly naive rhyme.',
+      'The invention of Doucai opened a new door for Chinese ceramic art and laid the technical foundation for the emergence of the more complex Famille Rose and Falangcai in the Qing Dynasty. Although subsequent Emperors Yongzheng and Qianlong vigorously imitated Chenghua Doucai, the unique pure, elegant, and transcendent temperament of the Chenghua reign—resembling Ming literati paintings—stands like an imposing high mountain, becoming an unsurpassable zenith in ceramic history.'
+    ],
+    mediaType: 'image',
+    mediaUrl: '/images/ChenghuaChickenCup.png',
+    date: '2023-12-01'
+  },
+  {
+    id: 'langyao-red',
+    titleZh: '郎窑红：烈火中涅槃的红宝石与皇家极致追求',
+    titleEn: 'Langyao Red: Rubies Reborn in Fire and the Imperial Ultimate Pursuit',
+    summaryZh: '自明代永宣之后几近失传的高温铜红釉，在清代康熙时期的“郎窑红”中迎来了辉煌的复兴，颜色如牛血般浓烈，成品极其罕见。',
+    summaryEn: 'High-temperature copper-red glaze, almost lost after the early Ming, experienced a glorious revival in the "Langyao Red" of the Qing Kangxi period. Its color is as intense as ox-blood, and successful pieces are incredibly rare.',
+    contentZh: [
+      '在所有的瓷器釉色中，烧制难度最大、成品率最低的，莫过于高温铜红釉。这种颜色是由微量的氧化铜在达到1300度以上的高温中，处于严格的还原气氛（缺氧状态）下才能烧出来的。稍有不慎，温度偏高或偏低，或者氧气飘入，美丽的晶红色就会立刻变成暗淡的黑褐色或黯绿色。因此，古人常说这种如红宝石般璀璨的红釉是“千窑一宝”。',
+      '明代初期的永乐、宣德年间，景德镇御窑厂曾不惜工本，成功烧制出了绝佳的“祭红”（也称霁红）。这种红色深沉艳丽，多用于皇家祭祀大典。然而，由于烧制条件过于苛刻，耗费极大，宣德之后，这种高温铜红釉的烧制技艺竟然逐渐失传了。直到两百多年后的清朝康熙年间，这一陶瓷史上的明珠才得以重新焕发光彩。',
+      '康熙四十四年（1705年），江西巡抚郎廷极奉命督理景德镇御窑厂的管理工作。在康熙皇帝的鼎力支持下，郎廷极组织了大批能工巧匠，经过无数次的反复试验，终于成功恢复并超越了明代的高温铜红釉，创烧出了令后世震撼的“郎窑红”。为了纪念他的功绩，这种瓷器便以他本人的姓氏命名。',
+      '郎窑红最大的特点就是色彩极其鲜艳、浓烈，犹如刚流淌出的牛血，因此在西方它也获得了一个极为霸气的名字——“牛血红”（Sang de boeuf）。与明代的祭红不同，郎窑红的釉面具有极强的玻璃光泽，质感厚重且伴有细碎的开片。由于釉料在高温下垂直流动，器物口沿往往会露出白色的胎骨，被称为“脱口”；而在器物底部，垂流的釉汁又会被工匠精准地控制在底足线上，绝不过底，被称为“垂釉不过足”。这构成了郎窑红“脱口垂足郎不流”的独特美学特征。',
+      '郎窑红的烧制成本之高、成品率之低在当时是出了名的。民间曾有句谚语：“若要穷，烧郎红”。每一件完美的郎窑红瓷器，都是在无数的残次品中大浪淘沙留下的奇迹。它不仅彰显了康熙盛世对于恢复和超越前朝文化的雄心壮志，更是中国陶瓷工匠们挑战极限、在烈火中追求极致艺术的一座不朽丰碑。'
+    ],
+    contentEn: [
+      'Among all porcelain glaze colors, the most difficult to produce and the one with the lowest yield is undoubtedly high-temperature copper red. This color can only be fired by trace amounts of copper oxide reaching high temperatures over 1300 degrees Celsius under a strict reduction atmosphere (oxygen-deprived conditions). A slight misstep—temperature too high or too low, or oxygen drifting in—will instantly turn the beautiful crystalline red into a dull brownish-black or dark green. Therefore, the ancients often said this ruby-bright red glaze is "a treasure found once in a thousand kilns."',
+      'During the early Ming Dynasty (Yongle and Xuande periods), the Jingdezhen Imperial Kiln spared no expense and successfully fired the magnificent "Sacrificial Red" (Jihong). This red was deep and bright, mostly used for imperial grand sacrifice ceremonies. However, due to the extremely harsh firing conditions and immense cost, the technique of firing high-temperature copper-red glaze gradually became lost after the Xuande period. It was not until more than two hundred years later, during the Kangxi reign of the Qing Dynasty, that this pearl in ceramic history regained its luster.',
+      'In the 44th year of Kangxi (1705), Lang Tingji, the Governor of Jiangxi, was ordered to supervise the management of the Jingdezhen Imperial Kiln. With the strong support of Emperor Kangxi, Lang Tingji organized a large number of skilled craftsmen and, after countless repeated experiments, finally successfully restored and even surpassed the high-temperature copper red of the Ming Dynasty, creating the "Langyao Red" that shocked later generations. To commemorate his achievements, this porcelain was named after his surname.',
+      'The greatest feature of Langyao Red is that its color is extremely vibrant and intense, resembling freshly shed ox blood, thus earning it a highly domineering name in the West: "Sang de boeuf" (Ox-blood Red). Different from the Sacrificial Red of the Ming Dynasty, the glaze surface of Langyao Red has a very strong glassy luster, a thick and heavy texture, and is accompanied by fine crackles. Because the glaze flows vertically at high temperatures, the rim of the vessel often exposes the white clay body, known as "Tuokou" (shedding the rim); while at the bottom of the vessel, the dripping glaze was precisely controlled by craftsmen along the foot line, never flowing past it. This formed the unique aesthetic characteristic of Langyao Red: "Shedding at the rim, heavy at the foot, but never flowing over."',
+      'The notoriously high firing costs and shockingly low yield of Langyao Red were famous at the time. A folk proverb went: "If you want to go broke, fire Lang Red." Every perfect piece of Langyao Red porcelain is a miracle left after washing away the sand among countless defective pieces. It not only highlighted the ambition of the flourishing Kangxi era to restore and surpass the culture of previous dynasties but also stands as an immortal monument to Chinese ceramic craftsmen challenging limits and pursuing ultimate art amidst the fierce fire.'
+    ],
+    mediaType: 'image',
+    mediaUrl: '/images/LangyaoRedVase.png',
+    date: '2024-04-18'
   }
 ];
