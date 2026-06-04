@@ -16,8 +16,14 @@ export default function Footer() {
           <Link to="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
           <a href="mailto:contact@sinoceramics.example.com" className="hover:text-white transition-colors">Contact Us</a>
         </div>
-        <div className="text-sm text-slate-500">
-          © {new Date().getFullYear()} SinoCeramics Co., Ltd. All rights reserved.
+        <div className="flex flex-col md:items-end gap-2 text-center md:text-right">
+          <div className="text-sm text-slate-500">
+            © {new Date().getFullYear()} SinoCeramics Co., Ltd. All rights reserved.
+          </div>
+          <div className="text-xs text-slate-600 max-w-sm">
+            * Some conceptual images on this site are AI-generated to illustrate historical aesthetics.<br />
+            部分概念展示图片由 AI 生成。
+          </div>
         </div>
       </div>
     </footer>
