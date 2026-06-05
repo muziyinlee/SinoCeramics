@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, Sparkles, BookOpen, PenTool } from 'lucide-react';
+import { ArrowRight, Sparkles, BookOpen, PenTool, Users } from 'lucide-react';
 import { ARTICLES } from '../data/articles';
+import { ARTISANS } from '../data/artisans';
 import AdSenseSlot from '../components/AdSenseSlot';
 import { useState, useEffect } from 'react';
 
@@ -198,8 +199,80 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Artisans Section */}
+      <section className="py-24 bg-neutral-900 border-t border-neutral-900 relative">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6 border-b border-neutral-800 pb-8">
+            <div className="max-w-xl">
+              <span className="text-orient-500 font-medium tracking-[0.2em] text-xs uppercase mb-3 block flex items-center gap-2">
+                <Users className="w-4 h-4" />
+                Keepers of the Kiln
+                <span className="ml-2 opacity-70">一代匠人</span>
+              </span>
+              <h2 className="text-3xl md:text-4xl font-serif text-neutral-100 mb-4 font-light">
+                Master Artisans
+              </h2>
+              <h3 className="text-xl md:text-2xl font-serif text-white mb-6 font-light opacity-90">
+                匠人传录
+              </h3>
+              <p className="text-neutral-400 font-light leading-relaxed mb-2">
+                The brilliant minds and devout hands behind the immortal ceramics.
+              </p>
+              <p className="text-neutral-500 font-light leading-relaxed">
+                不朽陶瓷背后那些耀眼的头脑与奉献的双手。
+              </p>
+            </div>
+            <Link to="/artisans" className="hidden md:flex items-center gap-2 text-orient-500 font-medium tracking-widest uppercase text-xs hover:text-orient-400 transition-colors group">
+              View All Artisans <span className="opacity-70 ml-1">查看所有工匠</span> <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+            </Link>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {ARTISANS.slice(0, 4).map(artisan => (
+              <Link to={`/artisan/${artisan.id}`} key={artisan.id} className="group flex flex-col items-start bg-neutral-950 border border-neutral-900 overflow-hidden hover:border-neutral-800 transition-colors">
+                <div className="w-full aspect-square overflow-hidden bg-neutral-900 relative">
+                   {(artisan.mediaUrl) && (
+                     <img 
+                       src={artisan.mediaUrl} 
+                       alt={artisan.nameEn} 
+                       className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-70 group-hover:opacity-100 mix-blend-luminosity hover:mix-blend-normal relative z-10"
+                       onError={(e) => {
+                         (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1610996841527-beaca1129b19?auto=format&fit=crop&q=80&w=2670';
+                       }}
+                     />
+                   )}
+                   <div className="absolute inset-0 bg-gradient-to-t from-neutral-950 via-transparent to-transparent z-20 pointer-events-none opacity-80 group-hover:opacity-50 transition-opacity"></div>
+                </div>
+                <div className="p-6 flex flex-col flex-1 w-full">
+                  <div className="flex justify-between items-center mb-3">
+                    <span className="text-xs tracking-widest uppercase text-neutral-500 font-mono">
+                      {artisan.dynastyEn}
+                    </span>
+                  </div>
+                  <h3 className="text-2xl font-serif text-neutral-200 mb-1 group-hover:text-orient-400 transition-colors font-light">
+                    {artisan.nameEn}
+                  </h3>
+                  <h4 className="text-xl font-serif text-white mb-4 group-hover:text-orient-400 transition-colors font-light opacity-90">
+                    {artisan.nameZh}
+                  </h4>
+                  <p className="text-neutral-400 font-light line-clamp-2 mb-2 leading-relaxed text-sm">
+                    {artisan.summaryEn}
+                  </p>
+                  <p className="text-neutral-500 font-light line-clamp-2 mb-6 flex-1 leading-loose text-sm">
+                    {artisan.summaryZh}
+                  </p>
+                  <div className="text-xs uppercase tracking-widest font-medium text-orient-500 flex items-center gap-2 group-hover:gap-3 transition-all mt-auto pt-4 border-t border-neutral-900/50">
+                    Discover <span className="opacity-70 ml-1">探索</span> <ArrowRight className="w-4 h-4" />
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Explore Section */}
-      <section className="py-24 bg-neutral-900 border-t border-neutral-800">
+      <section className="py-24 bg-neutral-950 border-t border-neutral-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <BookOpen className="w-8 h-8 text-orient-500 mx-auto mb-8 opacity-50" />
           <h2 className="text-3xl md:text-4xl font-serif text-neutral-100 mb-4 font-light">
