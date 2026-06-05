@@ -13,6 +13,7 @@ export default function Navbar() {
           <Link to="/" className="hover:text-orient-400 transition-colors uppercase tracking-widest text-xs">Home</Link>
           <Link to="/catalog" className="hover:text-orient-400 transition-colors uppercase tracking-widest text-xs">Exhibition</Link>
           <Link to="/gallery" className="hover:text-orient-400 transition-colors uppercase tracking-widest text-xs">Gallery</Link>
+          <Link to="/artisans" className="hover:text-orient-400 transition-colors uppercase tracking-widest text-xs">Artisans</Link>
           <Link to="/about" className="hover:text-orient-400 transition-colors uppercase tracking-widest text-xs">About</Link>
           <Link to="/contact" className="hover:text-orient-400 transition-colors uppercase tracking-widest text-xs">Contact</Link>
         </div>

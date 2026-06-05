@@ -1,10 +1,40 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, Sparkles, BookOpen } from 'lucide-react';
+import { ArrowRight, Sparkles, BookOpen, PenTool } from 'lucide-react';
 import { ARTICLES } from '../data/articles';
 import AdSenseSlot from '../components/AdSenseSlot';
+import { useState, useEffect } from 'react';
+
+const QUOTES = [
+  {
+    en: "Clay, shaped by human hands and transformed by fire, becomes an eternal testament to civilization.",
+    zh: "泥土在人类的双手下成型，在烈火中蜕变，成为文明永恒的见证。"
+  },
+  {
+    en: "A vessel carved from the earth holds not just water, but the quiet reflection of an entire dynasty.",
+    zh: "取自大地的器里盛装的不仅是水，更折射出一个时代宁静的倒影。"
+  },
+  {
+    en: "Through the crackle of glaze and the purity of white, porcelain whispers the secrets of ancient aesthetics.",
+    zh: "透过釉面的开片与纯净的白，瓷器低语着古典美学的奥秘。"
+  },
+  {
+    en: "From rough soil to delicate art, the kiln's flames refine the soul of the oriental craftsmanship.",
+    zh: "从粗砺泥土到绝美佳器，烈火淬炼出东方工匠的灵魂。"
+  },
+  {
+    en: "Each piece of porcelain is a frozen moment of history, bridging the past and present through art.",
+    zh: "每一件瓷器都是凝固的历史，用艺术连接着过去与现在。"
+  }
+];
 
 export default function Home() {
   const featuredArticles = ARTICLES.slice(0, 3);
+  const [quote, setQuote] = useState(QUOTES[0]);
+
+  useEffect(() => {
+    const randomIndex = Math.floor(Math.random() * QUOTES.length);
+    setQuote(QUOTES[randomIndex]);
+  }, []);
 
   return (
     <div className="flex flex-col bg-neutral-950 min-h-screen text-neutral-200">
@@ -55,14 +85,48 @@ export default function Home() {
 
       {/* Intro Section */}
       <section className="py-24 bg-neutral-900">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center min-h-[250px]">
           <Sparkles className="w-8 h-8 text-orient-500 mx-auto mb-8 opacity-50" />
-          <h2 className="text-2xl md:text-3xl font-serif text-neutral-200 mb-6 font-light leading-relaxed">
-            "Clay, shaped by human hands and transformed by fire, becomes an eternal testament to civilization."
+          <h2 className="text-2xl md:text-3xl font-serif text-neutral-200 mb-6 font-light leading-relaxed min-h-[80px] flex items-center justify-center transition-opacity duration-1000">
+            "{quote.en}"
           </h2>
-          <p className="text-neutral-400 text-lg leading-loose font-light mb-12">
-            “泥土在人类的双手下成型，在烈火中蜕变，成为文明永恒的见证。”
+          <p className="text-neutral-400 text-lg leading-loose font-light mb-12 min-h-[30px] transition-opacity duration-1000">
+            “{quote.zh}”
           </p>
+        </div>
+      </section>
+
+      {/* Curator Insights / Unique Value Section */}
+      <section className="py-24 relative bg-neutral-950 border-t border-neutral-900">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="space-y-8">
+            <span className="text-orient-500 font-medium tracking-[0.2em] text-xs uppercase mb-3 block flex items-center gap-2">
+              <PenTool className="w-4 h-4" />
+              Curator's Perspective
+              <span className="ml-2 opacity-70">主理人手记</span>
+            </span>
+            <h2 className="text-3xl md:text-4xl font-serif text-neutral-100 mb-4 font-light">
+              Why We Curate
+            </h2>
+            <h3 className="text-xl md:text-2xl font-serif text-white mb-6 font-light opacity-90">
+              建站独家洞察
+            </h3>
+            
+            <div className="prose prose-invert border-l-2 border-orient-900 pl-6 leading-loose space-y-6">
+              <p className="text-neutral-400 font-light text-base">
+                "Most history books treat porcelain merely as artifacts—data points of production dates and excavation sites. But through our curation at OrientKiln, we want to share a more personal, aesthetic reading. When I first studied Song dynasty ceramics, I realized that the subtle 'ice-crackle' glazes were not manufacturing flaws, but deliberate expressions of Taoist philosophy—finding perfection in imperfection."
+              </p>
+              <p className="text-neutral-500 font-light text-base">
+                大多数历史书籍仅仅将瓷器视为文物——只是一堆记载着生产日期和出土位置的数据点。但在OrientKiln的策展中，我们希望分享更具个人色彩、更偏重美学的解读点。当我最初研究宋代瓷器时，我意识到那些微妙的“冰裂纹”并非制作工艺上的缺陷，而是道家哲学的刻意表达——在不完美中寻找完美。这是你无法从冰冷的百科全书中读懂的生命力。
+              </p>
+              <p className="text-neutral-400 font-light text-base">
+                "Each article presented here is woven with our unique insights, synthesizing aesthetic theory, historical context, and modern design appreciation to give you a fresh perspective on ancient art. Beyond the objects, we also document the legendary artisans—the <Link to="/artisans" className="text-orient-400 hover:underline">Keepers of the Kiln</Link>—whose devotion transformed mud and fire into eternal civilization."
+              </p>
+              <p className="text-neutral-500 font-light text-base">
+                这里展示的每一篇文章都交织着我们的独家见解，综合了美学理论、历史背景和现代设计鉴赏力，旨在为您提供一个审视古代艺术的全新视角。除了器物本身，我们也为您记录了那些传奇的窑工与名匠——<Link to="/artisans" className="text-orient-400 hover:underline">匠人传录</Link>——正是他们的热血与奉献，将泥土和烈火化为了不朽的文明。
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 

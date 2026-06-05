@@ -5,6 +5,8 @@ import CookieBanner from './components/CookieBanner';
 import Home from './pages/Home';
 import Catalog from './pages/Catalog';
 import Gallery from './pages/Gallery';
+import Artisans from './pages/Artisans';
+import ArtisanDetail from './pages/ArtisanDetail';
 import ArticleDetail from './pages/ArticleDetail';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -20,6 +22,8 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/catalog" element={<Catalog />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/artisans" element={<Artisans />} />
+          <Route path="/artisan/:id" element={<ArtisanDetail />} />
           <Route path="/article/:id" element={<ArticleDetail />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />

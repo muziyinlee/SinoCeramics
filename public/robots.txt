@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.sinoceramics.com/sitemap.xml
+Sitemap: https://www.orientkiln.com/sitemap.xml
