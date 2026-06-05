@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import CookieBanner from './components/CookieBanner';
 import Home from './pages/Home';
 import Catalog from './pages/Catalog';
+import Gallery from './pages/Gallery';
 import ArticleDetail from './pages/ArticleDetail';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -18,6 +19,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/catalog" element={<Catalog />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="/article/:id" element={<ArticleDetail />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />

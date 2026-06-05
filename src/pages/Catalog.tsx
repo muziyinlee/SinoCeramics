@@ -26,9 +26,9 @@ export default function Catalog() {
           {ARTICLES.map(article => (
             <Link to={`/article/${article.id}`} key={article.id} className="group flex flex-col">
               <div className="w-full aspect-[4/5] overflow-hidden bg-neutral-900 mb-6 relative">
-                 {article.mediaUrl && (
+                 {(article.mediaCardUrl || article.mediaUrl) && (
                    <img 
-                     src={article.mediaUrl} 
+                     src={article.mediaCardUrl || article.mediaUrl} 
                      alt={article.titleEn} 
                      className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-90 group-hover:opacity-100 mix-blend-luminosity hover:mix-blend-normal"
                      onError={(e) => {

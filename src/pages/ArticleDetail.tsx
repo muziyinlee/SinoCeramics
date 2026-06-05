@@ -33,11 +33,11 @@ export default function ArticleDetail() {
           <AdSenseSlot className="min-h-[100px] bg-neutral-900 rounded-xl" slotId="article-top" />
         </div>
 
-        {article.mediaUrl && (
+        {(article.mediaBannerUrl || article.mediaUrl) && (
           <div className="w-full aspect-[16/9] md:aspect-[21/9] overflow-hidden mb-20 relative px-4">
              <div className="absolute inset-0 bg-gradient-to-r from-neutral-950 via-transparent to-neutral-950 z-10 pointer-events-none"></div>
              <ImageLightbox 
-               src={article.mediaUrl} 
+               src={article.mediaBannerUrl || article.mediaUrl} 
                alt={article.titleEn} 
                className="w-full h-full shadow-2xl relative z-0"
              />
@@ -56,6 +56,17 @@ export default function ArticleDetail() {
                 <p className="mb-0 text-white leading-loose text-base font-light">
                   {article.contentZh[idx]}
                 </p>
+              )}
+              {idx === 1 && article.mediaSquareUrl && (
+                <div className="mt-16 mb-4 flex justify-center px-4">
+                  <div className="w-full max-w-lg aspect-square relative overflow-hidden ring-1 ring-white/10 p-2 bg-neutral-900/50">
+                    <ImageLightbox 
+                      src={article.mediaSquareUrl} 
+                      alt={`${article.titleEn} detail`} 
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                </div>
               )}
             </div>
           ))}

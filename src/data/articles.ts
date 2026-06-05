@@ -9,6 +9,9 @@ export interface Article {
   mediaType: 'image' | 'video';
   mediaUrl: string;
   date: string;
+  mediaBannerUrl?: string;
+  mediaCardUrl?: string;
+  mediaSquareUrl?: string;
 }
 
 export const ARTICLES: Article[] = [
@@ -34,6 +37,9 @@ export const ARTICLES: Article[] = [
     ],
     mediaType: 'image',
     mediaUrl: '/images/AzureGeRuWare.png',
+    mediaBannerUrl: '/images/RuFlareVase01.png',
+    mediaCardUrl: '/images/RuFlareVase02.png',
+    mediaSquareUrl: '/images/RuFlareVase03.png',
     date: '2023-10-15'
   },
   {
@@ -58,6 +64,9 @@ export const ARTICLES: Article[] = [
     ],
     mediaType: 'image',
     mediaUrl: '/images/TangSancaiBactrianCamel.png',
+    mediaBannerUrl: '/images/TangSancaiBactrianCamel.png',
+    mediaCardUrl: '/images/Tri-ColorTangGallopingHorse.png',
+    mediaSquareUrl: '/images/SancaiRunningHorseSculpture.png',
     date: '2023-11-20'
   },
   {
@@ -82,6 +91,9 @@ export const ARTICLES: Article[] = [
     ],
     mediaType: 'image',
     mediaUrl: '/images/JianSilverHare2.png',
+    mediaBannerUrl: '/images/JianSilverHare1.png',
+    mediaCardUrl: '/images/JianSilverHare2.png',
+    mediaSquareUrl: '/images/JianSilverHare3.png',
     date: '2024-01-05'
   },
   {
@@ -106,6 +118,9 @@ export const ARTICLES: Article[] = [
     ],
     mediaType: 'image',
     mediaUrl: '/images/LotusBlueandWhitePearVase.png',
+    mediaBannerUrl: '/images/LotusBlueandWhitePearVase.png',
+    mediaCardUrl: '/images/TraditionalChineseFloralQinghuaVase.png',
+    mediaSquareUrl: '/images/BlueDragonMepingVase.png',
     date: '2024-02-10'
   },
   {
@@ -130,6 +145,9 @@ export const ARTICLES: Article[] = [
     ],
     mediaType: 'image',
     mediaUrl: '/images/FRFlowerLiddedJar.png',
+    mediaBannerUrl: '/images/FRBirdTeapot1.png',
+    mediaCardUrl: '/images/FRBirdTeapot2.png',
+    mediaSquareUrl: '/images/FRBirdTeapot3.png',
     date: '2024-03-22'
   },
   {
@@ -154,6 +172,9 @@ export const ARTICLES: Article[] = [
     ],
     mediaType: 'image',
     mediaUrl: '/images/CeladonCrackleTeacup.png',
+    mediaBannerUrl: '/images/RuCeladon1.png',
+    mediaCardUrl: '/images/RuCeladon2.png',
+    mediaSquareUrl: '/images/RuCeladon3.png',
     date: '2024-04-10'
   },
   {
@@ -178,6 +199,9 @@ export const ARTICLES: Article[] = [
     ],
     mediaType: 'image',
     mediaUrl: '/images/DingWhiteBowl.png',
+    mediaBannerUrl: '/images/DingSilverRimLotusBowl01.png',
+    mediaCardUrl: '/images/DingSilverRimLotusBowl02.png',
+    mediaSquareUrl: '/images/DingSilverRimLotusBowl03.png',
     date: '2024-05-15'
   },
   {
@@ -202,6 +226,9 @@ export const ARTICLES: Article[] = [
     ],
     mediaType: 'image',
     mediaUrl: '/images/JunRosePurpleBowl.png',
+    mediaBannerUrl: '/images/JunFlambeBowl01.png',
+    mediaCardUrl: '/images/JunFlambeBowl02.png',
+    mediaSquareUrl: '/images/JunFlambeBowl03.png',
     date: '2024-06-04'
   },
   {
@@ -226,6 +253,9 @@ export const ARTICLES: Article[] = [
     ],
     mediaType: 'image',
     mediaUrl: '/images/GuanWareVaseCrackle.png',
+    mediaBannerUrl: '/images/RuRoundPlate01.png',
+    mediaCardUrl: '/images/RuRoundPlate02.png',
+    mediaSquareUrl: '/images/RuRoundPlate03.png',
     date: '2024-07-01'
   },
   {
@@ -250,6 +280,9 @@ export const ARTICLES: Article[] = [
     ],
     mediaType: 'image',
     mediaUrl: '/images/GeWareIncenseBurner.png',
+    mediaBannerUrl: '/images/GeNoHandleCenser01.png',
+    mediaCardUrl: '/images/GeNoHandleCenser02.png',
+    mediaSquareUrl: '/images/GeNoHandleCenser03.png',
     date: '2024-07-15'
   },
   {
@@ -274,6 +307,9 @@ export const ARTICLES: Article[] = [
     ],
     mediaType: 'image',
     mediaUrl: '/images/CizhouBlackWhite.png',
+    mediaBannerUrl: '/images/CizhouBlackFloralJar01.png',
+    mediaCardUrl: '/images/CizhouBlackFloralJar02.png',
+    mediaSquareUrl: '/images/CizhouBlackFloralJar03.png',
     date: '2024-05-20'
   },
   {
@@ -298,6 +334,9 @@ export const ARTICLES: Article[] = [
     ],
     mediaType: 'image',
     mediaUrl: '/images/YaozhouCarvedBowl.png',
+    mediaBannerUrl: '/images/YaozhouPeonyBowl01.png',
+    mediaCardUrl: '/images/YaozhouPeonyBowl02.png',
+    mediaSquareUrl: '/images/YaozhouPeonyBowl03.png',
     date: '2023-09-12'
   },
   {
@@ -322,6 +361,9 @@ export const ARTICLES: Article[] = [
     ],
     mediaType: 'image',
     mediaUrl: '/images/BlancDeChineGuanyin.png',
+    mediaBannerUrl: '/images/DehuaGuanyin01.png',
+    mediaCardUrl: '/images/DehuaGuanyin02.png',
+    mediaSquareUrl: '/images/DehuaGuanyin03.png',
     date: '2024-03-08'
   },
   {
@@ -346,6 +388,9 @@ export const ARTICLES: Article[] = [
     ],
     mediaType: 'image',
     mediaUrl: '/images/ChenghuaChickenCup.png',
+    mediaBannerUrl: '/images/Doucai_ChickenCup01.png',
+    mediaCardUrl: '/images/Doucai_ChickenCup02.png',
+    mediaSquareUrl: '/images/Doucai_ChickenCup03.png',
     date: '2023-12-01'
   },
   {
@@ -370,6 +415,9 @@ export const ARTICLES: Article[] = [
     ],
     mediaType: 'image',
     mediaUrl: '/images/LangyaoRedVase.png',
+    mediaBannerUrl: '/images/LangRedLanternVase01.png',
+    mediaCardUrl: '/images/LangRedLanternVase02.png',
+    mediaSquareUrl: '/images/LangRedLanternVase03.png',
     date: '2024-04-18'
   }
 ];
