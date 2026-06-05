@@ -15,9 +15,17 @@ export default function Contact() {
     <div className="bg-neutral-950 min-h-screen py-24 text-neutral-200">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl md:text-5xl font-serif text-neutral-100 mb-8 text-center font-light">Contact</h1>
-        <p className="text-neutral-400 text-center mb-12 font-light">
-          We welcome inquiries from researchers, collectors, and enthusiasts alike.
-        </p>
+        <div className="text-center mb-12">
+          <p className="text-neutral-400 font-light mb-6">
+            We welcome inquiries from researchers, collectors, and enthusiasts alike.
+          </p>
+          <div className="inline-flex flex-col items-center p-6 bg-neutral-900 border border-neutral-800 w-full md:w-auto">
+             <span className="text-xs uppercase tracking-widest font-medium text-neutral-500 mb-2">Direct Email</span>
+             <a href="mailto:reginiadenherdervd@gmail.com" className="text-orient-500 hover:text-orient-400 font-mono transition-colors">
+               reginiadenherdervd@gmail.com
+             </a>
+          </div>
+        </div>
         
         <div className="bg-neutral-900 rounded-none border border-neutral-800 p-8 md:p-12 shadow-2xl">
           <form className="space-y-6" onSubmit={handleSubmit}>
