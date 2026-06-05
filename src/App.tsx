@@ -12,7 +12,7 @@ import Privacy from './pages/Privacy';
 
 export default function App() {
   return (
-    <div className="min-h-screen flex flex-col bg-slate-50 font-sans">
+    <div className="min-h-screen flex flex-col bg-neutral-950 text-neutral-200 font-sans selection:bg-orient-900 selection:text-orient-100">
       <Navbar />
       <main className="flex-1 pt-16">
         <Routes>
