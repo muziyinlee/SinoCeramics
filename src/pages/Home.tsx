@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { ArrowRight, Sparkles, BookOpen, PenTool, Users } from 'lucide-react';
+import { motion } from 'motion/react';
 import { ARTICLES } from '../data/articles';
 import { ARTISANS } from '../data/artisans';
 import AdSenseSlot from '../components/AdSenseSlot';
@@ -47,7 +48,12 @@ export default function Home() {
           style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1610996841527-beaca1129b19?auto=format&fit=crop&q=80&w=2670&ixlib=rb-4.0.3)' }}
         ></div>
         
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center py-32 mt-20">
+        <motion.div 
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0.2 }}
+          className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center py-32 mt-20"
+        >
           <span className="text-orient-500 font-medium tracking-[0.3em] text-xs uppercase mb-6 block">
             The Digital Museum
             <br/><span className="text-[10px] tracking-widest mt-1 opacity-70">数字博物馆</span>
@@ -74,7 +80,7 @@ export default function Home() {
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
-        </div>
+        </motion.div>
       </section>
 
       {/* Feature AdSense Slot */}
@@ -86,7 +92,13 @@ export default function Home() {
 
       {/* Intro Section */}
       <section className="py-24 bg-neutral-900">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center min-h-[250px]">
+        <motion.div 
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.8 }}
+          className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center min-h-[250px]"
+        >
           <Sparkles className="w-8 h-8 text-orient-500 mx-auto mb-8 opacity-50" />
           <h2 className="text-2xl md:text-3xl font-serif text-neutral-200 mb-6 font-light leading-relaxed min-h-[80px] flex items-center justify-center transition-opacity duration-1000">
             "{quote.en}"
@@ -94,12 +106,18 @@ export default function Home() {
           <p className="text-neutral-400 text-lg leading-loose font-light mb-12 min-h-[30px] transition-opacity duration-1000">
             “{quote.zh}”
           </p>
-        </div>
+        </motion.div>
       </section>
 
       {/* Curator Insights / Unique Value Section */}
       <section className="py-24 relative bg-neutral-950 border-t border-neutral-900">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <motion.div 
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.8 }}
+          className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8"
+        >
           <div className="space-y-8">
             <span className="text-orient-500 font-medium tracking-[0.2em] text-xs uppercase mb-3 block flex items-center gap-2">
               <PenTool className="w-4 h-4" />
@@ -128,7 +146,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-        </div>
+        </motion.div>
       </section>
 
       {/* Featured Section */}
@@ -159,41 +177,50 @@ export default function Home() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-12">
-            {featuredArticles.map(article => (
-              <Link to={`/article/${article.id}`} key={article.id} className="group flex flex-col items-start">
-                <div className="w-full aspect-[3/4] overflow-hidden bg-neutral-900 mb-8 relative">
-                   <div className="absolute inset-0 bg-neutral-800 animate-pulse"></div>
-                   {(article.mediaCardUrl || article.mediaUrl) && (
-                     <img 
-                       src={article.mediaCardUrl || article.mediaUrl} 
-                       alt={article.titleEn} 
-                       className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-90 group-hover:opacity-100 mix-blend-luminosity hover:mix-blend-normal relative z-10"
-                       onError={(e) => {
-                         (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1610996841527-beaca1129b19?auto=format&fit=crop&q=80&w=2670';
-                       }}
-                     />
-                   )}
-                   <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-neutral-950 to-transparent z-20 pointer-events-none"></div>
-                </div>
-                <div className="flex items-center gap-3 text-xs tracking-widest uppercase text-neutral-500 mb-4 w-full border-b border-neutral-900 pb-3">
-                  <span>{article.date}</span>
-                </div>
-                <h3 className="text-xl font-serif text-neutral-200 mb-2 group-hover:text-orient-400 transition-colors font-light line-clamp-2">
-                  {article.titleEn}
-                </h3>
-                <h4 className="text-lg font-serif text-white mb-6 group-hover:text-orient-400 transition-colors font-light opacity-90">
-                  {article.titleZh}
-                </h4>
-                <p className="text-neutral-400 font-light line-clamp-3 mb-2 flex-1 leading-relaxed text-sm">
-                  {article.summaryEn}
-                </p>
-                <p className="text-neutral-500 font-light line-clamp-3 mb-6 flex-1 leading-loose text-sm">
-                  {article.summaryZh}
-                </p>
-                <div className="text-xs uppercase tracking-widest font-medium text-orient-500 flex items-center gap-2 group-hover:gap-3 transition-all mt-auto">
-                  View artifact <span className="opacity-70 ml-1">查看文物</span> <ArrowRight className="w-4 h-4" />
-                </div>
-              </Link>
+            {featuredArticles.map((article, index) => (
+              <motion.div 
+                key={article.id}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.6, delay: index * 0.15 }}
+                className="group flex flex-col items-start"
+              >
+                <Link to={`/article/${article.id}`} className="w-full flex-1 flex flex-col">
+                  <div className="w-full aspect-[3/4] overflow-hidden bg-neutral-900 mb-8 relative">
+                     <div className="absolute inset-0 bg-neutral-800 animate-pulse"></div>
+                     {(article.mediaCardUrl || article.mediaUrl) && (
+                       <img 
+                         src={article.mediaCardUrl || article.mediaUrl} 
+                         alt={article.titleEn} 
+                         className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-100 md:opacity-90 group-hover:opacity-100 mix-blend-normal md:mix-blend-luminosity hover:mix-blend-normal relative z-10"
+                         onError={(e) => {
+                           (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1610996841527-beaca1129b19?auto=format&fit=crop&q=80&w=2670';
+                         }}
+                       />
+                     )}
+                     <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-neutral-950 to-transparent z-20 pointer-events-none"></div>
+                  </div>
+                  <div className="flex items-center gap-3 text-xs tracking-widest uppercase text-neutral-500 mb-4 w-full border-b border-neutral-900 pb-3">
+                    <span>{article.date}</span>
+                  </div>
+                  <h3 className="text-xl font-serif text-neutral-200 mb-2 group-hover:text-orient-400 transition-colors font-light line-clamp-2">
+                    {article.titleEn}
+                  </h3>
+                  <h4 className="text-lg font-serif text-white mb-6 group-hover:text-orient-400 transition-colors font-light opacity-90">
+                    {article.titleZh}
+                  </h4>
+                  <p className="text-neutral-400 font-light line-clamp-3 mb-2 flex-1 leading-relaxed text-sm">
+                    {article.summaryEn}
+                  </p>
+                  <p className="text-neutral-500 font-light line-clamp-3 mb-6 flex-1 leading-loose text-sm">
+                    {article.summaryZh}
+                  </p>
+                  <div className="text-xs uppercase tracking-widest font-medium text-orient-500 flex items-center gap-2 group-hover:gap-3 transition-all mt-auto pt-4">
+                    View artifact <span className="opacity-70 ml-1">查看文物</span> <ArrowRight className="w-4 h-4" />
+                  </div>
+                </Link>
+              </motion.div>
             ))}
           </div>
         </div>
@@ -228,44 +255,53 @@ export default function Home() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {ARTISANS.slice(0, 4).map(artisan => (
-              <Link to={`/artisan/${artisan.id}`} key={artisan.id} className="group flex flex-col items-start bg-neutral-950 border border-neutral-900 overflow-hidden hover:border-neutral-800 transition-colors">
-                <div className="w-full aspect-square overflow-hidden bg-neutral-900 relative">
-                   {(artisan.mediaUrl) && (
-                     <img 
-                       src={artisan.mediaUrl} 
-                       alt={artisan.nameEn} 
-                       className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-70 group-hover:opacity-100 mix-blend-luminosity hover:mix-blend-normal relative z-10"
-                       onError={(e) => {
-                         (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1610996841527-beaca1129b19?auto=format&fit=crop&q=80&w=2670';
-                       }}
-                     />
-                   )}
-                   <div className="absolute inset-0 bg-gradient-to-t from-neutral-950 via-transparent to-transparent z-20 pointer-events-none opacity-80 group-hover:opacity-50 transition-opacity"></div>
-                </div>
-                <div className="p-6 flex flex-col flex-1 w-full">
-                  <div className="flex justify-between items-center mb-3">
-                    <span className="text-xs tracking-widest uppercase text-neutral-500 font-mono">
-                      {artisan.dynastyEn}
-                    </span>
+            {ARTISANS.slice(0, 4).map((artisan, index) => (
+              <motion.div 
+                key={artisan.id}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.6, delay: index * 0.1 + 0.2 }}
+                className="group flex flex-col items-start bg-neutral-950 border border-neutral-900 overflow-hidden hover:border-neutral-800 transition-colors h-full"
+              >
+                <Link to={`/artisan/${artisan.id}`} className="w-full flex-1 flex flex-col">
+                  <div className="w-full aspect-square overflow-hidden bg-neutral-900 relative">
+                     {(artisan.mediaUrl) && (
+                       <img 
+                         src={artisan.mediaUrl} 
+                         alt={artisan.nameEn} 
+                         className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-100 md:opacity-70 group-hover:opacity-100 mix-blend-normal md:mix-blend-luminosity hover:mix-blend-normal relative z-10"
+                         onError={(e) => {
+                           (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1610996841527-beaca1129b19?auto=format&fit=crop&q=80&w=2670';
+                         }}
+                       />
+                     )}
+                     <div className="absolute inset-0 bg-gradient-to-t from-neutral-950 via-transparent to-transparent z-20 pointer-events-none opacity-80 group-hover:opacity-50 transition-opacity"></div>
                   </div>
-                  <h3 className="text-2xl font-serif text-neutral-200 mb-1 group-hover:text-orient-400 transition-colors font-light">
-                    {artisan.nameEn}
-                  </h3>
-                  <h4 className="text-xl font-serif text-white mb-4 group-hover:text-orient-400 transition-colors font-light opacity-90">
-                    {artisan.nameZh}
-                  </h4>
-                  <p className="text-neutral-400 font-light line-clamp-2 mb-2 leading-relaxed text-sm">
-                    {artisan.summaryEn}
-                  </p>
-                  <p className="text-neutral-500 font-light line-clamp-2 mb-6 flex-1 leading-loose text-sm">
-                    {artisan.summaryZh}
-                  </p>
-                  <div className="text-xs uppercase tracking-widest font-medium text-orient-500 flex items-center gap-2 group-hover:gap-3 transition-all mt-auto pt-4 border-t border-neutral-900/50">
-                    Discover <span className="opacity-70 ml-1">探索</span> <ArrowRight className="w-4 h-4" />
+                  <div className="p-6 flex flex-col flex-1 w-full">
+                    <div className="flex justify-between items-center mb-3">
+                      <span className="text-xs tracking-widest uppercase text-neutral-500 font-mono">
+                        {artisan.dynastyEn}
+                      </span>
+                    </div>
+                    <h3 className="text-2xl font-serif text-neutral-200 mb-1 group-hover:text-orient-400 transition-colors font-light">
+                      {artisan.nameEn}
+                    </h3>
+                    <h4 className="text-xl font-serif text-white mb-4 group-hover:text-orient-400 transition-colors font-light opacity-90">
+                      {artisan.nameZh}
+                    </h4>
+                    <p className="text-neutral-400 font-light line-clamp-2 mb-2 leading-relaxed text-sm">
+                      {artisan.summaryEn}
+                    </p>
+                    <p className="text-neutral-500 font-light line-clamp-2 mb-6 flex-1 leading-loose text-sm">
+                      {artisan.summaryZh}
+                    </p>
+                    <div className="text-xs uppercase tracking-widest font-medium text-orient-500 flex items-center gap-2 group-hover:gap-3 transition-all mt-auto pt-4 border-t border-neutral-900/50">
+                      Discover <span className="opacity-70 ml-1">探索</span> <ArrowRight className="w-4 h-4" />
+                    </div>
                   </div>
-                </div>
-              </Link>
+                </Link>
+              </motion.div>
             ))}
           </div>
         </div>
@@ -273,7 +309,13 @@ export default function Home() {
 
       {/* Explore Section */}
       <section className="py-24 bg-neutral-950 border-t border-neutral-900">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <motion.div 
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.8 }}
+          className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center"
+        >
           <BookOpen className="w-8 h-8 text-orient-500 mx-auto mb-8 opacity-50" />
           <h2 className="text-3xl md:text-4xl font-serif text-neutral-100 mb-4 font-light">
             Embark on a Journey Through Time
@@ -294,7 +336,7 @@ export default function Home() {
             Explore Gallery
             <span className="opacity-70 ml-1">探索图库</span>
           </Link>
-        </div>
+        </motion.div>
       </section>
     </div>
   );

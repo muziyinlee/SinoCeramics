@@ -35,7 +35,7 @@ export default function Artisans() {
                   <img 
                     src={artisan.mediaUrl} 
                     alt={artisan.nameEn} 
-                    className="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700"
+                    className="w-full h-full object-cover grayscale-0 md:grayscale opacity-100 md:opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700"
                   />
                   <div className="absolute top-6 left-6 bg-black/60 backdrop-blur-md px-4 py-2 text-xs font-serif tracking-widest border border-white/10 uppercase">
                     {artisan.dynastyEn}

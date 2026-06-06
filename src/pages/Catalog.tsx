@@ -30,7 +30,7 @@ export default function Catalog() {
                    <img 
                      src={article.mediaCardUrl || article.mediaUrl} 
                      alt={article.titleEn} 
-                     className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-90 group-hover:opacity-100 mix-blend-luminosity hover:mix-blend-normal"
+                     className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-100 md:opacity-90 group-hover:opacity-100 mix-blend-normal md:mix-blend-luminosity hover:mix-blend-normal"
                      onError={(e) => {
                        (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1610996841527-beaca1129b19?auto=format&fit=crop&q=80&w=2670';
                      }}

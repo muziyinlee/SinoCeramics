@@ -46,7 +46,7 @@ export default function ArtisanDetail() {
           <img 
             src={artisan.mediaUrl} 
             alt={artisan.nameEn} 
-            className="w-full h-full object-cover grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-1000"
+            className="w-full h-full object-cover grayscale-0 md:grayscale opacity-100 md:opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-1000"
           />
         </div>
 

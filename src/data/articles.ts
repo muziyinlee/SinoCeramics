@@ -16,6 +16,33 @@ export interface Article {
 
 export const ARTICLES: Article[] = [
   {
+    id: 'yixing-zisha',
+    titleZh: '紫砂壶：泥与火交织的东方茶器传奇',
+    titleEn: 'Yixing Zisha Teapots: The Oriental Tea Ware Legend Woven by Clay and Fire',
+    summaryZh: '紫砂壶以其独特的透气性和古朴雅致的造型，成为中国茶文化中不可或缺的灵魂载体。它不仅是实用的茶具，更是文人墨客精神寄托的艺术品。',
+    summaryEn: 'Yixing Zisha teapots, with their unique breathability and elegant simplicity, have become the indispensable soul carrier of Chinese tea culture.',
+    contentZh: [
+      '在中国浩瀚的陶瓷史上，有一类器物不施釉彩，以泥土最本真的面貌示人，却赢得了文人墨客乃至王公贵族的无上青睐。这便是产自江苏宜兴的紫砂壶。紫砂壶的兴起与明代茶道的演变密切相关。随着细嫩散茶的流行，人们需要一种既能保持茶香，又不会改变茶汤原始风味的茶具，紫砂壶应运而生。',
+      '紫砂泥，是宜兴特有的一种含铁量高、具有双重气孔结构的陶土。这种特殊的微观结构，赋予了紫砂壶“透气而不透水”的神奇物理特性。它能让空气在壶壁间自由穿梭，犹如茶壶在“呼吸”，从而极大程度地保留了茶叶原本的清香，且久用之后，壶身还会吸收茶汁，变得温润如玉，产生一层迷人的“包浆”。',
+      '除了卓越的实用性，紫砂壶更是一门深邃的造型艺术。在这个方寸天地间，历代的紫砂大师们创造了成千上万种形态。从供春的“树瘿壶”，到时大彬的“古拙大度”，再到陈鸣远的“花货精工”，以及近代一代宗师顾景舟的“端庄秀丽”。每一把经典的紫砂壶，都是线条比例与光影结构的完美交响，展现了匠人对手工艺的极限追求。',
+      '真正让紫砂壶脱离普通民间工艺、升华为文化瑰宝的，是古代文人阶层的深度介入。清代的陈曼生开创了“文人壶”的先河。他将诗词、书法、金石篆刻等高雅艺术直接融入壶身，开启了“紫砂与文人书画联姻”的新时代。壶随字贵，字随壶传，紫砂壶自此多了一份浓厚的书卷气和哲理意味。',
+      '时至今日，紫砂壶早已跨越了国界，成为世界各大博物馆和私人藏家竞相追捧的历史文物与艺术珍品。它不仅仅是一种喝茶的工具，更是一种连接人与自然、传统与现代的东方文化符号。握一把经年洗礼的老壶在手，泡一壶清茶，那份历经泥与火淬炼出的温和与从容，总能瞬间抚平现代人内心的浮躁，这或许就是紫砂最大的魅力所在。'
+    ],
+    contentEn: [
+      'In the vast history of Chinese ceramics, one type of vessel remains unglazed, presenting the most authentic face of clay, yet it has won the supreme favor of literati and even royalty. This is the Zisha teapot from Yixing, Jiangsu. The rise of Zisha teapots was closely related to the evolution of the tea ceremony in the Ming Dynasty. With the popularity of delicate loose-leaf tea, people needed a tea ware that could retain the tea\'s aroma without altering its original flavor, and Zisha teapots emerged at the right time.',
+      'Zisha clay is a unique type of pottery clay in Yixing with high iron content and a dual-porosity structure. This special microscopic structure gives Zisha teapots the magical physical property of being "breathable but impermeable to water." It allows air to travel freely through the walls of the pot, as if the teapot is "breathing," thereby maximally preserving the original fragrance of the tea. After prolonged use, the pot\'s body will also absorb the tea juice, becoming mild like jade and developing a charming patina.',
+      'Beyond its outstanding practicality, the Zisha teapot is a profound art of shaping. In this small space, generations of Zisha masters have created thousands of forms. From Gongchun\'s "Tree Burl Teapot," to Shi Dabin\'s "ancient and dignified" style, to Chen Mingyuan\'s "exquisite floral wares," and the "dignified and elegant" works of modern grandmaster Gu Jingzhou. Every classic Zisha teapot is a perfect symphony of line, proportion, and light and shadow, demonstrating the craftsmen\'s ultimate pursuit of handicraft.',
+      'What truly elevated Zisha teapots from an ordinary folk craft to a cultural treasure was the deep involvement of the ancient literati class. Chen Mansheng of the Qing Dynasty pioneered the "Literati Teapot." He directly integrated elegant arts such as poetry, calligraphy, and seal carving onto the body of the pot, opening a new era of "the marriage between Zisha and literati painting and calligraphy." The teapot became precious because of the calligraphy, and the calligraphy was passed down with the teapot. From then on, Zisha teapots gained a profound scholarly air and philosophical meaning.',
+      'Today, Zisha teapots have long crossed natural borders to become historical artifacts and artistic treasures enthusiastically pursued by major museums and private collectors around the world. It is not just a tool for drinking tea, but an oriental cultural symbol connecting humans with nature, and tradition with modernity. Holding an old teapot baptized by years of use, brewing a pot of clear tea, that mildness and calmness refined through clay and fire can always instantly smooth away the restlessness in modern people\'s hearts. This is perhaps the greatest charm of Zisha.'
+    ],
+    mediaType: 'image',
+    mediaUrl: '/images/YixingZishaTeapots01.png',
+    mediaBannerUrl: '/images/YixingZishaTeapots01.png',
+    mediaCardUrl: '/images/YixingZishaTeapots02.png',
+    mediaSquareUrl: '/images/YixingZishaTeapots03.png',
+    date: '2024-06-06'
+  },
+  {
     id: 'ru-ware',
     titleZh: '汝窑的雨过天青：宋代极简美学巅峰',
     titleEn: 'Ru Ware: The Sky After Rain and the Zenith of Song Minimalist Aesthetics',
