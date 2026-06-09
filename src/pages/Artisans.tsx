@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Users, ArrowRight } from 'lucide-react';
 import { ARTISANS } from '../data/artisans';
+import AdSenseSlot from '../components/AdSenseSlot';
 
 export default function Artisans() {
   return (
@@ -24,6 +25,10 @@ export default function Artisans() {
             每一件传世之作的背后，都有一双充满温度的双手。在这里，认识那些将瓷器从凡土升华为不朽艺术的历史名匠、学者与传奇匠人。
           </p>
         </header>
+
+        <div className="mb-20">
+          <AdSenseSlot className="min-h-[100px] bg-neutral-900 rounded-xl border border-neutral-800" slotId="artisans-top" />
+        </div>
 
         <div className="space-y-32">
           {ARTISANS.map((artisan, index) => (

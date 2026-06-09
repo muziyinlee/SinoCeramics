@@ -1,6 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
 import { ARTISANS } from '../data/artisans';
 import { ArrowLeft } from 'lucide-react';
+import AdSenseSlot from '../components/AdSenseSlot';
 
 export default function ArtisanDetail() {
   const { id } = useParams();
@@ -50,6 +51,10 @@ export default function ArtisanDetail() {
           />
         </div>
 
+        <div className="mb-20">
+          <AdSenseSlot className="min-h-[100px] bg-neutral-900 rounded-xl" slotId="artisan-top" />
+        </div>
+
         {/* Content */}
         <div className="prose prose-invert prose-lg max-w-none mx-auto space-y-16">
           {artisan.contentEn.map((enP, idx) => (
@@ -62,6 +67,10 @@ export default function ArtisanDetail() {
               </p>
             </div>
           ))}
+        </div>
+
+        <div className="mt-20">
+          <AdSenseSlot className="min-h-[100px] bg-neutral-900 rounded-xl" slotId="artisan-bottom" />
         </div>
 
       </div>
