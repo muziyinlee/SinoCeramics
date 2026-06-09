@@ -15,6 +15,30 @@ export interface Artisan {
 
 export const ARTISANS: Artisan[] = [
   {
+    id: 'gu-jingzhou',
+    nameZh: '顾景舟',
+    nameEn: 'Gu Jingzhou',
+    titleZh: '紫砂泰斗，一代宗师',
+    titleEn: 'Grandmaster of Zisha, A Generation\'s Master',
+    summaryZh: '顾景舟将中国文人精神与紫砂技艺完美融合，开创了紫砂艺术的全新境界，被誉为“紫砂泰斗”。',
+    summaryEn: 'Gu Jingzhou perfectly blended Chinese literati spirit with Zisha craftsmanship, pioneering a new realm of Zisha art and earning the title "Grandmaster of Zisha."',
+    contentZh: [
+      '顾景舟（1915—1996），原名景洲，江苏宜兴川埠上袁村人，是中国近代最杰出的紫砂陶艺家之一，享有“紫砂泰斗”之美誉。他的一生，几乎贯穿了整个20世纪的中国紫砂史。他不仅继承了明清以来传统的紫砂技艺，更在此基础上推陈出新，将文人艺术的气韵与匠人的严谨作风融为一炉。',
+      '在顾景舟的制壶理念中，“形、神、气、态”是不可分割的整体。他制作的砂壶，线条流畅、比例精准、造型端庄。无论是一根线条的起伏，还是壶流与壶把的呼应，都经过深思熟虑。代表作如“提璧壶”、“僧帽壶”、“仿古如意壶”等，不仅工艺绝伦，更透出一种沉稳、恬淡的文人气质，被藏界誉为无价之宝。',
+      '顾景舟的成就不仅体现在高超的手工技艺上，更在于他深厚的文化修养。他广涉文史，精通诗词书画，常与书画名家吴湖帆、江寒汀、唐云等文人雅士交游。这些交往极大地拓展了他的艺术视野，使他的作品突破了纯粹民间工艺的局限，具有了高雅的艺术审美品格。这也是为什么他的作品至今被奉为紫砂界的最高标准。',
+      '晚年的顾景舟，更将其毕生精力倾注于紫砂技艺的传承与理论研究。他主编了《宜兴紫砂珍赏》等多部著作，为紫砂艺术的学术化、系统化做出了不可磨灭的贡献。他提携后进，授徒众多，如今的许多紫砂大师皆出其门下。他的艺术造诣和高洁的人格魅力，犹如一座巍峨的丰碑，永远屹立在紫砂艺术的发展历程中。'
+    ],
+    contentEn: [
+      'Gu Jingzhou (1915–1996), originally named Jingzhou, was born in Shangyuan Village, Chuanbu, Yixing, Jiangsu. He is one of the most outstanding Zisha ceramic artists in modern China and holds the esteemed title of "Grandmaster of Zisha." His life almost spanned the entire Zisha history of the 20th century in China. He not only inherited the traditional Zisha craftsmanship since the Ming and Qing dynasties but also innovated upon it, integrating the charm of literati art with the rigorous style of a craftsman.',
+      'In Gu Jingzhou\'s teapot-making philosophy, "form, spirit, energy, and attitude" are an inseparable whole. The teapots he made feature smooth lines, precise proportions, and dignified shapes. Whether it is the rise and fall of a line, or the echoing of the spout and the handle, everything was carefully considered. Masterpieces such as the "Tibi Teapot," "Monk\'s Cap Teapot," and "Fanggu Ruyi Teapot" are not only exquisite in craftsmanship but also exude a calm and tranquil literati temperament, and are praised as priceless treasures by collectors.',
+      'Gu Jingzhou\'s achievements are reflected not only in his superb handicraft but also in his profound cultural cultivation. He involved himself extensively in literature and history, and was proficient in poetry, calligraphy, and painting. He frequently associated with literati and famous painters such as Wu Hufan, Jiang Hanting, and Tang Yun. These interactions greatly expanded his artistic vision, allowing his works to break through the limitations of pure folk crafts and acquire an elegant aesthetic character. This is why his works are still regarded as the highest standard in the Zisha community today.',
+      'In his later years, Gu Jingzhou devoted his lifelong energy to the inheritance and theoretical research of Zisha craftsmanship. He served as the chief editor of works such as "Appreciating Yixing Zisha," making indelible contributions to the academicization and systematization of Zisha art. He guided younger generations and taught many apprentices, and many of today\'s Zisha masters are his students. His artistic attainments and noble personality charm are like a towering monument, standing forever in the developmental history of Zisha art.'
+    ],
+    mediaUrl: '/images/gujingzhou.png',
+    dynastyZh: '近现代',
+    dynastyEn: 'Modern'
+  },
+  {
     id: 'tang-ying',
     nameZh: '唐英',
     nameEn: 'Tang Ying',
