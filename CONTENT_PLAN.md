@@ -1,52 +1,65 @@
 # 东方瓷窑 (OrientKiln) 内容更新计划目录
 
-这份目录包含了未来可以更新的文章和内容主题，分为不同的类别，共计 35 个标题，方便日后扩充文章和分类。
+这份目录包含了未来可以更新的文章和内容主题，分为不同的类别。为避免内容重复，已经收录在实际网站中的文章主题（如宋代五大名窑、青花、唐三彩、青瓷、紫砂壶概说等）已从此计划中剔除。
 
-## 一、 宋代五大名窑与极简美学
-1. **宋代五大名窑之首：汝窑的历史与审美** (The Head of the Five Great Kilns: History and Aesthetics of Ru Ware)
-2. **钧窑的窑变美学：入窑一色，出窑万彩** (Jun Ware's Flambé Aesthetics: One Color In, Ten Thousand Colors Out)
-3. **哥窑的残缺之美：金丝铁线与冰裂纹的传奇** (The Beauty of Imperfection in Ge Ware: Golden Thread and Iron Wire)
-4. **定窑的白瓷传奇：印花、刻花与划花技艺** (The Legend of Ding White Porcelain: Carving and Impressing Techniques)
-5. **官窑的皇家气象：紫口铁足的端庄** (The Royal Aura of Guan Ware: Purple Mouth and Iron Foot)
+## 一、 景德镇与明清彩瓷
+1. **景德镇的崛起：千年瓷都的辉煌历程** (The Rise of Jingdezhen: The Millennium Porcelain Capital)
+2. **万历五彩：繁复热烈的晚明风尚** (Wanli Wucai: The Intricate and Passionate Late Ming Style)
+3. **雍正珐琅彩：紫禁城内的奢华定制** (Yongzheng Enamelware: Luxurious Customization in the Forbidden City)
+4. **乾隆时期的繁缛之风：探秘“瓷母”各种釉彩大瓶** (Qianlong's Maximalism: Exploring the "Mother of All Porcelains")
+5. **素三彩：不用红色的宫廷典雅** (Susancai: Imperial Elegance Without the Color Red)
 
-## 二、 景德镇的崛起与青花斗彩
-6. **景德镇的崛起：千年瓷都的辉煌历程** (The Rise of Jingdezhen: The Millennium Porcelain Capital)
-7. **元青花的震撼：从大维德花瓶看青花瓷的成熟** (The Shock of Yuan Blue and White: The David Vases)
-8. **明代永宣青花：苏麻离青的独特晕散魅力** (Yongle and Xuande Blue and White: The Charm of Smaltum)
-9. **成化斗彩：从天价鸡缸杯看明中期的宫廷审美** (Chenghua Doucai: The Chicken Cup and Mid-Ming Imperial Aesthetics)
-10. **万历五彩：繁复热烈的晚明风尚** (Wanli Wucai: The Intricate and Passionate Late Ming Style)
+## 二、 历代名窑览胜（补充篇）
+6. **吉州窑的木叶天目：落叶与泥土的完美交融** (Jizhou Kiln Leaf Tenmoku: Perfect Blend of Fallen Leaves and Clay)
+7. **巩县窑：唐代白瓷与三彩的交汇地** (Gongxian Kiln: The Intersection of Tang White Porcelain and Sancai)
+8. **法华器：陶瓷上的掐丝珐琅** (Fahua Ware: Cloisonné Enamel on Ceramics)
 
-## 三、 清代彩瓷与盛世华章
-11. **清康熙粉彩：陶瓷彩绘技艺的新纪元** (Kangxi Famille Rose: A New Era of Overglaze Enamels)
-12. **雍正珐琅彩：紫禁城内的奢华定制** (Yongzheng Enamelware: Luxurious Customization in the Forbidden City)
-13. **乾隆时期的繁缛之风：探秘“瓷母”各种釉彩大瓶** (Qianlong's Maximalism: Exploring the "Mother of All Porcelains")
-14. **郎窑红与豇豆红：清代单色釉的绝美代表** (Langyao Red and Peachbloom: Pinnacles of Monochrome Glaze)
-15. **素三彩：不用红色的宫廷典雅** (Susancai: Imperial Elegance Without the Color Red)
+## 三、 紫砂壶与文人茶道（名家篇）
+9. **陈鸣远与紫砂花货：仿生紫砂的极致** (Chen Mingyuan and Floral Zisha: The Ultimate Biomimetic Teapots)
+10. **陈曼生与曼生十八式：紫砂与文人书画的绝佳联姻** (Chen Mansheng: The Perfect Marriage of Zisha and Literati Art)
 
-## 四、 历代名窑览胜
-16. **唐三彩：大唐盛世的绚烂生活画卷** (Tang Sancai: A Colorful Tapestry of the Prosperous Tang Dynasty)
-17. **越窑青瓷：秘书法色的神秘传说** (Yue Ware Celadon: The Mysterious Legend of "Mise" Glaze)
-18. **耀州窑的刻花艺术：北方青瓷的硬朗之风** (Yaozhou Kiln Carving Art: The Bold Style of Northern Celadon)
-19. **磁州窑的民间气息：白地黑花的质朴之美** (Cizhou Kiln's Folk Spirit: The Rustic Beauty of Black on White)
-20. **龙泉窑的梅子青与粉青：青瓷发展的巅峰** (Longquan Celadon: The Zenith of Plum Green and Powder Blue)
-21. **建窑黑釉：宋代斗茶风尚催生的建盏** (Jian Kiln Black Glaze: Tea Bowls Born from Song Dynasty Tea Competitions)
-22. **吉州窑的木叶天目：落叶与泥土的完美交融** (Jizhou Kiln Leaf Tenmoku: Perfect Blend of Fallen Leaves and Clay)
-23. **巩县窑：唐代白瓷与三彩的交汇地** (Gongxian Kiln: The Intersection of Tang White Porcelain and Sancai)
-24. **法华器：陶瓷上的掐丝珐琅** (Fahua Ware: Cloisonné Enamel on Ceramics)
+## 五、 走向世界的中国瓷
+11. **海洋贸易与外销瓷：克拉克瓷的全球航程** (Maritime Trade and Export Porcelain: The Global Voyage of Kraak Ware)
+12. **广彩：融合中西审美的十三行外销瓷** (Canton Enamel: Export Porcelain Blending Chinese and Western Aesthetics)
+13. **陶瓷修复与锔瓷技艺：破镜重圆的东方智慧** (Ceramic Restoration and Ju-ci Techniques: Oriental Wisdom of Healing)
 
-## 五、 紫砂壶与文人茶道
-25. **宜兴紫砂：文人雅士的茶道挚友** (Yixing Zisha: The Literati's Best Friend in the Way of Tea)
-26. **供春与时大彬：从粗砂到精制的紫砂器型奠基人** (Gongchun and Shi Dabin: Founders of Zisha Teapot Forms)
-27. **陈鸣远与紫砂花货：仿生紫砂的极致** (Chen Mingyuan and Floral Zisha: The Ultimate Biomimetic Teapots)
-28. **陈曼生与曼生十八式：紫砂与文人书画的绝佳联姻** (Chen Mansheng: The Perfect Marriage of Zisha and Literati Art)
-29. **近代紫砂泰斗顾景舟与他的传世名作** (Modern Zisha Grandmaster Gu Jingzhou and His Masterpieces)
 
-## 六、 陶瓷巨匠与督陶官
-30. **督陶官唐英：清代御窑厂的巅峰缔造者** (Tang Ying: The Zenith Creator of the Qing Imperial Kiln)
-31. **何朝宗与德化白瓷：传神写意的“中国白”雕塑** (He Chaozong and Dehua White Porcelain: Expressive "Blanc de Chine")
-32. **童宾（风火仙师）：用生命献祭窑火的景德镇英雄** (Tong Bin: The Hero of Jingdezhen Who Sacrificed His Life to the Kiln)
 
-## 七、 走向世界的中国瓷
-33. **海洋贸易与外销瓷：克拉克瓷的全球航程** (Maritime Trade and Export Porcelain: The Global Voyage of Kraak Ware)
-34. **广彩：融合中西审美的十三行外销瓷** (Canton Enamel: Export Porcelain Blending Chinese and Western Aesthetics)
-35. **陶瓷修复与锔瓷技艺：破镜重圆的东方智慧** (Ceramic Restoration and Ju-ci Techniques: Oriental Wisdom of Healing)
+1. 景德镇的崛起
+Prompt: A stunning panoramic view of an ancient Jingdezhen porcelain kiln workshop covered in morning mist. Glowing orange kiln fires illuminate the faces of master craftsmen working on pottery wheels. Cinematic lighting, rich historical atmosphere, hyper-detailed, epic scale, beautiful composition --ar 16:9
+
+2. 万历五彩
+Prompt: A vibrant Ming Dynasty Wanli Wucai (five-color) porcelain jar, densely decorated with intense red, green, yellow, and blue imperial dragons and floral patterns. Festive and intricate maximalist design, sharp focus, perfectly lit against a dark background to make the colors pop, museum quality photography, 8k --ar 16:9
+
+3. 雍正珐琅彩 (Yongzheng Enamelware)
+Prompt: An exquisite Yongzheng enamelware porcelain teapot. Flawless white porcelain body adorned with incredibly intricate, microscopicly detailed blooming orchids and elegant Chinese calligraphy. The paint looks layered and glossy. Luxurious imperial palace background with soft bokeh. Perfect studio lighting, 8k, aspect ratio 16:9.
+
+4. 乾隆繁缛之风 (Qianlong Maximalism)
+Prompt: A spectacularly complex Qianlong "Mother of All Porcelains" large vase, featuring more than 15 different types of glazes and enamel techniques (celadon, blue and white, famille rose, imitation wood) on a single masterpiece. Standing proudly in a softly lit museum hall. Grand, maximalist, hyper-realistic, extreme detail, aspect ratio 16:9.
+
+5. 素三彩 (Susancai)
+Prompt: A Qing Dynasty Susancai (three-color) porcelain bowl, decorated intricately with flying dragons and clouds in yellow, green, and aubergine (no red colors), directly applied on a biscuit body. Quiet, dignified imperial atmosphere. Soft directional lighting, rich textures, dark background, photorealistic photography, aspect ratio 16:9.
+
+6. 吉州窑的木叶天目：落叶与泥土的完美交融
+A hyper-realistic close-up of a Jizhou kiln black glaze tea bowl, featuring a beautiful, fossilized-looking real tree leaf embedded perfectly in the amber and dark brown glaze inside the bowl. Soft tea room lighting, elegant zen atmosphere, macro photography, traditional Chinese ceramics, 8k resolution, photorealistic --ar 16:9
+
+7. 巩县窑：唐代白瓷与三彩的交汇地
+A beautifully arranged collection of Tang dynasty ceramics, featuring smooth, pure white porcelain pieces placed side-by-side with vibrant green, yellow, and amber Sancai (tricolor) glazed pottery. Soft natural lighting passing through an ancient Chinese workshop window, museum photography, highly detailed, photorealistic --ar 16:9
+
+8. 法华器：陶瓷上的掐丝珐琅
+An exquisite Chinese Fahua ware ceramic vase, featuring raised slip outlines acting like cloisonne wires, filled with rich vibrant turquoise, deep purple, and dark blue glazes. Intricate lotus and peony motifs, dark background, dramatic museum spotlighting, highly detailed, cinematic lighting --ar 16:9
+
+9. 陈鸣远与紫砂花货：仿生紫砂的极致
+A masterfully crafted biomimetic Yixing Zisha teapot shaped intricately like a natural tree stump with textured bark, vines, and leaves, made entirely of unglazed raw purple clay. Warm glowing light, placed on a wooden tea table, hyper-detailed, photorealistic, macro shot, zen aesthetic --ar 16:9
+
+10. 陈曼生与曼生十八式：紫砂与文人书画的绝佳联姻
+An elegant, geometrically pure Yixing Zisha teapot featuring exquisite traditional Chinese calligraphy engraved directly onto the clay body. Placed on an antique wooden scholar's desk alongside a calligraphy brush, inkstone, and paper. Soft natural window light, tranquil literati aesthetic, highly detailed --ar 16:9
+
+11. 海洋贸易与外销瓷：克拉克瓷的全球航程
+A historical scene featuring a large traditional Chinese blue and white Kraak porcelain plate with its distinctive paneled border decorations, sitting elegantly on weathered wooden cargo crates. In the blurred background, a 17th-century merchant sailing ship navigating the ocean. Cinematic lighting, epic historical trade atmosphere, 8k --ar 16:9
+
+12. 广彩：融合中西审美的十三行外销瓷
+A luxurious piece of Canton enamel export porcelain (Guangcai), densely decorated with bright polychrome colors, lavish gold borders, blending traditional Chinese figures with Western baroque shapes. Set on an opulent historical dining table, glowing ambient light, extremely detailed, royal core --ar 16:9
+
+13. 陶瓷修复与锔瓷技艺：破镜重圆的东方智慧
+A beautiful antique Chinese ceramic bowl that has been masterfully repaired using the traditional Ju-ci technique, with elegant metallic copper staples precisely holding a delicate crack together. Soft zen lighting highlighting the golden metallic staples against the smooth porcelain, celebrating the beauty of imperfection, macro photography --ar 16:9
