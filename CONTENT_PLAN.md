@@ -26,7 +26,7 @@
 
 
 1. 景德镇的崛起
-Prompt: A stunning panoramic view of an ancient Jingdezhen porcelain kiln workshop covered in morning mist. Glowing orange kiln fires illuminate the faces of master craftsmen working on pottery wheels. Cinematic lighting, rich historical atmosphere, hyper-detailed, epic scale, beautiful composition --ar 16:9
+Prompt: A stunning panoramic view of an ancient Jingdezhen porcelain kiln workshop covered in morning mist. Glowing orange kiln fires illuminate the faces of master craftsmen working on pottery wheels. Cinematic lighting, rich historical atmosphere, hyper-detailed, epic scale, beautiful composition, 8k --ar 16:9
 
 2. 万历五彩
 Prompt: A vibrant Ming Dynasty Wanli Wucai (five-color) porcelain jar, densely decorated with intense red, green, yellow, and blue imperial dragons and floral patterns. Festive and intricate maximalist design, sharp focus, perfectly lit against a dark background to make the colors pop, museum quality photography, 8k --ar 16:9

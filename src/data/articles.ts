@@ -446,5 +446,30 @@ export const ARTICLES: Article[] = [
     mediaCardUrl: '/images/LangRedLanternVase02.png',
     mediaSquareUrl: '/images/LangRedLanternVase03.png',
     date: '2024-04-18'
+  },
+  {
+    id: 'rise-of-jingdezhen',
+    titleZh: '景德镇的崛起：千年瓷都的辉煌历程',
+    titleEn: 'The Rise of Jingdezhen: The Millennium Porcelain Capital',
+    summaryZh: '景德镇，这座被誉为“千年瓷都”的城市，以其卓越的制瓷技艺和丰富的陶瓷文化，成为了中国陶瓷史上一颗璀璨的明珠。',
+    summaryEn: 'Jingdezhen, known as the "Millennium Porcelain Capital," has become a shining pearl in the history of Chinese ceramics with its outstanding porcelain-making skills and rich ceramic culture.',
+    contentZh: [
+      '景德镇位于中国江西省东北部，自汉代就开始生产陶瓷。宋代景德元年（1004年），宋真宗因赏识此地的瓷器，将年号“景德”赐给这个产瓷区，景德镇由此得名，并开启了其作为“瓷都”的辉煌历程。元代，景德镇创烧了青花瓷，这种白地蓝花的瓷器迅速风靡全球，奠定了景德镇在世界陶瓷史上的核心地位。',
+      '明清时期，景德镇更是迎来了制瓷业的鼎盛。朝廷在此设立了御窑厂，专门为皇室烧制瓷器。御窑厂集中了全国最优秀的工匠和最优质的原料，不惜成本，精益求精。成化斗彩、嘉靖五彩、永宣青花等一批绝世佳作相继问世，代表了当时世界制瓷工艺的最高水平。',
+      '景德镇的崛起不仅在于其精湛的技艺，更在于其独特的分工合作体系。“共计一坯之力，过手七十二，方克成器”，这种高度细化的流水线作业方式，极大地提高了生产效率，同时保证了瓷器的高品质。景德镇瓷器以其“白如玉、明如镜、薄如纸、声如磬”的四大特点，赢得了“假玉器”的美誉。',
+      '除了御用瓷器外，景德镇还生产了大量民窑瓷器和外销瓷，通过海上丝绸之路远销亚非欧各国，成为中国走向世界的一张亮丽名片。在很长一段时间里，“China”不仅代表中国，更代表着来自景德镇的精美瓷器。景德镇的兴衰，可以说是中国乃至世界陶瓷发展史的一个缩影。'
+    ],
+    contentEn: [
+      'Jingdezhen, located in northeastern Jiangxi Province, China, has been producing ceramics since the Han Dynasty. In the first year of Jingde in the Song Dynasty (1004 AD), Emperor Zhenzong, appreciating the porcelain produced here, bestowed his reign title "Jingde" on this porcelain-producing area. Thus, Jingdezhen got its name and began its glorious journey as the "Porcelain Capital." During the Yuan Dynasty, Jingdezhen created blue and white porcelain, which quickly became popular worldwide, cementing Jingdezhen\'s core position in the history of global ceramics.',
+      'During the Ming and Qing Dynasties, Jingdezhen\'s porcelain industry reached its peak. The imperial court established the Imperial Kiln here specifically to produce porcelain for the royal family. The Imperial Kiln gathered the best craftsmen and highest quality raw materials from across the country, sparing no expense to strive for perfection. Masterpieces such as Chenghua Doucai, Jiajing Wucai, and Yongle and Xuande Blue and White were produced one after another, representing the highest level of porcelain-making craftsmanship in the world at that time.',
+      'The rise of Jingdezhen lies not only in its exquisite craftsmanship but also in its unique system of division of labor. "The effort of a single vessel passes through seventy-two pairs of hands before it is completed." This highly detailed assembly line method greatly improved production efficiency while ensuring the high quality of the porcelain. Jingdezhen porcelain won the reputation of "fake jade" for its four main characteristics: "white as jade, bright as a mirror, thin as paper, and sound like a chime."',
+      'In addition to imperial porcelain, Jingdezhen also produced a large amount of folk kiln porcelain and export porcelain, which were exported to Asian, African, and European countries via the Maritime Silk Road, becoming a beautiful business card for China to the world. For a long time, "China" not only represented the country of China but also the exquisite porcelain from Jingdezhen. The rise and fall of Jingdezhen can be said to be a microcosm of the history of ceramic development in China and even the world.'
+    ],
+    mediaType: 'image',
+    mediaUrl: '/images/TheRiseofJingdezhen01.webp',
+    mediaBannerUrl: '/images/TheRiseofJingdezhen01.webp',
+    mediaCardUrl: '/images/TheRiseofJingdezhen02.webp',
+    mediaSquareUrl: '/images/TheRiseofJingdezhen03.webp',
+    date: '2026-06-11'
   }
 ];
