@@ -472,4 +472,4 @@ export const ARTICLES: Article[] = [
     mediaSquareUrl: '/images/TheRiseofJingdezhen03.webp',
     date: '2026-06-11'
   }
-];
+].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
