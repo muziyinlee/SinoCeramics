@@ -1,14 +1,18 @@
 import { useParams, Navigate, Link } from 'react-router-dom';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, ChevronLeft, ChevronRight } from 'lucide-react';
 import { ARTICLES } from '../data/articles';
 import AdSenseSlot from '../components/AdSenseSlot';
 import ImageLightbox from '../components/ImageLightbox';
 
 export default function ArticleDetail() {
   const { id } = useParams();
-  const article = ARTICLES.find(a => a.id === id);
+  const currentIndex = ARTICLES.findIndex(a => a.id === id);
+  const article = ARTICLES[currentIndex];
 
   if (!article) return <Navigate to="/catalog" />;
+
+  const prevArticle = currentIndex > 0 ? ARTICLES[currentIndex - 1] : null;
+  const nextArticle = currentIndex >= 0 && currentIndex < ARTICLES.length - 1 ? ARTICLES[currentIndex + 1] : null;
 
   return (
     <article className="bg-neutral-950 min-h-screen">
@@ -75,6 +79,33 @@ export default function ArticleDetail() {
         {/* AdSense Bottom Slot */}
         <div className="mt-20">
           <AdSenseSlot className="min-h-[100px] bg-neutral-900 rounded-xl" slotId="article-bottom" />
+        </div>
+
+        {/* Article Navigation */}
+        <div className="mt-16 pt-8 border-t border-neutral-800/50 flex flex-col md:flex-row justify-between items-stretch gap-4">
+          {prevArticle ? (
+            <Link to={`/article/${prevArticle.id}`} className="group flex-1 flex flex-col items-start p-6 rounded-xl bg-neutral-900/30 hover:bg-neutral-900/80 transition-colors border border-neutral-800/50 hover:border-neutral-700/80">
+              <span className="flex items-center text-xs font-mono tracking-widest text-neutral-500 uppercase mb-2 group-hover:text-orient-400 transition-colors">
+                <ChevronLeft className="w-4 h-4 mr-1" />
+                上一篇 (Newer)
+              </span>
+              <span className="text-white font-serif line-clamp-2 md:line-clamp-1">{prevArticle.titleZh}</span>
+            </Link>
+          ) : (
+            <div className="flex-1 hidden md:block"></div>
+          )}
+          
+          {nextArticle ? (
+            <Link to={`/article/${nextArticle.id}`} className="group flex-1 flex flex-col items-end p-6 rounded-xl bg-neutral-900/30 hover:bg-neutral-900/80 transition-colors border border-neutral-800/50 hover:border-neutral-700/80 text-right">
+              <span className="flex items-center text-xs font-mono tracking-widest text-neutral-500 uppercase mb-2 group-hover:text-orient-400 transition-colors">
+                下一篇 (Older)
+                <ChevronRight className="w-4 h-4 ml-1" />
+              </span>
+              <span className="text-white font-serif line-clamp-2 md:line-clamp-1">{nextArticle.titleZh}</span>
+            </Link>
+          ) : (
+            <div className="flex-1 hidden md:block"></div>
+          )}
         </div>
       </div>
     </article>
