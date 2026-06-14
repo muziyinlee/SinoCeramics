@@ -3,8 +3,8 @@
 这份目录包含了未来可以更新的文章和内容主题，分为不同的类别。为避免内容重复，已经收录在实际网站中的文章主题（如宋代五大名窑、青花、唐三彩、青瓷、紫砂壶概说等）已从此计划中剔除。
 
 ## 一、 景德镇与明清彩瓷
-1. **景德镇的崛起：千年瓷都的辉煌历程** (The Rise of Jingdezhen: The Millennium Porcelain Capital)
-2. **万历五彩：繁复热烈的晚明风尚** (Wanli Wucai: The Intricate and Passionate Late Ming Style)
+1. **景德镇的崛起：千年瓷都的辉煌历程** (The Rise of Jingdezhen: The Millennium Porcelain Capital)                      ☑️
+2. **万历五彩：繁复热烈的晚明风尚** (Wanli Wucai: The Intricate and Passionate Late Ming Style)                         ☑️
 3. **雍正珐琅彩：紫禁城内的奢华定制** (Yongzheng Enamelware: Luxurious Customization in the Forbidden City)
 4. **乾隆时期的繁缛之风：探秘“瓷母”各种釉彩大瓶** (Qianlong's Maximalism: Exploring the "Mother of All Porcelains")
 5. **素三彩：不用红色的宫廷典雅** (Susancai: Imperial Elegance Without the Color Red)

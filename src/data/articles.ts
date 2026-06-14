@@ -473,5 +473,32 @@ export const ARTICLES: Article[] = [
     mediaCardUrl: '/images/TheRiseofJingdezhen02.webp',
     mediaSquareUrl: '/images/TheRiseofJingdezhen03.webp',
     date: '2026-06-11'
+  },
+  {
+    id: 'wanli-wucai',
+    titleZh: '万历五彩：繁复热烈的晚明风尚',
+    titleEn: 'Wanli Wucai: The Intricate and Passionate Late Ming Style',
+    summaryZh: '明代万历时期的五彩瓷器，以其强烈的色彩对比、繁密繁复的纹饰和奔放不羁的艺术风格，成为中国陶瓷史上独树一帜的瑰宝，真实地折射出晚明时期社会文化的极度活跃与审美趣味的世俗化转变。',
+    summaryEn: 'Wanli Wucai porcelain of the Ming Dynasty, with its strong color contrast, dense decorations, and unrestrained artistic style, became a unique treasure in Chinese ceramic history, reflecting the extreme vitality of social culture in the late Ming period.',
+    contentZh: [
+      '万历五彩，是中国陶瓷发展史上一颗极具个性和视觉冲击力的璀璨明珠。在明代长达两百七十多年的历史长河中，万历朝（公元1573年至1620年）可以说是社会风貌最为错综复杂的时期之一。随着商品经济的空前繁荣、市民阶层的迅速壮大以及阳明心学带来的思想解放，整个社会的审美趣味也发生了翻天覆地的变化。人们开始摒弃传统的内敛与克制，转而追求更加热烈、奔放、直接的感官刺激和世俗化表达。这种社会思潮的剧变，完美地投射到了当时的陶瓷艺术上，孕育出了独具一格的“万历五彩”。',
+      '万历五彩瓷器最显著的特征，莫过于其极其繁密、满工的构图和强烈、大胆的色彩对比。与前朝成化斗彩的温润淡雅、清丽脱俗不同，万历五彩几乎放弃了对留白的追求。在器物表面，工匠们用浓艳的色彩填满了每一寸空间，图案常常重重叠叠，繁缛至极。在色彩运用上，万历五彩主要以红、黄、绿、蓝、紫等色为主，尤其大量使用一种浓艳如血的“枣皮红”，这种红彩与鲜亮的绿色对比交织，形成了极强的视觉冲击力，民间俗称“大红大绿”。虽然初看之下似乎有些纷繁嘈杂，甚至略显俗丽，但在热烈喧闹之中，却洋溢着一种无可压抑的勃勃生机和豪迈气魄。',
+      '在纹饰题材上，万历五彩更是包罗万象，极具世俗生活气息。除了传统的皇家龙凤纹和寓意吉祥的花卉瑞兽外，大量反映市民阶层喜好的题材被搬上了瓷器。例如各种仙人故事、八仙过海、老子出关，以及百子图、婴戏图等，生动活泼，富有极其浓郁的人间烟火气。画工们在施彩时，不再拘泥于精雕细琢，往往落笔迅捷，笔触狂放恣肆，甚至常常出现填彩出廓的现象。这种看似粗犷、不拘小节的画风，恰恰展现了晚明时期工匠和大众那份不受条框束缚、追求自由表达的率真性格。',
+      '受制于当时的制瓷技术及原料限制，万历五彩在工艺上也有着自己独特的时代烙印。当时的景德镇御窑由于连年大规模生产，优质的麻仓土已经消耗殆尽，工匠们不得不改用高岭土等其他替代原料，这使得万历时期的瓷胎往往偏厚重，不及早期的细腻轻薄。同时，部分大件器物的胎体在烧制过程中容易出现变形或接痕明显的现象，釉面也常常带有细微的波浪纹。然而，正是这些工艺上的“不完美”，赋予了万历五彩一种质朴、粗犷的古拙之美。',
+      '总的来说，万历五彩不仅仅是一种陶瓷装饰工艺，它更是晚明社会文化、世俗百态的一个真实缩影。它用最张扬的色彩和最繁复的画笔，定格了那个充满活力、欲望与变革的时代。在今天看来，万历五彩那份强烈的视觉表现力和不拘一格的艺术态度，依然具有着跨越时代的艺术感染力，让人在跨越数百年后，依然能感受到那个繁华绮丽的晚明梦境。'
+    ],
+    contentEn: [
+      'Wanli Wucai (five-color) porcelain is a brilliant pearl with an extremely distinctive personality and visual impact in the history of Chinese ceramic development. During the more than 270 years of the Ming Dynasty, the Wanli reign (1573–1620 AD) can be considered one of the periods with the most complex social landscapes. With the unprecedented prosperity of the commodity economy, the rapid growth of the urban citizen class, and the ideological emancipation brought about by Yangming\'s Philosophy of the Mind, the aesthetic taste of the entire society underwent a dramatic transformation. People began to abandon traditional restraint and introversion, turning instead to pursue more passionate, unrestrained, direct sensory stimulation and secular expression. This drastic change in social thought was perfectly projected onto the ceramic art of the time, giving birth to the unique "Wanli Wucai."',
+      'The most striking feature of Wanli Wucai porcelain is its extremely dense, fully covered composition and intense, bold color contrast. Unlike the warm, elegant, and ethereal Chenghua Doucai of the previous era, Wanli Wucai almost abandoned the pursuit of negative space. On the surface of the vessels, craftsmen filled every inch of space with rich colors, with patterns often overlapping in extreme complexity. In terms of color application, Wanli Wucai primarily uses red, yellow, green, blue, and purple. Notably, it makes extensive use of a vibrant, blood-like "jujube-skin red." This red color intertwines and contrasts strongly with bright greens, creating an intense visual impact commonly referred to in folk terms as "bold red and bright green." Although at first glance it may seem somewhat chaotic and even slightly glaring, amidst the passionate and noisy display, there brims an irrepressible, vigorous vitality and a heroic spirit.',
+      'In terms of decorative motifs, Wanli Wucai is all-encompassing and deeply imbued with the atmosphere of secular life. In addition to the traditional imperial dragon and phoenix patterns, and auspicious flowers and mythical beasts, a large number of subjects reflecting the preferences of the urban classes were depicted on porcelain. Examples include various tales of immortals like the Eight Immortals Crossing the Sea, Laozi Exiting the Pass, as well as the \'One Hundred Boys\' pattern and scenes of children at play. These depictions were lively, dynamic, and full of earthly flavor. When applying colors, the painters no longer rigidly adhered to meticulous detail; their brushstrokes were often swift, wild, and unrestrained, occasionally even coloring outside the outlines. This seemingly rough and informal painting style perfectly showcased the genuine character of the artisans and the general public of the late Ming period—unbound by strict rules and pursuing free expression.',
+      'Constrained by the porcelain-making technology and raw material limits of the time, Wanli Wucai also bears unique technological imprints of its era. Because of years of large-scale continuous production at the Jingdezhen Imperial Kiln, the high-quality Macang clay had been depleted. Craftsmen had to switch to alternative materials like Kaolin, which caused the porcelain bodies of the Wanli period to be thicker and heavier, lacking the fine and thin qualities of earlier eras. Concurrently, the bodies of some large pieces were prone to warping or showing obvious joining marks during the firing process, and the glaze surface often exhibited a subtle wavy texture. However, it is precisely these technological "imperfections" that endowed Wanli Wucai with a rustic, rugged, and archaic beauty.',
+      'Overall, Wanli Wucai is not merely a ceramic decorative technique; it is a true microcosm of the social culture and secular life of the late Ming Dynasty. Using the most flamboyant colors and the most intricate brushwork, it captured an era characterized by vitality, desire, and transformation. Viewed today, the intense visual expressiveness and the unconstrained artistic attitude of Wanli Wucai still possess an artistic appeal that transcends time, allowing people to feel that prosperous and magnificent dream of the late Ming period even after traversing hundreds of years.'
+    ],
+    mediaType: 'image',
+    mediaUrl: '/images/WanliWucai01.webp',
+    mediaBannerUrl: '/images/WanliWucai01.webp',
+    mediaCardUrl: '/images/WanliWucai02.webp',
+    mediaSquareUrl: '/images/WanliWucai03.webp',
+    date: '2026-06-14'
   }
 ].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
