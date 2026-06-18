@@ -33,8 +33,9 @@ export default function ArticleDetail() {
         </header>
 
         {/* AdSense Top Slot */}
-        <div className="mb-16">
-          <AdSenseSlot className="min-h-[100px] bg-neutral-900 rounded-xl" slotId="article-top" />
+        <div className="mb-16 text-center">
+          <div className="text-neutral-600 text-[10px] tracking-widest font-mono uppercase mb-4">Advertisement</div>
+          <AdSenseSlot className="h-[90px] md:h-[120px] bg-neutral-900/40 rounded-xl border border-neutral-800/50" slotId="article-top" format="horizontal" />
         </div>
 
         {(article.mediaBannerUrl || article.mediaUrl) && (
@@ -77,8 +78,9 @@ export default function ArticleDetail() {
         </div>
 
         {/* AdSense Bottom Slot */}
-        <div className="mt-20">
-          <AdSenseSlot className="min-h-[100px] bg-neutral-900 rounded-xl" slotId="article-bottom" />
+        <div className="mt-16 text-center">
+          <div className="text-neutral-600 text-[10px] tracking-widest font-mono uppercase mb-4">Advertisement</div>
+          <AdSenseSlot className="h-[90px] md:h-[120px] bg-neutral-900/40 rounded-xl border border-neutral-800/50" slotId="article-bottom" format="horizontal" />
         </div>
 
         {/* Article Navigation */}

@@ -84,9 +84,10 @@ export default function Home() {
       </section>
 
       {/* Feature AdSense Slot */}
-      <section className="bg-neutral-950 py-12 border-y border-neutral-900">
+      <section className="bg-neutral-950 py-12 border-y border-neutral-900 text-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <AdSenseSlot className="min-h-[100px] bg-neutral-900 rounded-xl border border-neutral-800" slotId="home-top" />
+          <div className="text-neutral-600 text-[10px] tracking-widest font-mono uppercase mb-4">Advertisement</div>
+          <AdSenseSlot className="h-[90px] md:h-[120px] bg-neutral-900/40 rounded-xl border border-neutral-800/50" slotId="home-top" format="horizontal" />
         </div>
       </section>
 

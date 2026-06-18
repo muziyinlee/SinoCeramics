@@ -18,8 +18,9 @@ export default function Catalog() {
         </div>
 
         {/* AdSense Top Slot */}
-        <div className="mb-12">
-          <AdSenseSlot className="min-h-[100px] bg-neutral-900 rounded-xl border border-neutral-800" slotId="catalog-top" />
+        <div className="mb-12 text-center">
+          <div className="text-neutral-600 text-[10px] tracking-widest font-mono uppercase mb-4">Advertisement</div>
+          <AdSenseSlot className="h-[90px] md:h-[120px] bg-neutral-900/40 rounded-xl border border-neutral-800/50" slotId="catalog-top" format="horizontal" />
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
