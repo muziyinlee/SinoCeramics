@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 
 interface AdSenseSlotProps {
   className?: string;
@@ -15,21 +15,26 @@ export default function AdSenseSlot({
   format = 'auto',
   responsive = true,
 }: AdSenseSlotProps) {
+  const adRef = useRef<HTMLModElement>(null);
+
   useEffect(() => {
-    try {
-      // @ts-ignore
-      const adsbygoogle = window.adsbygoogle || [];
-      adsbygoogle.push({});
-    } catch (e) {
-      console.error('AdSense error:', e);
+    if (adRef.current && !adRef.current.getAttribute('data-adsbygoogle-status')) {
+      try {
+        // @ts-ignore
+        const adsbygoogle = window.adsbygoogle || [];
+        adsbygoogle.push({});
+      } catch (e) {
+        console.error('AdSense error:', e);
+      }
     }
   }, []);
 
   return (
-    <div className={`adsense-container w-full overflow-hidden flex justify-center items-center ${className}`}>
+    <div className={`adsense-container w-full overflow-hidden flex justify-center items-center min-h-[90px] ${className}`}>
       <ins
+        ref={adRef}
         className="adsbygoogle"
-        style={style}
+        style={{ ...style, minWidth: '250px' }}
         data-ad-client="ca-pub-8443500829259154"
         data-ad-slot={slotId}
         data-ad-format={format}

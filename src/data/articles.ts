@@ -500,5 +500,32 @@ export const ARTICLES: Article[] = [
     mediaCardUrl: '/images/WanliWucai02.webp',
     mediaSquareUrl: '/images/WanliWucai03.webp',
     date: '2026-06-14'
+  },
+  {
+    id: 'yongzheng-enamelware',
+    titleZh: '雍正珐琅彩：紫禁城内的奢华定制',
+    titleEn: 'Yongzheng Enamelware: Luxurious Customization in the Forbidden City',
+    summaryZh: '雍正珐琅彩是清代宫廷御用瓷器的巅峰之作，以其细腻清丽的画风、精湛绝伦的工艺和诗书画印的文人意趣，展现了紫禁城内极致的高雅品味与皇家奢华。',
+    summaryEn: 'Yongzheng Enamelware is the absolute pinnacle of Qing Dynasty imperial porcelain, showcasing elegant taste and royal luxury within the Forbidden City through its delicate painting style, exquisite craftsmanship, and the integration of poetry, calligraphy, painting, and seals.',
+    contentZh: [
+      '在清代漫长而辉煌的陶瓷发展史中，珐琅彩瓷器无疑是站在审美品位巅峰的一颗明珠。珐琅彩，又称“瓷胎画珐琅”，它并非景德镇原创，而是源自欧洲的铜胎画珐琅工艺。康熙晚期，在皇帝的亲自过问和西洋传教士的协助下，这种原本施于金属器皿上的瑰丽色彩，被成功移植到了莹润的瓷胎之上，诞生了清代最为尊贵、造价最为高昂的宫廷御用瓷——珐琅彩。到了雍正一朝（公元1723年至1735年），虽然短短十三年，珐琅彩的烧造却迎来了历史上的最高峰。',
+      '与万历五彩的繁复热烈不同，雍正珐琅彩展现出的是一种文雅隽永、清丽脱俗的独特气质。雍正皇帝本人深受汉族传统文化的熏陶，极具文人雅士的审美标准。他对珐琅彩的制作倾注了极大的热情，事必躬亲，甚至要求所有的珐琅彩瓷画稿都必须经过他的亲自御览和批准后方可烧造。这种从上至下的严格把控，使得雍正珐琅彩呈现出明显的宫廷定制色彩。同时，雍正朝成功研制出了国产珐琅料，不仅打破了对西洋进口颜料的依赖，还极大地丰富了色彩的种类，如淡黄、浅绿、粉红、玫瑰紫等，使得画面的色彩过渡更加自然柔和，晕染效果达到了以假乱真的地步。',
+      '在装饰风格上，雍正珐琅彩最为人称道的是其实现了“诗、书、画、印”的完美融合。这也标志着瓷器装饰从单纯的工艺彩绘，正式升华为一种综合性的平面艺术。工匠们在洁白如雪的外壁上，常常以中国传统的水墨画法或工笔重彩绘制花鸟、山水、竹石等题材。在画面的留白处，不仅会题写与画意相呼应的唐诗宋词，还会配以宫廷御用书法家书写的小楷，并在首尾钤印“佳丽”、“金成”、“旭映”等引首章或压角章。展卷观之，宛如在欣赏一幅立体的绝美画卷，充满了浓郁的书卷气和宫廷意趣。',
+      '雍正珐琅彩的烧造过程极其特殊且成本高昂。它的白瓷胎体全部由景德镇御窑厂精挑细选最上等、最无瑕疵的素面白瓷（俗称“填白”），小心翼翼地千里迢迢运至北京紫禁城。随后，在内务府造办处的珐琅作内，由宫廷顶级画师进行构图绘画，再由熟练的工匠填彩，最后送入宫内的红炉中低温烘烤而成。由于专供皇家御赏，且烧制难度极大，其产量极低，每一件都称得上是孤品，绝不轻易赏赐给普通王公大臣。',
+      '综上所述，雍正珐琅彩不仅仅是一件供人赏玩的精美瓷器，它更是雍正皇帝个人高雅品味、清代宫廷极致奢华以及中西文化技艺交融的一件艺术圣品。它那细腻犹如丝绸的触感、温润明丽的色泽和高雅脱俗的意境，在历经近三个世纪的岁月沉淀后，依然在各大博物馆的展柜中散发着令人屏息的美。'
+    ],
+    contentEn: [
+      'In the long and illustrious history of Qing Dynasty ceramic development, Enamelware (Falangcai) is undoubtedly the crowning jewel at the very peak of aesthetic taste. Enamelware, also known as "porcelain-bodied painted enamel," was not originally from Jingdezhen but evolved from the European craft of copper-bodied painted enamel. During the late Kangxi period, under the direct involvement of the emperor and with the assistance of Western missionaries, these magnificent colors—originally applied to metal vessels—were successfully grafted onto the lustrous porcelain body. This gave birth to the most prestigious and expensive imperial porcelain of the Qing Dynasty: Enamelware. By the Yongzheng reign (1723–1735 AD), despite lasting only thirteen years, the production of Enamelware reached its absolute historical zenith.',
+      'Unlike the intricate and passionate Wanli Wucai, Yongzheng Enamelware exhibits a unique temperament that is elegant, meaningful, and refined. Emperor Yongzheng himself was profoundly influenced by traditional Han culture and possessed the refined aesthetic taste of a literati scholar. He poured immense enthusiasm into the production of Enamelware, personally overseeing the process, and even mandating that all enamel porcelain design drafts be personally reviewed and approved by him before firing. This strict top-down control endowed Yongzheng Enamelware with a distinct flavor of royal customization. Concurrently, the Yongzheng reign successfully developed domestic enamel pigments. This not only broke the reliance on imported Western pigments but also massively enriched the shade variants—such as pale yellow, light green, pink, and rose purple. Consequently, the color transitions in the paintings became exceptionally natural and soft, and the shading effects achieved a level that was almost indistinguishable from real life.',
+      'In terms of decorative style, Yongzheng Enamelware is most highly praised for achieving the perfect integration of "poetry, calligraphy, painting, and seals." This marked the formal elevation of porcelain decoration from mere craft painting to a comprehensive graphic art form. On the snow-white exterior walls, craftsmen often painted subjects like birds and flowers, landscapes, bamboo, and stones using traditional Chinese ink-wash or meticulous heavy-color techniques. In the negative spaces of the composition, they would not only inscribe Tang or Song poems that echoed the painting\'s mood but also use small regular script written by imperial calligraphers. Furthermore, the beginning and end of the texts were stamped with seals bearing terms like "Jiali" (Beauty), "Jincheng" (Golden Accomplishment), or "Xuying" (Morning Glow). Viewing these wares is akin to appreciating a three-dimensional, breathtaking scroll painting, brimming with intense scholarly aura and imperial aesthetic.',
+      'The firing process of Yongzheng Enamelware was highly specialized and exceedingly costly. The white porcelain bodies were exclusively and meticulously selected from the very best, flawless plain white porcelain (commonly known as "Tianbai") produced by the Jingdezhen Imperial Kiln. These were then carefully transported over a thousand miles to the Forbidden City in Beijing. Subsequently, within the Enamel Workshop of the Imperial Household Department, top court painters would draft the compositions and paint, skilled artisans would fill in the colors, and finally, they were baked at low temperatures in the palace\'s red kilns. Because they were exclusively for imperial enjoyment and extremely difficult to fire successfully, the production volume was exceptionally low. Each piece can be considered a unique masterpiece, and they were basically never awarded to ordinary princes or ministers.',
+      'In summary, Yongzheng Enamelware is not merely an exquisite porcelain piece for appreciation; it is a sacred artistic artifact embodying Emperor Yongzheng\'s refined personal taste, the ultimate luxury of the Qing court, and the brilliant fusion of Eastern and Western cultural techniques. Its silk-like delicate touch, warm and bright luster, and deeply elegant mood continue to exude a breathtaking beauty in the display cases of major museums, even after the passage of nearly three centuries.'
+    ],
+    mediaType: 'image',
+    mediaUrl: '/images/YongzhengEnamelware01.webp',
+    mediaBannerUrl: '/images/YongzhengEnamelware01.webp',
+    mediaCardUrl: '/images/YongzhengEnamelware02.webp',
+    mediaSquareUrl: '/images/YongzhengEnamelware03.webp',
+    date: '2026-06-16'
   }
 ].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
