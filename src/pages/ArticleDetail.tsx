@@ -1,13 +1,28 @@
 import { useParams, Navigate, Link } from 'react-router-dom';
-import { ArrowLeft, ChevronLeft, ChevronRight } from 'lucide-react';
+import { ArrowLeft, ChevronLeft, ChevronRight, ArrowUp } from 'lucide-react';
 import { ARTICLES } from '../data/articles';
 import AdSenseSlot from '../components/AdSenseSlot';
 import ImageLightbox from '../components/ImageLightbox';
+import { useState, useEffect } from 'react';
 
 export default function ArticleDetail() {
   const { id } = useParams();
   const currentIndex = ARTICLES.findIndex(a => a.id === id);
   const article = ARTICLES[currentIndex];
+  
+  const [showScrollTop, setShowScrollTop] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowScrollTop(window.scrollY > 400);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   if (!article) return <Navigate to="/catalog" />;
 
@@ -15,7 +30,18 @@ export default function ArticleDetail() {
   const nextArticle = currentIndex >= 0 && currentIndex < ARTICLES.length - 1 ? ARTICLES[currentIndex + 1] : null;
 
   return (
-    <article className="bg-neutral-950 min-h-screen">
+    <article className="bg-neutral-950 min-h-screen relative">
+      {/* Back to Top Button */}
+      <button
+        onClick={scrollToTop}
+        className={`fixed bottom-8 right-8 p-4 rounded-full bg-orient-500/10 hover:bg-orient-500/20 text-orient-400 border border-orient-500/20 backdrop-blur-sm transition-all duration-300 z-50 ${
+          showScrollTop ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4 pointer-events-none'
+        }`}
+        aria-label="Scroll to top"
+      >
+        <ArrowUp className="w-5 h-5" />
+      </button>
+
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
         <Link to="/catalog" className="inline-flex items-center text-xs uppercase tracking-widest font-medium text-neutral-500 hover:text-orient-400 mb-16 transition-colors">
           <ArrowLeft className="w-4 h-4 mr-2" />
@@ -31,12 +57,6 @@ export default function ArticleDetail() {
             {article.titleEn}
           </h2>
         </header>
-
-        {/* AdSense Top Slot */}
-        <div className="mb-16 text-center">
-          <div className="text-neutral-600 text-[10px] tracking-widest font-mono uppercase mb-4">Advertisement</div>
-          <AdSenseSlot className="h-[90px] md:h-[120px] bg-neutral-900/40 rounded-xl border border-neutral-800/50" slotId="article-top" format="horizontal" />
-        </div>
 
         {(article.mediaBannerUrl || article.mediaUrl) && (
           <div className="w-full aspect-[16/9] md:aspect-[21/9] overflow-hidden mb-20 relative px-4">

@@ -1,11 +1,25 @@
 import { useParams, Link } from 'react-router-dom';
 import { ARTISANS } from '../data/artisans';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, ArrowUp } from 'lucide-react';
 import AdSenseSlot from '../components/AdSenseSlot';
+import { useState, useEffect } from 'react';
 
 export default function ArtisanDetail() {
   const { id } = useParams();
   const artisan = ARTISANS.find(a => a.id === id);
+  const [showScrollTop, setShowScrollTop] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowScrollTop(window.scrollY > 400);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   if (!artisan) {
     return (
@@ -16,13 +30,24 @@ export default function ArtisanDetail() {
   }
 
   return (
-    <div className="bg-neutral-950 min-h-screen pt-32 pb-24 text-neutral-200">
+    <div className="bg-neutral-950 min-h-screen pt-32 pb-24 text-neutral-200 relative">
+      {/* Back to Top Button */}
+      <button
+        onClick={scrollToTop}
+        className={`fixed bottom-8 right-8 p-4 rounded-full bg-orient-500/10 hover:bg-orient-500/20 text-orient-400 border border-orient-500/20 backdrop-blur-sm transition-all duration-300 z-50 ${
+          showScrollTop ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4 pointer-events-none'
+        }`}
+        aria-label="Scroll to top"
+      >
+        <ArrowUp className="w-5 h-5" />
+      </button>
+
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <Link to="/artisans" className="inline-flex items-center gap-2 text-orient-500 hover:text-orient-400 transition-colors uppercase tracking-widest text-xs mb-16 font-medium">
           <ArrowLeft className="w-4 h-4" /> Back to Artisans 回到名匠堂
         </Link>
-
+        
         {/* Header */}
         <header className="mb-20 text-center">
           <div className="text-orient-500 font-medium tracking-[0.2em] text-xs uppercase mb-6">
@@ -49,11 +74,6 @@ export default function ArtisanDetail() {
             alt={artisan.nameEn} 
             className="w-full h-full object-cover grayscale-0 md:grayscale opacity-100 md:opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-1000"
           />
-        </div>
-
-        <div className="mb-20 text-center">
-          <div className="text-neutral-600 text-[10px] tracking-widest font-mono uppercase mb-4">Advertisement</div>
-          <AdSenseSlot className="h-[90px] md:h-[120px] bg-neutral-900/40 rounded-xl border border-neutral-800/50" slotId="artisan-top" format="horizontal" />
         </div>
 
         {/* Content */}
