@@ -527,5 +527,32 @@ export const ARTICLES: Article[] = [
     mediaCardUrl: '/images/YongzhengEnamelware02.webp',
     mediaSquareUrl: '/images/YongzhengEnamelware03.webp',
     date: '2026-06-16'
+  },
+  {
+    id: 'qianlong-maximalism',
+    titleZh: '乾隆时期的繁缛之风：探秘“瓷母”各种釉彩大瓶',
+    titleEn: 'Qianlong\'s Maximalism: Exploring the "Mother of All Porcelains"',
+    summaryZh: '乾隆时期的“瓷母”——各种釉彩大瓶，集十余种高低温釉彩于一身，是清代景德镇御窑厂制瓷技艺的集大成者，完美诠释了乾隆一朝繁复华丽的极致审美。',
+    summaryEn: 'The "Mother of All Porcelains," a massive vase with various glazes and enamels from the Qianlong period, integrates over ten types of high and low-temperature glazes. It represents the pinnacle of porcelain-making techniques at the Jingdezhen Imperial Kiln and perfectly encapsulates the maximalist and magnificent aesthetic of the Qianlong reign.',
+    contentZh: [
+      '在清代景德镇御窑的辉煌画卷中，如果说雍正时期的瓷器以清雅脱俗、精致细腻著称，那么乾隆时期的瓷器则走向了另一个极端——繁复华丽、气势磅礴。乾隆皇帝（公元1736年至1795年在位）对盛世的骄傲和对极致工艺的追求，直接催生了中国陶瓷史上前无古人、后无来者的巅峰之作——被称为“瓷母”的各种釉彩大瓶。',
+      '“瓷母”并非其官方名称，而是后世学者和陶瓷爱好者对其的尊称。现藏于北京故宫博物院的这件国宝，全称为“清乾隆各种釉彩大瓶”。这件大瓶高达86.4厘米，造型宏伟，最令人惊叹的是，它自上而下集结了从宋代到清代创烧的15种以上不同的釉彩。在一件器物上，你可以同时看到仿哥釉、青花、松石绿釉、仿钧窑玫瑰紫釉、粉彩、斗彩、金彩、霁蓝釉、洋彩等。这种将高低温釉彩、素彩与绚彩融合于一身的壮举，在世界陶瓷史上堪称奇迹。',
+      '要烧制这样一件“瓷母”，其难度超乎想象。不同的釉彩对窑炉温度和气氛（氧化或还原）的要求截然不同。有的需要在1300度以上的高温中烧制，有的则需要控制在800度左右的低温炉中烘烤。这意味着，工匠们必须经过极其精密的计算和规划，按照从高温到低温的顺序，将大瓶反复送入窑中烧制多达十余次。每一次入窑，都有开裂、变形或色彩发黑的巨大风险。据现代陶瓷专家估算，在当时的科技条件下，成功烧制出这样一件成品，其成功率不足百分之零点几。这背后，不仅依赖于当时景德镇督陶官唐英的卓越管理，更凝聚了无数能工巧匠的智慧与血汗。',
+      '从美学角度来看，“瓷母”完美地诠释了乾隆皇帝“大、全、奇、巧”的审美旨趣。大瓶的主体部分腹部，通常以粉彩或洋彩绘制十二扇开光，内绘“三阳开泰”、“吉庆有余”等寓意吉祥的图案，展现了太平盛世的欢庆气象。虽然现代一些极简主义者或许会觉得它过于堆砌、显得“农家乐审美”，但将其放置于当时的时代背景下，这件大瓶恰恰是清帝国国力鼎盛、手工业技术登峰造极的最佳物质证明。它不再仅仅是一件实用的器皿，而是一座展示中华千年陶瓷工艺演进史的立体博物馆。',
+      '今天，当我们站在博物馆的展柜前凝视这件“瓷母”时，依然会被其绚丽夺目的色彩和震撼人心的体量所折服。它就像是一部用泥土与火焰写就的盛世华章，骄傲地向世人宣告着那个时代中国陶瓷工匠所能达到的技艺极限。探秘“瓷母”，就是探寻那个繁缛华丽、充满自信的乾隆盛世。'
+    ],
+    contentEn: [
+      'Within the magnificent panorama of the Jingdezhen Imperial Kilns during the Qing Dynasty, if Yongzheng-era porcelain is renowned for its elegant, refined, and delicate aesthetics, then Qianlong-era porcelain swung to the opposite extreme: intricate, magnificent, and grandiose. Emperor Qianlong\'s (reigned 1736–1795 AD) pride in his prosperous empire and his relentless pursuit of ultimate craftsmanship directly gave birth to an unprecedented pinnacle in Chinese ceramic history—the massive vase with various glazes and enamels, affectionately known as the "Mother of All Porcelains."',
+      'The title "Mother of All Porcelains" is not its official name but a respectful moniker bestowed by later scholars and ceramic enthusiasts. Currently housed in the Palace Museum in Beijing, this national treasure is formally named the "Qing Dynasty Qianlong Massive Vase with Various Glazes and Enamels." Standing at an impressive height of 86.4 centimeters, the vase features a majestic form. Most astonishingly, from top to bottom, it integrates over 15 different types of glazes and enamels that were invented between the Song and Qing dynasties. On a single vessel, one can simultaneously observe imitation Ge glaze, Blue and White, turquoise green glaze, imitation Jun kiln rose-purple glaze, Famille Rose, Doucai (contrasting colors), gold enamels, sacrificial blue glaze, and Yangcai (foreign colors). This monumental feat of combining high and low-temperature glazes, as well as muted and vibrant colors into one piece, is a veritable miracle in the world history of ceramics.',
+      'The difficulty of firing such a "Mother of All Porcelains" is beyond imagination. Different glazes and enamels require drastically different kiln temperatures and atmospheres (oxidizing or reducing). Some must be fired at extreme highs of over 1300 degrees Celsius, while others require baking in low-temperature kilns controlled at around 800 degrees. This meant that craftsmen had to execute incredibly precise calculations and planning. They had to repeatedly send the massive vase into the kiln—perhaps more than a dozen times—in a strict sequence from highest to lowest temperatures. With each firing, there was a massive risk of cracking, warping, or the colors turning muddy and black. Modern ceramic experts estimate that under the technological conditions of that era, the success rate of producing such a flawless piece was less than a fraction of a percent. Behind this success lies not only the exceptional management of Tang Ying, the superintendent of the Jingdezhen kilns, but also the collective wisdom, sweat, and blood of countless master artisans.',
+      'From an aesthetic perspective, the "Mother of All Porcelains" perfectly interprets Emperor Qianlong\'s aesthetic preference for things that are "massive, comprehensive, novel, and intricate." The main body—the belly of the vase—usually features twelve cartouches painted in Famille Rose or Yangcai, depicting auspicious scenes such as "Three Rams Bringing Spring" and "Abundance of Auspiciousness," showcasing the joyous atmosphere of a peaceful and prosperous age. While some modern minimalists might feel that it is overly stacked and exhibits a somewhat "kitsch" or overly busy aesthetic, when placed in its historical context, this massive vase is exactly the best material proof of the Qing Empire\'s peak power and the zenith of handicraft technology. It is no longer just a practical vessel, but a three-dimensional museum displaying the evolutionary history of Chinese ceramic craftsmanship over a millennium.',
+      'Today, as we stand before the museum display case and gaze at this "Mother of All Porcelains," we are still awed by its dazzling colors and awe-inspiring scale. It stands like a magnificent symphony composed of clay and fire, proudly declaring to the world the absolute limits of skill that Chinese ceramic artisans could achieve during that era. Exploring the "Mother of All Porcelains" is a journey into the heart of the maximalist, glorious, and supremely confident Qianlong golden age.'
+    ],
+    mediaType: 'image',
+    mediaUrl: '/images/Qianlong\'sMaximalism01.webp',
+    mediaBannerUrl: '/images/Qianlong\'sMaximalism01.webp',
+    mediaCardUrl: '/images/Qianlong\'sMaximalism02.webp',
+    mediaSquareUrl: '/images/Qianlong\'sMaximalism03.webp',
+    date: '2026-06-20'
   }
 ].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
