@@ -554,5 +554,32 @@ export const ARTICLES: Article[] = [
     mediaCardUrl: '/images/Qianlong\'sMaximalism02.webp',
     mediaSquareUrl: '/images/Qianlong\'sMaximalism03.webp',
     date: '2026-06-20'
+  },
+  {
+    id: 'susancai-imperial-elegance',
+    titleZh: '素三彩：不用红色的宫廷典雅',
+    titleEn: 'Susancai: Imperial Elegance Without the Color Red',
+    summaryZh: '素三彩是清代景德镇御窑独创的一种釉上彩瓷，以黄、绿、紫等冷色调为主，因不使用象征喜庆的红色而得名。它以其素雅脱俗的独特气质，在色彩斑斓的清代宫廷瓷器中独树一帜。',
+    summaryEn: 'Susancai, a unique overglaze enamel porcelain created by the Jingdezhen Imperial Kiln during the Qing Dynasty, is dominated by cool tones such as yellow, green, and purple. Named for its deliberate omission of the festive red color, it stands out among the colorful imperial porcelains of the Qing court with its distinctively elegant and refined temperament.',
+    contentZh: [
+      '在清代景德镇御窑五彩缤纷、金碧辉煌的彩瓷世界中，有一种瓷器显得格外与众不同。它不以热烈奔放的红色为主调，也不追求繁复绚丽的视觉冲击，而是以黄、绿、紫等冷色调为主，呈现出一种素雅、宁静、清新的独特韵味。这种瓷器，就是中国陶瓷史上著名的“素三彩”。',
+      '“素三彩”中的“素”字，并非指没有颜色，而是指在古代中国传统文化中，红色代表着喜庆和热烈，被称为“荤色”；而黄色、绿色、紫色、蓝色等则相对内敛、淡雅，被称为“素色”。素三彩正是因为在施彩时严格避免使用红色（偶有极少量的点缀），因而得名。至于“三彩”，这里的“三”是中国传统文化中的虚数，代表“多”的意思，并不意味着只有三种颜色。实际上，素三彩的釉色常常包括黄、绿、紫、白、黑、孔雀绿等多种色彩。',
+      '素三彩的烧造工艺十分考究。它属于釉上低温彩瓷的一种。工匠们首先要在景德镇的高温窑炉中烧制出白瓷胎，或者在未上釉的素胎上刻划出暗花纹饰，然后再在胎体上按图案设计填绘黄、绿、紫等彩料，最后放入低温彩炉中，以800度左右的温度进行第二次烘烤。由于是低温烧制，素三彩的釉面往往不如高温釉那样玻璃质感强烈，而是呈现出一种温润柔和、微微失透的光泽，这种特殊的质感进一步增强了其素雅沉静的艺术效果。',
+      '康熙时期的素三彩最为著名，工艺也最为成熟。当时的工匠在继承明代成化、正德时期素三彩工艺的基础上，进行了大胆的创新。最典型的代表是“墨地素三彩”和“黄地素三彩”。墨地素三彩以乌黑发亮的黑釉为底色，上面用黄、绿、紫等色彩描绘花鸟、瑞兽等图案，强烈的色彩对比使得画面具有一种庄重、神秘而又极其华丽的宫廷气息。而黄地素三彩则多用于皇家祭祀或后宫嫔妃的日常用器，色调明快而不失典雅。此外，还有白地素三彩、紫地素三彩等，品种繁多，各具特色。',
+      '素三彩之所以在清代宫廷中占据重要地位，除了其精湛的工艺，更在于它契合了古代帝王和文人士大夫在特定场合或特定心境下的审美需求。在喧嚣和奢华的宫廷生活中，素三彩那不施粉黛、清新脱俗的气质，宛如一股清流，给人以宁静和慰藉。今天，当我们欣赏素三彩瓷器时，依然能从那柔和的色彩和精美的纹饰中，感受到一种跨越时空的典雅与静谧。它证明了在中国陶瓷艺术中，不唯有大红大紫的喧闹，也有这种洗尽铅华、内敛含蓄的极致之美。'
+    ],
+    contentEn: [
+      'In the colorful and resplendent world of overglaze porcelains produced by the Jingdezhen Imperial Kiln during the Qing Dynasty, one type of porcelain stands out distinctively. It does not rely on passionate and unrestrained red as its primary tone, nor does it pursue intricate and dazzling visual impacts. Instead, it is dominated by cool tones such as yellow, green, and purple, presenting a unique charm that is elegant, tranquil, and fresh. This type of porcelain is the famous "Susancai" (Plain Three Colors) in the history of Chinese ceramics.',
+      'The character "Su" (素) in "Susancai" does not mean colorless. In ancient Chinese traditional culture, red represents festivity and passion and is considered a "meat color" (hun se), while colors like yellow, green, purple, and blue are relatively restrained and elegant, known as "plain colors" (su se). Susancai is named precisely because it strictly avoids the use of red (with only occasional, extremely sparse accents) when applying colors. As for "sancai" (three colors), the "three" here is an imaginary number in traditional Chinese culture, meaning "many," and does not imply that only three colors are used. In fact, the glaze colors of Susancai often include a variety of colors such as yellow, green, purple, white, black, and peacock green.',
+      'The firing process of Susancai is extremely meticulous. It belongs to a type of overglaze low-temperature enamel porcelain. Craftsmen first fire a white porcelain body in the high-temperature kilns of Jingdezhen, or carve incised decorations on an unglazed biscuit body. Then, they fill and paint color materials like yellow, green, and purple onto the body according to the design. Finally, the piece is placed in a low-temperature muffle kiln and baked a second time at a temperature of around 800 degrees Celsius. Due to the low-temperature firing, the glaze surface of Susancai often lacks the strong glassy texture of high-temperature glazes, presenting instead a warm, soft, and slightly opaque luster. This special texture further enhances its elegant and serene artistic effect.',
+      'Susancai from the Kangxi period is the most famous and represents the peak of this craft. Craftsmen of that time boldly innovated upon the foundation of Susancai techniques inherited from the Chenghua and Zhengde periods of the Ming Dynasty. The most typical representatives are "Black-ground Susancai" and "Yellow-ground Susancai." Black-ground Susancai uses a glossy black glaze as the background, upon which patterns of flowers, birds, and auspicious beasts are painted in yellow, green, and purple. The strong color contrast gives the picture a solemn, mysterious, and highly magnificent imperial atmosphere. Yellow-ground Susancai, on the other hand, was mostly used for royal sacrifices or as daily utensils for the imperial concubines, with a bright yet elegant tone. In addition, there are white-ground and purple-ground Susancai, among others, offering a wide variety, each with its own characteristics.',
+      'The reason why Susancai occupied an important position in the Qing court lies not only in its exquisite craftsmanship but also in its alignment with the aesthetic needs of ancient emperors and literati officials in specific occasions or moods. Amidst the noise and luxury of court life, the unadorned, fresh, and refined temperament of Susancai acted like a breath of fresh air, providing tranquility and solace. Today, when we appreciate Susancai porcelain, we can still feel an elegance and serenity that transcends time and space from its soft colors and beautiful decorations. It proves that in Chinese ceramic art, there is not only the clamor of bright reds and deep purples but also this ultimate beauty of washed-out ostentation and restrained subtlety.'
+    ],
+    mediaType: 'image',
+    mediaUrl: '/images/Susancai01.webp',
+    mediaBannerUrl: '/images/Susancai01.webp',
+    mediaCardUrl: '/images/Susancai02.webp',
+    mediaSquareUrl: '/images/Susancai03.webp',
+    date: '2026-06-27'
   }
 ].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
