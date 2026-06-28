@@ -12,4 +12,4 @@ setTimeout(() => {
       </BrowserRouter>
     </React.StrictMode>
   );
-}, 1500);
+}, 2000);
