@@ -15,54 +15,17 @@
   </head>
   <body>
     <div id="root">
-      <style>
-        @keyframes fade-pulse {
-          0%, 100% { opacity: 0.3; }
-          50% { opacity: 1; }
-        }
-        @keyframes spin-slow {
-          0% { transform: rotate(0deg); }
-          100% { transform: rotate(360deg); }
-        }
-        .loading-container {
-          position: fixed;
-          inset: 0;
-          background-color: #0a0a0a;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          font-family: 'Inter', system-ui, sans-serif;
-        }
-        .loading-spinner {
-          width: 56px;
-          height: 56px;
-          border: 1px solid rgba(191, 154, 77, 0.2);
-          border-top-color: #bf9a4d;
-          border-radius: 50%;
-          animation: spin-slow 1s cubic-bezier(0.4, 0, 0.2, 1) infinite;
-          margin-bottom: 24px;
-        }
-        .loading-text {
-          color: #bf9a4d;
-          font-size: 14px;
-          letter-spacing: 0.3em;
-          text-transform: uppercase;
-          animation: fade-pulse 2s ease-in-out infinite;
-        }
-        .loading-brand {
-          color: #ffffff;
-          font-size: 24px;
-          letter-spacing: 0.25em;
-          font-weight: 300;
-          margin-bottom: 32px;
-          text-transform: uppercase;
-        }
-      </style>
-      <div class="loading-container">
-        <div class="loading-brand">Orient<span style="color: #bf9a4d">Kiln</span></div>
-        <div class="loading-spinner"></div>
-        <div class="loading-text">Loading</div>
+      <!-- Fallback content for SEO and screen readers. This will be replaced by React on load. -->
+      <div style="font-family: sans-serif; padding: 2rem; max-width: 800px; margin: auto; background: #0a0a0a; color: #fff;">
+        <h1>OrientKiln | Classical Chinese Ceramic Heritage</h1>
+        <p>A curated digital exhibition exploring the profound history, artistry, and aesthetic philosophy embedded within classical Chinese porcelain across dynasties.</p>
+        <h2>Exhibition Highlights</h2>
+        <ul>
+          <li><strong>Yixing Zisha Teapots</strong> - The Oriental Tea Ware Legend</li>
+          <li><strong>Ru Ware</strong> - The Zenith of Song Minimalist Aesthetics</li>
+          <li><strong>Tang Sancai</strong> - The Vibrant Colors of a Golden Age</li>
+          <li><strong>Blue and White Porcelain</strong> - Ink Painting Aesthetics</li>
+        </ul>
       </div>
     </div>
     <script type="module" src="/src/main.tsx"></script>
