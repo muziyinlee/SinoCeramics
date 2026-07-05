@@ -10,7 +10,7 @@
 5. **素三彩：不用红色的宫廷典雅** (Susancai: Imperial Elegance Without the Color Red)                                   ☑️
 
 ## 二、 历代名窑览胜（补充篇）
-6. **吉州窑的木叶天目：落叶与泥土的完美交融** (Jizhou Kiln Leaf Tenmoku: Perfect Blend of Fallen Leaves and Clay)
+6. **吉州窑的木叶天目：落叶与泥土的完美交融** (Jizhou Kiln Leaf Tenmoku: Perfect Blend of Fallen Leaves and Clay)                         ☑️
 7. **巩县窑：唐代白瓷与三彩的交汇地** (Gongxian Kiln: The Intersection of Tang White Porcelain and Sancai)
 8. **法华器：陶瓷上的掐丝珐琅** (Fahua Ware: Cloisonné Enamel on Ceramics)
 

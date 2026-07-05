@@ -581,5 +581,35 @@ export const ARTICLES: Article[] = [
     mediaCardUrl: '/images/Susancai02.webp',
     mediaSquareUrl: '/images/Susancai03.webp',
     date: '2026-06-27'
+  },
+
+  {
+    id: 'jizhou-kiln-leaf-tenmoku',
+    titleZh: '吉州窑的木叶天目：落叶与泥土的完美交融',
+    titleEn: 'Jizhou Kiln Leaf Tenmoku: Perfect Blend of Fallen Leaves and Clay',
+    summaryZh: '吉州窑木叶天目，将天然树叶烧制于黑釉茶盏之中，每一片叶子都独一无二。这种将自然生命短暂的美丽转化为永恒艺术的工艺，展现了中国古代工匠对禅宗哲学的深刻理解与对自然万物的敬畏，是陶瓷史上的旷世奇珍。',
+    summaryEn: 'Jizhou Kiln Leaf Tenmoku fires natural leaves into black glaze teabowls, making each piece unique. This technique of transforming the fleeting beauty of nature into eternal art demonstrates the ancient Chinese craftsmen\'s profound understanding of Zen philosophy and reverence for all things in nature, standing as a rare treasure in ceramic history.',
+    contentZh: [
+      '在浩瀚的中国古陶瓷画卷中，如果说景德镇的青花瓷是工笔勾勒的绝美画卷，那么江西吉州窑的木叶天目则是大自然与窑火共同吟唱的一首充满禅意的散文诗。木叶天目，顾名思义，便是将天然的树叶直接烧制在黑釉茶盏之中。当注入清水或茶汤时，盏底的树叶仿佛在水中轻轻摇曳，栩栩如生，宛如刚刚从树上飘落。这种将生命短暂的落叶与坚硬永恒的陶瓷完美结合的绝技，不仅在陶瓷史上独树一帜，更蕴含着深刻的东方哲学思想。',
+      '吉州窑位于江西省吉安市，创烧于晚唐，兴盛于宋，衰于元末。作为南方著名的民间窑场，吉州窑不受官窑刻板规制的束缚，工匠们充满了创造力和想象力。宋代禅宗盛行，吉州窑附近更是禅寺林立。禅宗提倡“一花一世界，一叶一菩提”，强调在平凡的事物中顿悟宇宙人生的真理。正是受到这种浓厚禅宗思想的浸润，吉州窑的陶工们萌生了将自然界中最寻常的树叶融入茶具之中的奇思妙想。',
+      '木叶天目的制作工艺极其复杂，且成品率极低。首先，选叶就大有讲究。并非所有的树叶都能经受住千度高温的考验。工匠们通常选择桑叶，因为桑叶富含铁等微量元素，在高温下燃烧后能留下清晰的叶脉灰烬。将采摘来的桑叶浸泡腐烂，去除叶肉，仅保留叶脉，然后经过特殊的药物处理和平整，才能作为贴花材料。',
+      '在施釉方面，吉州窑工匠先在胎体上施一层含铁量较高的底釉（黑釉），然后将处理好的树叶平铺在盏底或盏壁上，有时再在树叶上施一层透明釉。随后放入窑中，在1200摄氏度左右的高温下进行还原烧制。在窑火的熔炼中，树叶的有机物质被烧毁，而其中的无机物和微量元素则与底釉发生复杂的物理和化学反应。最终，树叶的脉络以一种迷人的黄色、蓝色或银白色清晰地“印”在深邃的黑釉之上，仿佛树叶的灵魂被永远地封印在了泥土之中。',
+      '每一件木叶天目都是孤品，因为世界上没有两片完全相同的树叶，也没有两次完全相同的窑火。盏中的木叶，有的舒展平阔，有的卷曲残缺；有的单叶独立，有的双叶交叠。它们在漆黑的釉面映衬下，散发着一种质朴、苍凉而又空灵的美感。当宋代文人雅士手捧这样一件茶盏，注水击拂，看着叶影在茶沫中若隐若现，感受到的是时间的流逝、生命的轮回以及“本来无一物，何处惹尘埃”的禅宗意境。',
+      '木叶天目的出现，彻底打破了传统陶瓷以笔墨绘画或雕刻装饰的常规，它是大自然、时间和人类智慧的结晶。今天，当我们凝视这数百年前的一片落叶，依然能跨越时空，与古代工匠进行一场无声的对话。它告诉我们，最伟大的艺术往往源于最平凡的生活，而真正的永恒，就隐藏在对生命瞬间的敬畏与珍惜之中。'
+    ],
+    contentEn: [
+      'In the vast scroll of ancient Chinese ceramics, if Jingdezhen\'s blue and white porcelain is a meticulously outlined, exquisite painting, then the Jizhou Kiln\'s Leaf Tenmoku is a Zen-infused prose poem chanted jointly by nature and kiln fire. Leaf Tenmoku, as the name suggests, involves firing natural leaves directly into black glaze teabowls. When filled with water or tea soup, the leaf at the bottom of the bowl seems to sway gently in the water, lifelike, as if it had just fallen from a tree. This unique technique of perfectly combining the fleeting life of fallen leaves with hard, eternal ceramics not only stands alone in the history of ceramics but also contains profound Eastern philosophical thoughts.',
+      'The Jizhou Kiln, located in Ji\'an City, Jiangxi Province, was established in the late Tang Dynasty, flourished in the Song Dynasty, and declined at the end of the Yuan Dynasty. As a famous civilian kiln in the south, the Jizhou Kiln was not bound by the rigid regulations of the official kilns, allowing its craftsmen to be full of creativity and imagination. Zen Buddhism prevailed during the Song Dynasty, and there were numerous Zen temples near the Jizhou Kiln. Zen advocates that "a flower is a world, and a leaf is a bodhi," emphasizing the sudden realization of the truth of the universe and life in ordinary things. Imbued with such strong Zen thoughts, the potters of the Jizhou Kiln conceived the ingenious idea of incorporating the most common leaves in nature into tea utensils.',
+      'The production process of Leaf Tenmoku is extremely complex, and the success rate is remarkably low. First, the selection of leaves is highly particular. Not all leaves can withstand the test of high temperatures reaching thousands of degrees. Craftsmen usually chose mulberry leaves because they are rich in trace elements like iron, which can leave clear vein ashes after burning at high temperatures. The picked mulberry leaves are soaked to rot away the mesophyll, leaving only the veins. Then, they undergo special chemical treatment and flattening before they can be used as appliqué materials.',
+      'In terms of glazing, Jizhou craftsmen first applied a layer of base glaze (black glaze) with a high iron content onto the body, and then laid the treated leaves flat on the bottom or inner wall of the bowl, sometimes applying a layer of transparent glaze over the leaf. Then, they were placed in the kiln and fired under a reducing atmosphere at a high temperature of around 1200 degrees Celsius. In the melting of the kiln fire, the organic matter of the leaves was burned away, while the inorganic matter and trace elements underwent complex physical and chemical reactions with the base glaze. Ultimately, the veins of the leaves were clearly "printed" on the profound black glaze in a charming yellow, blue, or silvery white, as if the soul of the leaf had been eternally sealed within the clay.',
+      'Every piece of Leaf Tenmoku is an orphan, because there are no two identical leaves in the world, nor are there two identical kiln firings. The leaves in the bowls vary greatly—some are broad and stretched, some are curled and incomplete; some are a single independent leaf, while others are overlapping pairs. Against the backdrop of the pitch-black glaze, they exude a rustic, desolate, yet ethereal aesthetic. When literati of the Song Dynasty held such a teabowl, poured water, and whisked the tea, watching the shadow of the leaf looming in the tea foam, what they felt was the passage of time, the cycle of life, and the Zen realm of "Originally there is not a single thing, where could dust alight?"',
+      'The emergence of Leaf Tenmoku completely broke the conventional rules of traditional ceramics that relied on brushwork painting or carving for decoration; it is the crystallization of nature, time, and human wisdom. Today, as we gaze at this fallen leaf from hundreds of years ago, we can still transcend time and space to have a silent dialogue with ancient craftsmen. It tells us that the greatest art often originates from the most ordinary life, and true eternity lies hidden within the reverence and cherishing of life\'s fleeting moments.'
+    ],
+    mediaType: 'image',
+    mediaUrl: '/images/JizhouKilnLeafTenmoku01.webp',
+    mediaBannerUrl: '/images/JizhouKilnLeafTenmoku01.webp',
+    mediaCardUrl: '/images/JizhouKilnLeafTenmoku02.webp',
+    mediaSquareUrl: '/images/JizhouKilnLeafTenmoku03.webp',
+    date: '2026-07-04'
   }
 ].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
