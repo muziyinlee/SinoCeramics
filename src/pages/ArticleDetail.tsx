@@ -97,6 +97,24 @@ export default function ArticleDetail() {
           ))}
         </div>
 
+        {((article.referencesZh && article.referencesZh.length > 0) || (article.referencesEn && article.referencesEn.length > 0)) && (
+          <div className="mt-20 pt-10 border-t border-white/10">
+            <h3 className="text-orient-500 font-mono tracking-widest text-sm uppercase mb-6">References / 参考文献</h3>
+            <ul className="space-y-4">
+              {article.referencesEn?.map((ref, idx) => (
+                <li key={`en-${idx}`} className="text-neutral-400 font-serif text-sm leading-relaxed">
+                  {ref}
+                </li>
+              ))}
+              {article.referencesZh?.map((ref, idx) => (
+                <li key={`zh-${idx}`} className="text-neutral-500 text-sm leading-relaxed">
+                  {ref}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
         {/* AdSense Bottom Slot */}
         <div className="mt-16 text-center">
           <div className="text-neutral-600 text-[10px] tracking-widest font-mono uppercase mb-4">Advertisement</div>

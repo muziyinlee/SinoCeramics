@@ -2,7 +2,6 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import CookieBanner from './components/CookieBanner';
-import SplashScreen from './components/SplashScreen';
 import Home from './pages/Home';
 import Catalog from './pages/Catalog';
 import Gallery from './pages/Gallery';
@@ -17,7 +16,6 @@ import Privacy from './pages/Privacy';
 export default function App() {
   return (
     <div className="min-h-screen flex flex-col bg-neutral-950 text-neutral-200 font-sans selection:bg-orient-900 selection:text-orient-100">
-      <SplashScreen />
       <Navbar />
       <main className="flex-1 pt-16">
         <Routes>
