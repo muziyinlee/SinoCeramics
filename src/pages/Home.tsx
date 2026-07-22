@@ -29,6 +29,8 @@ const QUOTES = [
   }
 ];
 
+import { Helmet } from 'react-helmet-async';
+
 export default function Home() {
   const featuredArticles = ARTICLES.slice(0, 3);
   const [quote, setQuote] = useState(QUOTES[0]);
@@ -40,6 +42,10 @@ export default function Home() {
 
   return (
     <div className="flex flex-col bg-neutral-950 min-h-screen text-neutral-200">
+      <Helmet>
+        <title>Chinese Ceramic Heritage | OrientKiln</title>
+        <meta name="description" content="A curated digital exhibition exploring the profound history, artistry, and aesthetic philosophy embedded within classical Chinese ceramics." />
+      </Helmet>
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-neutral-950 text-white min-h-[90vh] flex items-center justify-center">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-neutral-800/40 via-neutral-950 to-neutral-950 z-0" />

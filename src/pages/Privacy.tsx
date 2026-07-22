@@ -1,6 +1,13 @@
-export default function Privacy() {
+import { Helmet } from 'react-helmet-async';
+
+export default function 
+Privacy() {
   return (
     <div className="bg-neutral-950 min-h-screen py-24">
+      <Helmet>
+        <title>Privacy Policy | OrientKiln</title>
+        <meta name="description" content="Privacy Policy for OrientKiln." />
+      </Helmet>
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl md:text-5xl font-serif text-neutral-100 mb-8 font-light">Privacy Policy</h1>
         

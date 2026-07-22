@@ -1,6 +1,8 @@
 import { ARTICLES } from '../data/articles';
 import ImageLightbox from '../components/ImageLightbox';
 
+import { Helmet } from 'react-helmet-async';
+
 export default function Gallery() {
   // Flattening all available images into one array
   const images = [];
@@ -21,6 +23,10 @@ export default function Gallery() {
 
   return (
     <div className="py-24 bg-neutral-950 min-h-screen">
+      <Helmet>
+        <title>Gallery | OrientKiln</title>
+        <meta name="description" content="View high-resolution images of exquisite classical Chinese porcelain and ceramics." />
+      </Helmet>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <header className="mb-16 text-center">
           <span className="text-orient-500 font-medium tracking-[0.3em] text-xs uppercase mb-4 block">

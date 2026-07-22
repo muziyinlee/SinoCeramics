@@ -1,8 +1,14 @@
 import React from 'react';
 
+import { Helmet } from 'react-helmet-async';
+
 export default function About() {
   return (
     <div className="bg-neutral-950 min-h-screen py-24 text-neutral-200">
+      <Helmet>
+        <title>About Us | OrientKiln</title>
+        <meta name="description" content="Learn about OrientKiln, our mission, and our editorial guidelines for preserving Chinese ceramic history." />
+      </Helmet>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl md:text-5xl font-serif text-neutral-100 mb-4 font-light text-center">About Us</h1>
         <h2 className="text-xl md:text-2xl font-serif text-neutral-400 mb-16 font-light text-center tracking-widest">关于我们</h2>

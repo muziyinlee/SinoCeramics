@@ -3,9 +3,16 @@ import { Users, ArrowRight } from 'lucide-react';
 import { ARTISANS } from '../data/artisans';
 import AdSenseSlot from '../components/AdSenseSlot';
 
-export default function Artisans() {
+import { Helmet } from 'react-helmet-async';
+
+export default function 
+Artisans() {
   return (
     <div className="bg-neutral-950 min-h-screen pt-32 pb-24 text-neutral-200">
+      <Helmet>
+        <title>Master Artisans | OrientKiln</title>
+        <meta name="description" content="Explore the lives and techniques of legendary Chinese ceramic artisans." />
+      </Helmet>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <header className="mb-20 text-center max-w-3xl mx-auto">
           <Users className="w-8 h-8 text-orient-500 mx-auto mb-6 opacity-80" />

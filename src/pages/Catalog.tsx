@@ -3,9 +3,15 @@ import { ArrowRight } from 'lucide-react';
 import { ARTICLES } from '../data/articles';
 import AdSenseSlot from '../components/AdSenseSlot';
 
+import { Helmet } from 'react-helmet-async';
+
 export default function Catalog() {
   return (
     <div className="bg-neutral-950 min-h-screen py-24 text-neutral-200">
+      <Helmet>
+        <title>Exhibition Catalog | OrientKiln</title>
+        <meta name="description" content="Browse our extensive catalog of classical Chinese ceramics, from Ru ware to Tang Sancai." />
+      </Helmet>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center mb-16">
           <span className="text-orient-500 font-medium tracking-[0.2em] text-xs uppercase mb-4 block">

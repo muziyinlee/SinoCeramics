@@ -4,6 +4,7 @@ import { ARTICLES } from '../data/articles';
 import AdSenseSlot from '../components/AdSenseSlot';
 import ImageLightbox from '../components/ImageLightbox';
 import { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 
 export default function ArticleDetail() {
   const { id } = useParams();
@@ -31,6 +32,13 @@ export default function ArticleDetail() {
 
   return (
     <article className="bg-neutral-950 min-h-screen relative">
+      <Helmet>
+        <title>{article.titleEn} | OrientKiln</title>
+        <meta name="description" content={article.summaryEn} />
+        <meta property="og:title" content={article.titleEn} />
+        <meta property="og:description" content={article.summaryEn} />
+        {article.mediaBannerUrl && <meta property="og:image" content={"https://orientkiln.com" + article.mediaBannerUrl} />}
+      </Helmet>
       {/* Back to Top Button */}
       <button
         onClick={scrollToTop}

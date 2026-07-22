@@ -1,6 +1,9 @@
 import { useState } from 'react';
 
-export default function Contact() {
+import { Helmet } from 'react-helmet-async';
+
+export default function 
+Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -13,6 +16,10 @@ export default function Contact() {
 
   return (
     <div className="bg-neutral-950 min-h-screen py-24 text-neutral-200">
+      <Helmet>
+        <title>Contact Us | OrientKiln</title>
+        <meta name="description" content="Contact OrientKiln for inquiries regarding Chinese ceramic history and exhibition." />
+      </Helmet>
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl md:text-5xl font-serif text-neutral-100 mb-8 text-center font-light">Contact</h1>
         <div className="text-center mb-12">
